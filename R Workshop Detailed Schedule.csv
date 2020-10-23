@@ -1,0 +1,97 @@
+,,R Workshop for Social Scientists Schedule,,,,,,https://emilyhmarkowitz.github.io/RWorkshopForRACEGAP/sessions.html
+Date,Start Time (PT),End Time (PT),Course Segment,Topics,Presenter,Host,Chat/Q&A,Notes
+"Tuesday, January 12, 2021",9:00 AM,9:10 AM,Introductions,Introductions,,"
+Caitlin Allen Akselrud & Emily Markowitz",,
+"Tuesday, January 12, 2021",9:10 AM,9:50 AM,Introduce New Materials,"Basic mathematics in R
+",,,,"Basic mathematics in R
+ - Basic math
+ - Vectors, Matrices, Arrays, Lists, and Data Frames
+"
+"Tuesday, January 12, 2021",9:50 AM,10:00 AM,Break,Break,,,,
+"Tuesday, January 12, 2021",10:00 AM,10:40 AM,Interactive Learning,,,,,
+"Tuesday, January 12, 2021",10:40 AM,10:50 AM,Break,Break,,,,
+"Tuesday, January 12, 2021",10:50 AM,12:00 AM,Office Hours,Homework Assignment,,,,"An informal opprotunity to come by to ask any questions you have about the course, content, or with specific questions about issues you have with the homework or in your own analyses."
+"Thursday, January 14, 2021",9:00 AM,9:10 AM,Review Homework,Review Homework,,,,
+"Thursday, January 14, 2021",9:10 AM,9:50 AM,Introduce New Materials,Functions in R,,,,Functions in R
+"Thursday, January 14, 2021",9:50 AM,10:00 AM,Break,Break,,,,
+"Thursday, January 14, 2021",10:00 AM,10:40 AM,Interactive Learning,,,,,
+"Thursday, January 14, 2021",10:40 AM,10:50 AM,Break,Break,,,,
+"Thursday, January 14, 2021",10:50 AM,12:00 AM,Office Hours,Homework Assignment,,,,"An informal opprotunity to come by to ask any questions you have about the course, content, or with specific questions about issues you have with the homework or in your own analyses."
+"Tuesday, January 19, 2021",9:00 AM,9:10 AM,Review Homework,Review Homework,,,,
+"Tuesday, January 19, 2021",9:10 AM,9:50 AM,Introduce New Materials,Base vs Tidy,,,,"Base vs Tidy (we will be using Tidy after this); importance of checking as you go
+"
+"Tuesday, January 19, 2021",9:50 AM,10:00 AM,Break,Break,,,,
+"Tuesday, January 19, 2021",10:00 AM,10:40 AM,Interactive Learning,,,,,
+"Tuesday, January 19, 2021",10:40 AM,10:50 AM,Break,Break,,,,
+"Tuesday, January 19, 2021",10:50 AM,12:00 AM,Office Hours,Homework Assignment,,,,"An informal opprotunity to come by to ask any questions you have about the course, content, or with specific questions about issues you have with the homework or in your own analyses."
+"Thursday, January 21, 2021",9:00 AM,9:10 AM,Review Homework,Review Homework,,,,
+"Thursday, January 21, 2021",9:10 AM,9:50 AM,Introduce New Materials,"Dive into Tidy: data wrangling and manipulation
+",,,,"Dive into Tidy: data wrangling and manipulation
+ - Workflow
+ - sanke_case
+ - Reading in data, read-in problems and solutions
+"
+"Thursday, January 21, 2021",9:50 AM,10:00 AM,Break,Break,,,,
+"Thursday, January 21, 2021",10:00 AM,10:40 AM,Interactive Learning,,,,,
+"Thursday, January 21, 2021",10:40 AM,10:50 AM,Break,Break,,,,
+"Thursday, January 21, 2021",10:50 AM,12:00 AM,Office Hours,Homework Assignment,,,,"An informal opprotunity to come by to ask any questions you have about the course, content, or with specific questions about issues you have with the homework or in your own analyses."
+"Tuesday, January 26, 2021",9:00 AM,9:10 AM,Review Homework,Review Homework,,,,
+"Tuesday, January 26, 2021",9:10 AM,9:50 AM,Introduce New Materials,Dive into Tidy: data wrangling and manipulation,,,,Dive into Tidy: data wrangling and manipulation
+"Tuesday, January 26, 2021",9:50 AM,10:00 AM,Break,Break,,,,
+"Tuesday, January 26, 2021",10:00 AM,10:40 AM,Interactive Learning,,,,,
+"Tuesday, January 26, 2021",10:40 AM,10:50 AM,Break,Break,,,,
+"Tuesday, January 26, 2021",10:50 AM,12:00 AM,Office Hours,,,,,"An informal opprotunity to come by to ask any questions you have about the course, content, or with specific questions about issues you have with the homework or in your own analyses."
+"Thursday, January 28, 2021",9:00 AM,9:10 AM,Review Homework,Review Homework,,,,
+"Thursday, January 28, 2021",9:10 AM,9:50 AM,Introduce New Materials,All things functions,,,,"- Writing
+- Checking
+- Calling
+- Best practices
+- Modular coding style
+"
+"Thursday, January 28, 2021",9:50 AM,10:00 AM,Break,Break,,,,
+"Thursday, January 28, 2021",10:00 AM,10:40 AM,Interactive Learning,,,,,
+"Thursday, January 28, 2021",10:40 AM,10:50 AM,Break,Break,,,,
+"Thursday, January 28, 2021",10:50 AM,12:00 AM,Office Hours,,,,,"An informal opprotunity to come by to ask any questions you have about the course, content, or with specific questions about issues you have with the homework or in your own analyses."
+"Tuesday, February 2, 2021",9:00 AM,9:10 AM,Review Homework,Review Homework,,,,
+"Tuesday, February 2, 2021",9:10 AM,9:50 AM,Introduce New Materials,Scripting best practices,,,,"Learn about how to write and prepare a script by 1. conforming to a predictable script structure, 2. annotation, 3. never repeating code, 4. naming files with predictable and helpful names, 5. predictable folder structure, 6. scripts with specific tasks, 7. saving scripts in an “R Project.
+
+Lesson: https://raw.githubusercontent.com/emilyhmarkowitz/BestScriptingPractices/master/rscripts/BestScriptingPractices.nb.html
+
+GitHub Repository BestScriptingPractices: https://github.com/emilyhmarkowitz/BestScriptingPractices"
+"Tuesday, February 2, 2021",9:50 AM,10:00 AM,Break,Break,,,,
+"Tuesday, February 2, 2021",10:00 AM,10:40 AM,Interactive Learning,,,,,
+"Tuesday, February 2, 2021",10:40 AM,10:50 AM,Break,Break,,,,
+"Tuesday, February 2, 2021",10:50 AM,12:00 AM,Office Hours,,,,,"An informal opprotunity to come by to ask any questions you have about the course, content, or with specific questions about issues you have with the homework or in your own analyses."
+"Thursday, February 4, 2021",9:00 AM,9:10 AM,Review Homework,Review Homework,,,,
+"Thursday, February 4, 2021",9:10 AM,9:50 AM,Introduce New Materials,Making things pretty: Figures and Tables,,,,"- ggplot
+
+- tables: https://rfortherestofus.com/2019/11/how-to-make-beautiful-tables-in-r/
+
+- formattable
+
+- gt (?)
+
+
+"
+"Thursday, February 4, 2021",9:50 AM,10:00 AM,Break,Break,,,,
+"Thursday, February 4, 2021",10:00 AM,10:40 AM,Interactive Learning,,,,,
+"Thursday, February 4, 2021",10:40 AM,10:50 AM,Break,Break,,,,
+"Thursday, February 4, 2021",10:50 AM,12:00 AM,Office Hours,,,,,"An informal opprotunity to come by to ask any questions you have about the course, content, or with specific questions about issues you have with the homework or in your own analyses."
+"Tuesday, February 9, 2021",9:00 AM,9:10 AM,Review Homework,Review Homework,,,,
+"Tuesday, February 9, 2021",9:10 AM,9:50 AM,Introduce New Materials,Built in models in R,,,,"- lm()
+- Other models (?)
+- Broom package"
+"Tuesday, February 9, 2021",9:50 AM,10:00 AM,Break,Break,,,,
+"Tuesday, February 9, 2021",10:00 AM,10:40 AM,Interactive Learning,,,,,
+"Tuesday, February 9, 2021",10:40 AM,10:50 AM,Break,Break,,,,
+"Tuesday, February 9, 2021",10:50 AM,12:00 AM,Office Hours,,,,,"An informal opprotunity to come by to ask any questions you have about the course, content, or with specific questions about issues you have with the homework or in your own analyses."
+"Thursday, February 11, 2021",9:00 AM,9:10 AM,Review Homework,Review Homework,,,,
+"Thursday, February 11, 2021",9:10 AM,9:20 AM,Introduction,Lightning Talks,,,,
+"Thursday, February 11, 2021",9:20 AM,9:40 AM,Introduce New Materials,ROracle,,,,
+"Thursday, February 11, 2021",9:40 AM,10:00 AM,Introduce New Materials,akgfmaps,Sean Rohan,,,
+"Thursday, February 11, 2021",10:00 AM,10:20 AM,Break,Break,,,,
+"Thursday, February 11, 2021",10:20 AM,10:40 AM,Introduce New Materials,sumfish,Jason Conner,,,
+"Thursday, February 11, 2021",10:40 AM,11:00 AM,Introduce New Materials,VAST,Cecilia O'Leary,,,
+"Thursday, February 11, 2021",9:50 AM,10:00 AM,Introduce New Materials,R Markdown,,,,
+"Thursday, February 11, 2021",10:00 AM,10:40 AM,Break,Break,,,,
+"Thursday, February 11, 2021",10:50 AM,12:00 AM,Office Hours,,,,,"An informal opprotunity to come by to ask any questions you have about the course, content, or with specific questions about issues you have with the homework or in your own analyses."

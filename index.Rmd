@@ -1,0 +1,13 @@
+---
+title: "R Workshop for AFSC RACE Groundfish Assesment Group"
+output:
+  html_document:
+    includes:
+      in_header: cover_with_logo.html
+editor_options: 
+  chunk_output_type: console
+---
+
+## **This is the website for all of the materials you'll need for the workshop.** 
+
+### Enjoy!

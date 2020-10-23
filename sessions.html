@@ -1,0 +1,1290 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Course Agenda and Lessons</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>R Workshop for Social Scientists</title>
+
+<link rel="shortcut icon" href="https://www.noaa.gov/sites/all/themes/custom/noaa/favicon.ico" />
+<link rel="manifest" href="./icons/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="./icons/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+<!-- <link rel="stylesheet" href="./css/bootstrap_insta.min.css">
+    <link rel="stylesheet" href="./css/magnific_insta.css"> -->
+    <link rel="stylesheet" href="./css/style_insta.css">
+    <link href="./css/styles.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="./libs/font-awesome/css/font-awesome.min.css">
+
+</head>
+
+
+</html>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h2 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h3 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h4 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h5 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h6 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html"><p><img id="logo" style="width: 20px;" src="Noaa_logo.png" /> R Workshop for AFSC RACE GAP </p></a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="about.html">
+    <span class="fa fa-briefcase"></span>
+     
+    About
+  </a>
+</li>
+<li>
+  <a href="sessions.html">
+    <span class="fa fa-calendar"></span>
+     
+    Agenda
+  </a>
+</li>
+<li>
+  <a href="members.html">
+    <span class="fa fa-user"></span>
+     
+    Presenters
+  </a>
+</li>
+<li>
+  <a href="les_BestScriptingPractices.nb.html"></a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="mailto:emily.markowitz@noaa.gov">
+    <span class="fa fa-envelope-o"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://github.com/emilyhmarkowitz/RWorkshopForRACEGAP">
+    <span class="fa fa-github"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://drive.google.com/drive/folders/17zlwvwDduKH-llxV7WcZFC1qy8aJtIL3?usp=sharing">
+    <span class="fa fa-google"></span>
+     
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">Course Agenda and Lessons</h1>
+
+</div>
+
+
+<p></br></p>
+<p>All times are in Pacific Time</p>
+<p></br></p>
+<p>Let us know what you thought of the workshop by filling out of the <a href="https://forms.gle/cQGizSgEbXisE3TK8">google form</a>!</p>
+<p><em>Please click on the title to see the session description</em></p>
+<style type="text/css">
+.schedule {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.limit {
+  width: 100%;
+  padding: 5px 0 5px 0;
+}
+
+.workshops-button {
+  padding: 0.75em 1.25em;
+  background-color: #cccccc;
+  opacity: 0.9;
+  width: auto;
+  color: black;
+  text-align: center;
+  overflow: auto;
+}
+
+.workshops-button {
+  padding: 0.75em 1.25em;
+  background-color: #cccccc;
+  opacity: 0.9;
+  width: auto;
+  color: black;
+  text-align: center;
+  overflow: auto;
+}
+
+.left-date {
+  width: 20%;
+  float: left;
+  text-align: left;
+}
+
+.center-title {
+  width: 60%;
+  float: left;
+  text-align: left;
+  font-size: 120%;
+}
+
+.right-authors {
+  width: 20%;
+  float: right;
+  text-align: right;
+}
+
+.workshops {
+  margin: 1em 1em 0 0;
+}
+
+.active {
+  background-color: #333333;
+  color: whitesmoke;
+}
+
+</style>
+<script type="text/javascript">
+function main() {
+  $('.schedule').hide();
+  $('.schedule').fadeIn(2000);
+  $('.workshops').hide();
+  $('.workshops-button').on('click', function() {
+    $(this).next().slideToggle(400);
+    $(this).toggleClass('active');
+  });
+}
+ 
+$(document).ready(main);
+</script>
+<div id="tuesday-january-12-2021" class="section level2">
+<h2>Tuesday, January 12, 2021</h2>
+<div class="schedule">
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">9:00 AM-9:10 AM</div>
+<div class="center-title">
+<b>Introductions</b>
+</div>
+<div class="right-authors">Host: 
+Caitlin Allen Akselrud &amp; Emily Markowitz</div>
+</div>
+<ul class="workshops"></ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">9:10 AM-9:50 AM</div>
+<div class="center-title">
+<b>Introduce New Materials - Basic mathematics in R
+</b>
+</div>
+<div class="right-authors"></div>
+</div>
+<ul class="workshops">
+<li>
+<p>Basic mathematics in R
+ - Basic math
+ - Vectors, Matrices, Arrays, Lists, and Data Frames
+</p>
+</li>
+</ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">9:50 AM-10:00 AM</div>
+<div class="center-title">
+<b>Break</b>
+</div>
+<div class="right-authors"></div>
+</div>
+<ul class="workshops"></ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">10:00 AM-10:40 AM</div>
+<div class="center-title">
+<b>Interactive Learning</b>
+</div>
+<div class="right-authors"></div>
+</div>
+<ul class="workshops"></ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">10:40 AM-10:50 AM</div>
+<div class="center-title">
+<b>Break</b>
+</div>
+<div class="right-authors"></div>
+</div>
+<ul class="workshops"></ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">10:50 AM-12:00 AM</div>
+<div class="center-title">
+<b>Office Hours - Homework Assignment</b>
+</div>
+<div class="right-authors"></div>
+</div>
+<ul class="workshops">
+<li>
+<p>An informal opprotunity to come by to ask any questions you have about the course, content, or with specific questions about issues you have with the homework or in your own analyses.</p>
+</li>
+</ul>
+</div>
+</div>
+<p><br></p>
+</div>
+<div id="thursday-january-14-2021" class="section level2">
+<h2>Thursday, January 14, 2021</h2>
+<div class="schedule">
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">9:00 AM-9:10 AM</div>
+<div class="center-title">
+<b>Review Homework</b>
+</div>
+<div class="right-authors"></div>
+</div>
+<ul class="workshops"></ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">9:10 AM-9:50 AM</div>
+<div class="center-title">
+<b>Introduce New Materials - Functions in R</b>
+</div>
+<div class="right-authors"></div>
+</div>
+<ul class="workshops">
+<li>
+<p>Functions in R</p>
+</li>
+</ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">9:50 AM-10:00 AM</div>
+<div class="center-title">
+<b>Break</b>
+</div>
+<div class="right-authors"></div>
+</div>
+<ul class="workshops"></ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">10:00 AM-10:40 AM</div>
+<div class="center-title">
+<b>Interactive Learning</b>
+</div>
+<div class="right-authors"></div>
+</div>
+<ul class="workshops"></ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">10:40 AM-10:50 AM</div>
+<div class="center-title">
+<b>Break</b>
+</div>
+<div class="right-authors"></div>
+</div>
+<ul class="workshops"></ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">10:50 AM-12:00 AM</div>
+<div class="center-title">
+<b>Office Hours - Homework Assignment</b>
+</div>
+<div class="right-authors"></div>
+</div>
+<ul class="workshops">
+<li>
+<p>An informal opprotunity to come by to ask any questions you have about the course, content, or with specific questions about issues you have with the homework or in your own analyses.</p>
+</li>
+</ul>
+</div>
+</div>
+<p><br></p>
+</div>
+<div id="tuesday-january-19-2021" class="section level2">
+<h2>Tuesday, January 19, 2021</h2>
+<div class="schedule">
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">9:00 AM-9:10 AM</div>
+<div class="center-title">
+<b>Review Homework</b>
+</div>
+<div class="right-authors"></div>
+</div>
+<ul class="workshops"></ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">9:10 AM-9:50 AM</div>
+<div class="center-title">
+<b>Introduce New Materials - Base vs Tidy</b>
+</div>
+<div class="right-authors"></div>
+</div>
+<ul class="workshops">
+<li>
+<p>Base vs Tidy (we will be using Tidy after this); importance of checking as you go
+</p>
+</li>
+</ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">9:50 AM-10:00 AM</div>
+<div class="center-title">
+<b>Break</b>
+</div>
+<div class="right-authors"></div>
+</div>
+<ul class="workshops"></ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">10:00 AM-10:40 AM</div>
+<div class="center-title">
+<b>Interactive Learning</b>
+</div>
+<div class="right-authors"></div>
+</div>
+<ul class="workshops"></ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">10:40 AM-10:50 AM</div>
+<div class="center-title">
+<b>Break</b>
+</div>
+<div class="right-authors"></div>
+</div>
+<ul class="workshops"></ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">10:50 AM-12:00 AM</div>
+<div class="center-title">
+<b>Office Hours - Homework Assignment</b>
+</div>
+<div class="right-authors"></div>
+</div>
+<ul class="workshops">
+<li>
+<p>An informal opprotunity to come by to ask any questions you have about the course, content, or with specific questions about issues you have with the homework or in your own analyses.</p>
+</li>
+</ul>
+</div>
+</div>
+<p><br></p>
+</div>
+<div id="thursday-january-21-2021" class="section level2">
+<h2>Thursday, January 21, 2021</h2>
+<div class="schedule">
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">9:00 AM-9:10 AM</div>
+<div class="center-title">
+<b>Review Homework</b>
+</div>
+<div class="right-authors"></div>
+</div>
+<ul class="workshops"></ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">9:10 AM-9:50 AM</div>
+<div class="center-title">
+<b>Introduce New Materials - Dive into Tidy: data wrangling and manipulation
+</b>
+</div>
+<div class="right-authors"></div>
+</div>
+<ul class="workshops">
+<li>
+<p>Dive into Tidy: data wrangling and manipulation
+ - Workflow
+ - sanke_case
+ - Reading in data, read-in problems and solutions
+</p>
+</li>
+</ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">9:50 AM-10:00 AM</div>
+<div class="center-title">
+<b>Break</b>
+</div>
+<div class="right-authors"></div>
+</div>
+<ul class="workshops"></ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">10:00 AM-10:40 AM</div>
+<div class="center-title">
+<b>Interactive Learning</b>
+</div>
+<div class="right-authors"></div>
+</div>
+<ul class="workshops"></ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">10:40 AM-10:50 AM</div>
+<div class="center-title">
+<b>Break</b>
+</div>
+<div class="right-authors"></div>
+</div>
+<ul class="workshops"></ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">10:50 AM-12:00 AM</div>
+<div class="center-title">
+<b>Office Hours - Homework Assignment</b>
+</div>
+<div class="right-authors"></div>
+</div>
+<ul class="workshops">
+<li>
+<p>An informal opprotunity to come by to ask any questions you have about the course, content, or with specific questions about issues you have with the homework or in your own analyses.</p>
+</li>
+</ul>
+</div>
+</div>
+<p><br></p>
+</div>
+<div id="tuesday-january-26-2021" class="section level2">
+<h2>Tuesday, January 26, 2021</h2>
+<div class="schedule">
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">9:00 AM-9:10 AM</div>
+<div class="center-title">
+<b>Review Homework</b>
+</div>
+<div class="right-authors"></div>
+</div>
+<ul class="workshops"></ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">9:10 AM-9:50 AM</div>
+<div class="center-title">
+<b>Introduce New Materials - Dive into Tidy: data wrangling and manipulation</b>
+</div>
+<div class="right-authors"></div>
+</div>
+<ul class="workshops">
+<li>
+<p>Dive into Tidy: data wrangling and manipulation</p>
+</li>
+</ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">9:50 AM-10:00 AM</div>
+<div class="center-title">
+<b>Break</b>
+</div>
+<div class="right-authors"></div>
+</div>
+<ul class="workshops"></ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">10:00 AM-10:40 AM</div>
+<div class="center-title">
+<b>Interactive Learning</b>
+</div>
+<div class="right-authors"></div>
+</div>
+<ul class="workshops"></ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">10:40 AM-10:50 AM</div>
+<div class="center-title">
+<b>Break</b>
+</div>
+<div class="right-authors"></div>
+</div>
+<ul class="workshops"></ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">10:50 AM-12:00 AM</div>
+<div class="center-title">
+<b>Office Hours</b>
+</div>
+<div class="right-authors"></div>
+</div>
+<ul class="workshops">
+<li>
+<p>An informal opprotunity to come by to ask any questions you have about the course, content, or with specific questions about issues you have with the homework or in your own analyses.</p>
+</li>
+</ul>
+</div>
+</div>
+<p><br></p>
+</div>
+<div id="thursday-january-28-2021" class="section level2">
+<h2>Thursday, January 28, 2021</h2>
+<div class="schedule">
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">9:00 AM-9:10 AM</div>
+<div class="center-title">
+<b>Review Homework</b>
+</div>
+<div class="right-authors"></div>
+</div>
+<ul class="workshops"></ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">9:10 AM-9:50 AM</div>
+<div class="center-title">
+<b>Introduce New Materials - All things functions</b>
+</div>
+<div class="right-authors"></div>
+</div>
+<ul class="workshops">
+<li>
+<p>- Writing
+- Checking
+- Calling
+- Best practices
+- Modular coding style
+</p>
+</li>
+</ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">9:50 AM-10:00 AM</div>
+<div class="center-title">
+<b>Break</b>
+</div>
+<div class="right-authors"></div>
+</div>
+<ul class="workshops"></ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">10:00 AM-10:40 AM</div>
+<div class="center-title">
+<b>Interactive Learning</b>
+</div>
+<div class="right-authors"></div>
+</div>
+<ul class="workshops"></ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">10:40 AM-10:50 AM</div>
+<div class="center-title">
+<b>Break</b>
+</div>
+<div class="right-authors"></div>
+</div>
+<ul class="workshops"></ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">10:50 AM-12:00 AM</div>
+<div class="center-title">
+<b>Office Hours</b>
+</div>
+<div class="right-authors"></div>
+</div>
+<ul class="workshops">
+<li>
+<p>An informal opprotunity to come by to ask any questions you have about the course, content, or with specific questions about issues you have with the homework or in your own analyses.</p>
+</li>
+</ul>
+</div>
+</div>
+<p><br></p>
+</div>
+<div id="tuesday-february-2-2021" class="section level2">
+<h2>Tuesday, February 2, 2021</h2>
+<div class="schedule">
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">9:00 AM-9:10 AM</div>
+<div class="center-title">
+<b>Review Homework</b>
+</div>
+<div class="right-authors"></div>
+</div>
+<ul class="workshops"></ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">9:10 AM-9:50 AM</div>
+<div class="center-title">
+<b>Introduce New Materials - Scripting best practices</b>
+</div>
+<div class="right-authors"></div>
+</div>
+<ul class="workshops">
+<li>
+<p>Learn about how to write and prepare a script by 1. conforming to a predictable script structure, 2. annotation, 3. never repeating code, 4. naming files with predictable and helpful names, 5. predictable folder structure, 6. scripts with specific tasks, 7. saving scripts in an “R Project.</p>
+<p></p>
+<a href="les_BestScriptingPractices.nb.html">Lesson</a>
+<p></p>
+<a href="https://github.com/emilyhmarkowitz/BestScriptingPractices">GitHub Repository BestScriptingPractices</a>
+</li>
+</ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">9:50 AM-10:00 AM</div>
+<div class="center-title">
+<b>Break</b>
+</div>
+<div class="right-authors"></div>
+</div>
+<ul class="workshops"></ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">10:00 AM-10:40 AM</div>
+<div class="center-title">
+<b>Interactive Learning</b>
+</div>
+<div class="right-authors"></div>
+</div>
+<ul class="workshops"></ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">10:40 AM-10:50 AM</div>
+<div class="center-title">
+<b>Break</b>
+</div>
+<div class="right-authors"></div>
+</div>
+<ul class="workshops"></ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">10:50 AM-12:00 AM</div>
+<div class="center-title">
+<b>Office Hours</b>
+</div>
+<div class="right-authors"></div>
+</div>
+<ul class="workshops">
+<li>
+<p>An informal opprotunity to come by to ask any questions you have about the course, content, or with specific questions about issues you have with the homework or in your own analyses.</p>
+</li>
+</ul>
+</div>
+</div>
+<p><br></p>
+</div>
+<div id="thursday-february-4-2021" class="section level2">
+<h2>Thursday, February 4, 2021</h2>
+<div class="schedule">
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">9:00 AM-9:10 AM</div>
+<div class="center-title">
+<b>Review Homework</b>
+</div>
+<div class="right-authors"></div>
+</div>
+<ul class="workshops"></ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">9:10 AM-9:50 AM</div>
+<div class="center-title">
+<b>Introduce New Materials - Making things pretty: Figures and Tables</b>
+</div>
+<div class="right-authors"></div>
+</div>
+<ul class="workshops">
+<li>
+<p>- ggplot</p>
+<p></p>
+<a href="https://rfortherestofus.com/2019/11/how-to-make-beautiful-tables-in-r/">- tables</a>
+<p>- formattable</p>
+<p>- gt (?)</p>
+<p>
+</p>
+</li>
+</ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">9:50 AM-10:00 AM</div>
+<div class="center-title">
+<b>Break</b>
+</div>
+<div class="right-authors"></div>
+</div>
+<ul class="workshops"></ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">10:00 AM-10:40 AM</div>
+<div class="center-title">
+<b>Interactive Learning</b>
+</div>
+<div class="right-authors"></div>
+</div>
+<ul class="workshops"></ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">10:40 AM-10:50 AM</div>
+<div class="center-title">
+<b>Break</b>
+</div>
+<div class="right-authors"></div>
+</div>
+<ul class="workshops"></ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">10:50 AM-12:00 AM</div>
+<div class="center-title">
+<b>Office Hours</b>
+</div>
+<div class="right-authors"></div>
+</div>
+<ul class="workshops">
+<li>
+<p>An informal opprotunity to come by to ask any questions you have about the course, content, or with specific questions about issues you have with the homework or in your own analyses.</p>
+</li>
+</ul>
+</div>
+</div>
+<p><br></p>
+</div>
+<div id="tuesday-february-9-2021" class="section level2">
+<h2>Tuesday, February 9, 2021</h2>
+<div class="schedule">
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">9:00 AM-9:10 AM</div>
+<div class="center-title">
+<b>Review Homework</b>
+</div>
+<div class="right-authors"></div>
+</div>
+<ul class="workshops"></ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">9:10 AM-9:50 AM</div>
+<div class="center-title">
+<b>Introduce New Materials - Built in models in R</b>
+</div>
+<div class="right-authors"></div>
+</div>
+<ul class="workshops">
+<li>
+<p>- lm()
+- Other models (?)
+- Broom package</p>
+</li>
+</ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">9:50 AM-10:00 AM</div>
+<div class="center-title">
+<b>Break</b>
+</div>
+<div class="right-authors"></div>
+</div>
+<ul class="workshops"></ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">10:00 AM-10:40 AM</div>
+<div class="center-title">
+<b>Interactive Learning</b>
+</div>
+<div class="right-authors"></div>
+</div>
+<ul class="workshops"></ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">10:40 AM-10:50 AM</div>
+<div class="center-title">
+<b>Break</b>
+</div>
+<div class="right-authors"></div>
+</div>
+<ul class="workshops"></ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">10:50 AM-12:00 AM</div>
+<div class="center-title">
+<b>Office Hours</b>
+</div>
+<div class="right-authors"></div>
+</div>
+<ul class="workshops">
+<li>
+<p>An informal opprotunity to come by to ask any questions you have about the course, content, or with specific questions about issues you have with the homework or in your own analyses.</p>
+</li>
+</ul>
+</div>
+</div>
+<p><br></p>
+</div>
+<div id="thursday-february-11-2021" class="section level2">
+<h2>Thursday, February 11, 2021</h2>
+<div class="schedule">
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">9:00 AM-9:10 AM</div>
+<div class="center-title">
+<b>Review Homework</b>
+</div>
+<div class="right-authors"></div>
+</div>
+<ul class="workshops"></ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">9:10 AM-9:20 AM</div>
+<div class="center-title">
+<b>Introduction - Lightning Talks</b>
+</div>
+<div class="right-authors"></div>
+</div>
+<ul class="workshops"></ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">9:20 AM-9:40 AM</div>
+<div class="center-title">
+<b>Introduce New Materials - ROracle</b>
+</div>
+<div class="right-authors"></div>
+</div>
+<ul class="workshops"></ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">9:40 AM-10:00 AM</div>
+<div class="center-title">
+<b>Introduce New Materials - akgfmaps</b>
+</div>
+<div class="right-authors">Presenter: Sean Rohan </div>
+</div>
+<ul class="workshops"></ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">10:00 AM-10:20 AM</div>
+<div class="center-title">
+<b>Break</b>
+</div>
+<div class="right-authors"></div>
+</div>
+<ul class="workshops"></ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">10:20 AM-10:40 AM</div>
+<div class="center-title">
+<b>Introduce New Materials - sumfish</b>
+</div>
+<div class="right-authors">Presenter: Jason Conner </div>
+</div>
+<ul class="workshops"></ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">10:40 AM-11:00 AM</div>
+<div class="center-title">
+<b>Introduce New Materials - VAST</b>
+</div>
+<div class="right-authors">Presenter: Cecilia O'Leary </div>
+</div>
+<ul class="workshops"></ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">9:50 AM-10:00 AM</div>
+<div class="center-title">
+<b>Introduce New Materials - R Markdown</b>
+</div>
+<div class="right-authors"></div>
+</div>
+<ul class="workshops"></ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">10:00 AM-10:40 AM</div>
+<div class="center-title">
+<b>Break</b>
+</div>
+<div class="right-authors"></div>
+</div>
+<ul class="workshops"></ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">10:50 AM-12:00 AM</div>
+<div class="center-title">
+<b>Office Hours</b>
+</div>
+<div class="right-authors"></div>
+</div>
+<ul class="workshops">
+<li>
+<p>An informal opprotunity to come by to ask any questions you have about the course, content, or with specific questions about issues you have with the homework or in your own analyses.</p>
+</li>
+</ul>
+</div>
+</div>
+<p><br></p>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

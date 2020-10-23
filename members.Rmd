@@ -1,0 +1,111 @@
+---
+title: "Presenters"
+output:
+  html_document:
+    includes:
+      in_header: header.html
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning=FALSE, error = FALSE, message = FALSE)
+
+library(dplyr)
+# devtools::install_github("privefl/googlesheets")
+library(googlesheets)
+# install.packages(c("leaflet", "DT"))
+library(leaflet)
+library(DT)
+```
+
+```{r, include=FALSE, fig.width=25}
+# install.packages("gh")
+# library(gh)
+
+
+members<-data.frame("Name" = c("Caitlin Allen Akselrud", "Emily Markowitz"), 
+                    "First Name" = c("Caitlin", "Emily"),
+                    "Last Name" = c("Allen Akselrud", "Markowitz"),
+                    "github" = c("ciallen", "emilyhmarkowitz"), 
+                    "lat" = c(47.640816, 47.640816), 
+                    "lon" = c(-122.669898, -122.669898), 
+                    "Institution" = c("Eastern Bering Sea Group", 
+                                      "Eastern Bering Sea Group"))
+members$imagelink<-members$githublink<-NA                 
+members$Status<-"Presenter"
+for (i in 1:nrow(members)) {
+  # if (!(members$github[i] %in% "")) {
+    members$githublink[i]<-paste0("https://github.com/", members$github[i])
+    members$imagelink[i]<-paste0("./images/", gsub(pattern = " ", replacement = "", 
+                                                        x = members$Name[i]), ".png")
+  # } else {
+  #   members$githublink[i]<-paste0("https://github.com/")
+  #   members$imagelink[i]<-paste0("./images/noaa_logo.gif")    
+  # }
+  # my_repos <- gh("GET /users/emilyhmarkowitz/repos")
+  # vapply(my_repos, "[[", "", "name")
+}
+members$GitHub<-members$githublink
+
+members$Website<-members$githublink
+membersgit<-members[!(members$github %in% ""),]
+membersnogit<-members[(members$github %in% ""),]
+library(glue)
+membersgit<-as_tibble(membersgit)
+
+print0<-glue_data(.x = membersgit, .sep = "", 
+'
+![{githublink}]({imagelink})')
+
+
+
+```
+
+
+```{r}
+# m <- leaflet() %>%
+#   addTiles() %>%  # Add default OpenStreetMap map tiles
+#   addMarkers(lng=174.768, lat=-36.852, popup="The birthplace of R")
+library(leafpop)
+library(maps)
+
+
+mapStates = map("state", fill = TRUE, plot = FALSE)
+# leaflet(data = mapStates) %>% 
+leaflet() %>%
+  addTiles() %>%
+  # addPolygons(fillColor = topo.colors(10, alpha = NULL), stroke = FALSE) %>%
+  
+    addMarkers(lng=members$lon, lat=members$lat, group = "points",
+             popup=paste("<b>", members$Name, "</b> 
+                         <br/> ", members$Institution, 
+                         "<br/> ", ifelse(members$github %in% "", "", 
+                                          paste0("<a href = ", members$GitHub, "> GitHub </a> "))))
+  
+  # addMarkers(lng=membersnogit$lon, lat=membersnogit$lat, group = "points",
+  #            popup=paste("<b>", membersnogit$Name, "</b> 
+  #                        <br/> ", membersnogit$Institution, 
+  #                        "<br/> ", ifelse(membersnogit$github %in% "", "", 
+  #                                         paste0("<a href = ", membersnogit$GitHub, "> GitHub </a> ")))) %>%
+  # 
+  # addMarkers(lng=membersgit$lon, lat=membersgit$lat, group = "withgit",
+  #            popup=paste("<b>", membersgit$Name, "</b> 
+  #                        <br/> ", membersgit$Institution, 
+  #                        "<br/> ", ifelse(membersgit$github %in% "", "", 
+  #                                         paste0("<a href = ", membersgit$GitHub, "> GitHub </a> ")))) %>%
+  # 
+  # addPopupImages(image = membersgit$imagelink, group = "withgit", width = 300, height = 350)#width = 2*(300*2), height = 2*(350/8))
+
+# vwidth = 300, vheight = 350
+```
+
+
+```{r}
+# display table
+members$GitHub[members$GitHub %in% "https://github.com/"]<-""
+datatable(select(members, c(Name, Institution, GitHub)), 
+              rownames = FALSE, escape = FALSE, options = list(dom = 't'))
+```
+
+# `r print0 `

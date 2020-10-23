@@ -1,0 +1,27 @@
+name: "R Workshop for AFSC RACE Groundfish Assesment Group"                                  # CHANGE HERE 
+output_dir: "."
+navbar:
+  title: "<p><img id=\"logo\" style=\"width: 20px;\" src=\"Noaa_logo.png\" /> R Workshop for AFSC RACE GAP </p>"    
+  left:
+    - text: "About"
+      icon: fa-briefcase
+      href: about.html  
+    - text: "Agenda"
+      icon: fa-calendar
+      href: sessions.html  
+    - text: "Presenters"
+      icon: fa-user 
+      href: members.html
+    - text: ""
+      href: les_BestScriptingPractices.nb.html
+  right:
+    - icon: fa-envelope-o
+      href: mailto:emily.markowitz@noaa.gov                      # CHANGE HERE 
+    - icon: fa-github
+      href: https://github.com/emilyhmarkowitz/RWorkshopForRACEGAP         # CHANGE HERE 
+    - icon: fa-google
+      href: https://drive.google.com/drive/folders/17zlwvwDduKH-llxV7WcZFC1qy8aJtIL3?usp=sharing
+output:
+  html_document:
+    theme: flatly
+    highlight: textmate
