@@ -1,2 +1,35 @@
-# RWorkshopForRACEGAP
-This acts as the landings site for the September 2020 R Workshop for Social Scientists organized by Caitlin Allen Akselrud (@ciallen), Emily Markowitz (@emilyhmarkowitz), and others. https://emilyhmarkowitz.github.io/RWorkshopForRACEGAP/index.html
+# R Workshop For RACE GAP
+
+This acts as the landings site for the January 2021 R Workshop for Resource Assessment and Conservation Engineering Division (RACE) Groundfish Assessment Program (GAP).
+
+# R Workshop for NOAA Fisheries Social Scientists
+
+Course held virtally January-Feburary 2021!
+
+For more information, check out the course's website at https://emilyhmarkowitz.github.io/RWorkshopForRACEGAP/index.html
+
+## The course is co-hosted by:
+
+**Caitlin Allen Akselrud** (caitlin.allen_akselrud AT noaa.gov) @CaitlinAkselrud-NOAA
+
+**Emily Markowitz** (Emily.Markowitz AT noaa.gov) @emilyhmarkowitz
+
+Research Fisheries Biologists
+
+Alaska Fisheries Science Center, 
+
+National Marine Fisheries Service, 
+
+National Oceanic and Atmospheric Administration,
+
+Seattle, WA 98195
+
+
+## NOAA README
+
+This repository is a scientific product and is not official communication of the National Oceanic and Atmospheric Administration, or the United States Department of Commerce. All NOAA GitHub project code is provided on an ‘as is’ basis and the user assumes responsibility for its use. Any claims against the Department of Commerce or Department of Commerce bureaus stemming from the use of this GitHub project will be governed by all applicable Federal law. Any reference to specific commercial products, processes, or services by service mark, trademark, manufacturer, or otherwise, does not constitute or imply their endorsement, recommendation or favoring by the Department of Commerce. The Department of Commerce seal and logo, or the seal and logo of a DOC bureau, shall not be used in any manner to imply endorsement of any commercial product or activity by DOC or the United States Government.
+
+## License
+
+Software code created by U.S. Government employees is not subject to copyright in the United States (17 U.S.C. §105). The United States/Department of Commerce reserve all rights to seek and obtain copyright protection in countries other than the United States for Software authored in its entirety by the Department of Commerce. To this end, the Department of Commerce hereby grants to Recipient a royalty-free, nonexclusive license to use, copy, and create derivative works of the Software outside of the United States.
+
