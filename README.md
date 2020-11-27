@@ -2,8 +2,6 @@
 
 This acts as the landings site for the January 2021 R Workshop for Resource Assessment and Conservation Engineering Division (RACE) Groundfish Assessment Program (GAP).
 
-# R Workshop for NOAA Fisheries Social Scientists
-
 Course held virtally January-Feburary 2021!
 
 For more information, check out the course's website at https://emilyhmarkowitz.github.io/RWorkshopForRACEGAP/index.html
