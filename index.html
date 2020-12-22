@@ -11,7 +11,7 @@
 
 
 
-<title>R Workshop for AFSC RACE Groundfish Assesment Group</title>
+<title>FishR 101: R Workshop for AFSC RACE Groundfish Assesment Group Jan-Feb 2021</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -48,9 +48,18 @@
 
 </head>
 
-<div><img src="cover_with_logo.JPG" width="100%" align="center"></div>
+<div><img src="cover_with_logo.JPG" alt = "The contract survey vessel QUICKSILVER underway. Alaska, Kenai Fiords. 2000 (https://www.flickr.com/photos/noaaphotolib/5125467697/in/album-72157625403065572/).", width="100%" align="center" ></div>
 
 </html>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
@@ -96,6 +105,7 @@ h6 {
   text-align: left;
 }
 </style>
+
 
 
 
@@ -302,21 +312,21 @@ $(document).ready(function () {
       <ul class="nav navbar-nav">
         <li>
   <a href="about.html">
-    <span class="fa fa-briefcase"></span>
+    <span class="fas fa-briefcase"></span>
      
     About
   </a>
 </li>
 <li>
   <a href="sessions.html">
-    <span class="fa fa-calendar"></span>
+    <span class="fas fa-calendar"></span>
      
     Agenda
   </a>
 </li>
 <li>
   <a href="members.html">
-    <span class="fa fa-user"></span>
+    <span class="fas fa-user"></span>
      
     Presenters
   </a>
@@ -328,19 +338,19 @@ $(document).ready(function () {
       <ul class="nav navbar-nav navbar-right">
         <li>
   <a href="mailto:emily.markowitz@noaa.gov">
-    <span class="fa fa-envelope-o"></span>
+    <span class="fas fa-envelope-o"></span>
      
   </a>
 </li>
 <li>
   <a href="https://github.com/emilyhmarkowitz/RWorkshopForRACEGAP">
-    <span class="fa fa-github"></span>
+    <span class="fas fa-github"></span>
      
   </a>
 </li>
 <li>
   <a href="https://drive.google.com/drive/folders/17zlwvwDduKH-llxV7WcZFC1qy8aJtIL3?usp=sharing">
-    <span class="fa fa-google"></span>
+    <span class="fas fa-google"></span>
      
   </a>
 </li>
@@ -353,7 +363,7 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">R Workshop for AFSC RACE Groundfish Assesment Group</h1>
+<h1 class="title toc-ignore">FishR 101: R Workshop for AFSC RACE Groundfish Assesment Group Jan-Feb 2021</h1>
 
 </div>
 
@@ -374,7 +384,7 @@ $(document).ready(function () {
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();

@@ -57,18 +57,23 @@ Agenda$Authors<-paste0(ifelse(Agenda$Presenter %in% not0, "", paste0("Presenter:
 
 Agenda$Notes[is.na(Agenda$Notes)]<-""
 
-aa<-strsplit(x = Agenda$Notes, split = "\n\n")
-for (i in 1:length(aa)){
-  if (length(aa[i][[1]])!=0) {
-    for (ii in 1:length(aa[i][[1]])) {
+# counter0<-1
+
+aaa<-strsplit(x = Agenda$Notes, split = "\n\n")
+for (i in 1:length(aaa)){
+  if (length(aaa[i][[1]])!=0) {
+    aa<-aaa[i][[1]]
+    for (ii in 1:length(aa)) {
       # dd<- aa[i][[1]][ii]
-      if (grepl(pattern = "https://", x = aa[i][[1]][ii], ignore.case = T)) {
-        bb<-strsplit(x = aa[i][[1]][ii], split = ": ")
-      if (grepl(pattern = "github.com", x = aa[i][[1]][ii], ignore.case = T)) {
+      if (grepl(pattern = "https://", x = aa[ii], ignore.case = T)) {
+        # aa[i][[1]][ii]<-trimws(x = aa[i][[1]][ii])
+        bb<-strsplit(x = aa[ii], split = ": ")
+      if (grepl(pattern = "github.com", x = aa[ii], ignore.case = T)) {
         htmlname<-strsplit(split = "/", x = bb[[1]][2])[[1]]
         download.file(url = bb[[1]][2], 
-                      destfile = paste0(getwd(), "/les_", htmlname[length(htmlname)]))
-        bb[[1]][2]<-paste0("les_", htmlname[length(htmlname)])
+                      destfile = paste0(getwd(), "/", htmlname[length(htmlname)]))
+        bb[[1]][2]<-paste0(htmlname[length(htmlname)])
+        # counter0<-counter0+1
       }
         # cc<-paste0('["', bb[[1]][1], '"] (', bb[[1]][2], '")')
         # cc<-paste0('<a href="', bb[[1]][2], '">', bb[[1]][1], '</a>')
@@ -78,27 +83,27 @@ for (i in 1:length(aa)){
         # cc<-paste0("![{",bb[[1]][2],"}]({",bb[[1]][1],"})")
         # aa[i][[1]][ii]<-paste0("<li>", cc, "</li>")
 
-        aa[i][[1]][ii]<-cc#paste0('tags$li(', cc, ')')
+        aaa[i][[1]][ii]<-cc#paste0('tags$li(', cc, ')')
         } else {
         cc<-paste0('tags$p("', aa[i][[1]][ii], '")')
         # cc<-paste0('<p>', ifelse(is.na(aa[i][[1]][ii]), "", aa[i][[1]][ii]), '</p>')
         # aa[i][[1]][ii]<-paste0("<li>", cc, "</li>")
-        aa[i][[1]][ii]<-cc#paste0('tags$li(', cc, ')')
+        aaa[i][[1]][ii]<-cc#paste0('tags$li(', cc, ')')
       }
       
     }
       # aa[i][[1]]<-paste0("tags$div(",
   #                    paste(aa[i][[1]], collapse = " "),
   #                    ")")
-    aa[i][[1]]<-paste0('tags$li(', paste(aa[i][[1]], collapse = ", "), ')')
+    aaa[i][[1]]<-paste0('tags$li(', paste(aaa[i][[1]], collapse = ", "), ')')
     # aa[i][[1]]<-paste(aa[i][[1]], collapse = ", ")
   } else {
-    aa[i][[1]]<-""
+    aaa[i][[1]]<-""
   }
   # aa[i][[1]]<-paste0("")
 }
 
-Agenda$Notes<-unlist(aa)
+Agenda$Notes<-unlist(aaa)
 Agenda<-Agenda[,c("Date","Notes","Title","Authors")]
 program<-as_tibble(Agenda) #%>%
 
@@ -213,37 +218,6 @@ div(
 
 counter0 <- (1 + counter0)
 
-
-```
-
-<br>
-
-## `r days[counter0]`
-
-```{r}
-program1<-program[grepl(pattern = days[counter0], x = Agenda0$Date), ]
-
-div(
-  class = "schedule",
-  apply(program1, 1, function(event) {
-    div(
-      class = "limit",
-      div(class = "workshops-button", 
-          div(class = "left-date", 
-              event[['Date']]),
-          div(class = "center-title", 
-              # tags$i(event[['Title']])),
-              tags$b(event[['Title']])),
-          div(class = "right-authors",
-              event[['Authors']])),
-      tags$ul(class = "workshops",
-              (eval(parse(text=event[["Notes"]])) ) )
-              # event[["Notes"]])
-    )
-  })
-)
-
-counter0 <- (1 + counter0)
 
 ```
 

@@ -1,24 +1,28 @@
-,,R Workshop for RACE-GAP Schedule,,,,,,https://emilymarkowitz-noaa.github.io/RWorkshopForRACEGAP/sessions.html,
+,,R Workshop for RACE-GAP Schedule,,,,,,,https://emilymarkowitz-noaa.github.io/RWorkshopForRACEGAP/sessions.html
 Date,Start Time (PT),End Time (PT),Course Segment,Topics,Presenter,Host,Chat/Q&A,Notes,Notes to Add Later
 "Tuesday, January 19, 2021",9:00 AM,9:10 AM,Introductions,Introductions,,"
 Caitlin Allen Akselrud & Emily Markowitz",,Welcome! ,
 "Tuesday, January 19, 2021",9:10 AM,9:50 AM,Introduce New Materials,"Basic mathematics in R
-",,Caitlin Allen Akselrud,,"**Agenda**
+",,Caitlin Allen Akselrud,,"Agenda
 
-1. Open R Studio and check it out: 
-R project
-Keyboard shortcuts (Tools > Keyboard shortcuts)
-Workflow (good file structure)- example
-2. Basic math
-3. Vectors, Matrices, Arrays, Lists, and Data Frames
-4. Best Practices Review
+Lesson: https://raw.githubusercontent.com/EmilyMarkowitz-NOAA/FishR101-BestScripting/main/lesson/Lesson.nb.html
+
+Repro: https://github.com/EmilyMarkowitz-NOAA/FishR101-BestScripting
+
+Open R Studio and check it out: 
+1. R project
+2. Keyboard shortcuts (Tools > Keyboard shortcuts)
+3. Workflow (good file structure)- example
+4. Basic math
+5. Vectors, Matrices, Arrays, Lists, and Data Frames
+6. Best Practices Review
+
 ",Presentation: https://docs.google.com/presentation/d/1XFU8nEpnvoJKES4SxO88L3ddqAtZtQTeEauLzQlFfXk/edit?usp=sharing
 "Tuesday, January 19, 2021",9:50 AM,10:00 AM,Break,Break,,,,"Phew, That was a lot!
-
+","
 <div><img src=""https://rforcats.net/assets/img/programmer.png"" width=""100%"" align=""center""></div>
 
-![](`r https://rforcats.net/assets/img/programmer.png`)
-",
+![](`r https://rforcats.net/assets/img/programmer.png`)"
 "Tuesday, January 19, 2021",10:00 AM,10:40 AM,Interactive Learning,,,Caitlin Allen Akselrud,,"Resources
 
 1. Intro to R for Data Science (Hadley Wickham): https://r4ds.had.co.nz/index.html
@@ -40,11 +44,16 @@ Today's Homework
 "Thursday, January 21, 2021",9:00 AM,9:10 AM,Review Homework,Review Homework,,,,Answers will be added here. ,Add Answers!
 "Thursday, January 21, 2021",9:10 AM,9:50 AM,Introduce New Materials,Base R language and {Tidyverse} language,,Emily Markowitz,,"Agenda
 
+Lesson: https://raw.githubusercontent.com/EmilyMarkowitz-NOAA/FishR101-BaseRvTidy/main/lesson/Lesson.nb.html
+
+Repro: https://github.com/EmilyMarkowitz-NOAA/FishR101-BaseRvTidy
+
 1. The importance of checking as you go.  ; 
 2. Loading libraries (e.g. tidyverse: install.packages() and library())
 3. Best practices - ‘renv’ package to track package versions in projects
 
 *Note that after this lessson we will be using Tidy.
+
 ",
 "Thursday, January 21, 2021",9:50 AM,10:00 AM,Break,Break,,,,"Take a breather!
 
@@ -59,11 +68,17 @@ le meme!: https://i.redd.it/8wxhbk1z63q01.jpg
 "Tuesday, February 2, 2021",9:00 AM,9:10 AM,Review Homework,Review Homework,,Emily Markowitz,,Answers will be added here. ,Add Answers!
 "Tuesday, February 2, 2021",9:10 AM,9:50 AM,Introduce New Materials,Dive into Tidy: data wrangling and manipulation Part I,,Emily Markowitz,,"Agenda
 
+Lesson: https://raw.githubusercontent.com/EmilyMarkowitz-NOAA/FishR101-TidyPt1/main/lesson/Lesson.nb.html
+
+Repro: https://github.com/EmilyMarkowitz-NOAA/FishR101-TidyPt1
+
 1. Workflow
 2. snake_case
 3. Reading in data, read-in problems and solutions 
-4. Writing data (e.g., to .csv)",
-"Tuesday, February 2, 2021",9:50 AM,10:00 AM,Break,Break,,,,https://www.kai-arzheimer.com/16022604/wp-content/webp-express/webp-images/doc-root/16022604/wp-content/uploads/2019/03/adobe_post_20190330_180506-011386275827.jpeg.webp,
+4. Writing data (e.g., to .csv) 
+5. Best Practices
+",
+"Tuesday, February 2, 2021",9:50 AM,10:00 AM,Break,Break,,,,le meme!: https://www.kai-arzheimer.com/16022604/wp-content/webp-express/webp-images/doc-root/16022604/wp-content/uploads/2019/03/adobe_post_20190330_180506-011386275827.jpeg.webp,
 "Tuesday, February 2, 2021",10:00 AM,10:40 AM,Interactive Learning,,,Emily Markowitz,,"Resources
 
 1. Import Data Cheatsheet: https://evoldyn.gitlab.io/evomics-2018/ref-sheets/R_data-import.pdf
@@ -71,11 +86,14 @@ le meme!: https://i.redd.it/8wxhbk1z63q01.jpg
 "Tuesday, February 2, 2021",10:40 AM,10:50 AM,Break,Break,,,,,
 "Tuesday, February 2, 2021",10:50 AM,12:00 AM,Office Hours,Homework Assignment,,Caitlin Allen Akselrud & Emily Markowitz,,"An informal opprotunity to come by to ask any questions you have about the course, content, or with specific questions about issues you have with the homework or in your own analyses.",Add HW!
 "Thursday, February 4, 2021",9:00 AM,9:10 AM,Review Homework,Review Homework,,Emily Markowitz,,Answers will be added here. ,Add Answers!
-"Thursday, February 4, 2021",9:10 AM,9:50 AM,Introduce New Materials,Dive into Tidy: data wrangling and manipulation Part II,,,,"Agenda - Dive into Tidy: data wrangling and manipulation
+"Thursday, February 4, 2021",9:10 AM,9:50 AM,Introduce New Materials,Dive into Tidy: data wrangling and manipulation Part II,,,,"Agenda
 
-1. Workflow
-2. sanke_case()
-3. Reading in data, read-in problems and solutions
+Lesson: https://raw.githubusercontent.com/EmilyMarkowitz-NOAA/FishR101-BestScripting/main/lesson/Lesson.nb.html
+
+Repro: https://github.com/EmilyMarkowitz-NOAA/FishR101-BestScripting
+
+1. 
+2. Best Practices
 
 ",
 "Thursday, February 4, 2021",9:50 AM,10:00 AM,Break,Break,,Caitlin Allen Akselrud,,,
@@ -87,10 +105,17 @@ le meme!: https://i.redd.it/8wxhbk1z63q01.jpg
 "Tuesday, February 9, 2021",9:00 AM,9:10 AM,Review Homework,Review Homework,,Caitlin Allen Akselrud,,Answers will be added here. ,Add Answers!
 "Tuesday, February 9, 2021",9:10 AM,9:50 AM,Introduce New Materials,Let's Modularize! All Things Functions,,Emily Markowitz,,"Agenda
 
+Lesson: https://raw.githubusercontent.com/EmilyMarkowitz-NOAA/FishR101-Functions/main/lesson/Lesson.nb.html
+
+Repro: https://github.com/EmilyMarkowitz-NOAA/FishR101-Functions
+
 1. Writing
 2. Checking
 3. Calling
-4. Best Practices - modular coding style
+4. Best practices
+5. Best Practices - Modular coding style
+6. {roxygen2}
+
 ",
 "Tuesday, February 9, 2021",9:50 AM,10:00 AM,Break,Break,,,,,
 "Tuesday, February 9, 2021",10:00 AM,10:40 AM,Interactive Learning,,,Emily Markowitz,,"Resources
@@ -101,54 +126,70 @@ le meme!: https://i.redd.it/8wxhbk1z63q01.jpg
  
 Take these famous equations and make them into functions!",Add HW!
 "Thursday, February 11, 2021",9:00 AM,9:10 AM,Review Homework,Review Homework,,Caitlin Allen Akselrud,,Answers will be added here. ,Add Answers!
-"Thursday, February 11, 2021",9:10 AM,9:50 AM,Introduce New Materials,All things functions,,Emily Markowitz,,"Agenda
+"Thursday, February 11, 2021",9:10 AM,9:50 AM,Introduce New Materials,Best Scripting Practices,,Caitlin Allen Akselrud & Emily Markowitz,,"Agenda
 
-1. Writing
-2. Checking
-3. Calling
-4. Best practices
-5. Modular coding style
+Lesson: https://raw.githubusercontent.com/EmilyMarkowitz-NOAA/FishR101-BestScripting/main/lesson/Lesson.nb.html
+
+Repro: https://github.com/EmilyMarkowitz-NOAA/FishR101-BestScripting
+
+Learn about how to write and prepare a script by 
+1. Conforming to a predictable script structure
+2. Annotation
+3. Never repeating code
+4. Naming files with predictable and helpful names
+5. Predictable folder structure
+6. Scripts with specific tasks
+7. Saving scripts in an “R Project
+
+
+
+
 ",
 "Thursday, February 11, 2021",9:50 AM,10:00 AM,Break,Break,,,,,
-"Thursday, February 11, 2021",10:00 AM,10:40 AM,Interactive Learning,,,Emily Markowitz,,"Resources: 
-
-1. 
-",
-"Thursday, February 11, 2021",10:40 AM,10:50 AM,Break,Break,,,,,
-"Thursday, February 11, 2021",10:50 AM,12:00 AM,Office Hours,,,Caitlin Allen Akselrud & Emily Markowitz,,"An informal opprotunity to come by to ask any questions you have about the course, content, or with specific questions about issues you have with the homework or in your own analyses.",Add HW!
-"Tuesday, February 16, 2021",9:00 AM,9:10 AM,Review Homework,Review Homework,,Emily Markowitz,,Answers will be added here. ,Add Answers!
-"Tuesday, February 16, 2021",9:10 AM,9:50 AM,Introduce New Materials,Scripting best practices,,Caitlin Allen Akselrud & Emily Markowitz,,"Agenda
-
-1. Learn about how to write and prepare a script by 1. conforming to a predictable script structure, 2. annotation, 3. never repeating code, 4. naming files with predictable and helpful names, 5. predictable folder structure, 6. scripts with specific tasks, 7. saving scripts in an “R Project.
-
-Lesson: https://raw.githubusercontent.com/emilyhmarkowitz/BestScriptingPractices/master/rscripts/BestScriptingPractices.nb.html
-
-GitHub Repository BestScriptingPractices: https://github.com/emilymarkowitz-NOAA/BestScriptingPractices",
-"Tuesday, February 16, 2021",9:50 AM,10:00 AM,Break,Break,,,,,
-"Tuesday, February 16, 2021",10:00 AM,10:40 AM,Interactive Learning,,,Caitlin Allen Akselrud & Emily Markowitz,,"Resources
-
-1. Julia Stewart Lowdes @ Groundfish Seminar: https://drive.google.com/file/d/1oSHAP_IsZRJizPqmXGJxG6QewHCp8qSZ/view?usp=sharing 
-2. ""Our path to better science in less time using open data science tools"": https://www.nature.com/articles/s41559-017-0160 
-Jenny Bryan - what they forgot to teach you about R: https://rstats.wtf/index.html 
-",
-"Tuesday, February 16, 2021",10:40 AM,10:50 AM,Break,Break,,,,,
-"Tuesday, February 16, 2021",10:50 AM,12:00 AM,Office Hours,,,Caitlin Allen Akselrud & Emily Markowitz,,"An informal opprotunity to come by to ask any questions you have about the course, content, or with specific questions about issues you have with the homework or in your own analyses. 
+"Thursday, February 11, 2021",10:00 AM,10:40 AM,Interactive Learning,,,Emily Markowitz,,"An informal opprotunity to come by to ask any questions you have about the course, content, or with specific questions about issues you have with the homework or in your own analyses. 
 
 Homework
 
-1. Julia Stewart Lowdes @ Groundfish Seminar: https://drive.google.com/file/d/1oSHAP_IsZRJizPqmXGJxG6QewHCp8qSZ/view?usp=sharing 
+1. Watch Julia Stewart Lowdes' Talk @ Groundfish Seminar: https://drive.google.com/file/d/1oSHAP_IsZRJizPqmXGJxG6QewHCp8qSZ/view?usp=sharing",
+"Thursday, February 11, 2021",10:40 AM,10:50 AM,Break,Break,,,,,
+"Thursday, February 11, 2021",10:50 AM,12:00 AM,Office Hours,,,Caitlin Allen Akselrud & Emily Markowitz,,"An informal opprotunity to come by to ask any questions you have about the course, content, or with specific questions about issues you have with the homework or in your own analyses.",Add HW!
+"Tuesday, February 16, 2021",9:00 AM,9:10 AM,Review Homework,Review Homework,,Emily Markowitz,,Answers will be added here. ,Add Answers!
+"Tuesday, February 16, 2021",9:10 AM,9:50 AM,Introduce New Materials,Making things pretty: Figures and Tables,,Caitlin Allen Akselrud,,"Agenda
 
+Lesson: https://raw.githubusercontent.com/EmilyMarkowitz-NOAA/FishR101-BestScripting/main/lesson/Lesson.nb.html
 
-",Add HW!
-"Thursday, February 18, 2021",9:00 AM,9:10 AM,Review Homework,Review Homework,,,,Answers will be added here. ,Add Answers!
-"Thursday, February 18, 2021",9:10 AM,9:50 AM,Introduce New Materials,Making things pretty: Figures and Tables,,,,"Agenda
+Repro: https://github.com/EmilyMarkowitz-NOAA/FishR101-BestScripting
 
 1. ggplot
 2. tables: https://rfortherestofus.com/2019/11/how-to-make-beautiful-tables-in-r/
 3. formattable
-4. gt() ?",
+4. gt() ?
+
+
+
+
+",
+"Tuesday, February 16, 2021",9:50 AM,10:00 AM,Break,Break,,,,,
+"Tuesday, February 16, 2021",10:00 AM,10:40 AM,Interactive Learning,,,Caitlin Allen Akselrud & Emily Markowitz,,"Resources
+
+1. 
+",
+"Tuesday, February 16, 2021",10:40 AM,10:50 AM,Break,Break,,,,,
+"Tuesday, February 16, 2021",10:50 AM,12:00 AM,Office Hours,,,Caitlin Allen Akselrud,,"An informal opprotunity to come by to ask any questions you have about the course, content, or with specific questions about issues you have with the homework or in your own analyses.",Add HW!
+"Thursday, February 18, 2021",9:00 AM,9:10 AM,Review Homework,Review Homework,,Caitlin Allen Akselrud,,Answers will be added here. ,Add Answers!
+"Thursday, February 18, 2021",9:10 AM,9:50 AM,Introduce New Materials,Built-in Models in R,,Caitlin Allen Akselrud,,"Agenda
+
+Lesson: https://raw.githubusercontent.com/EmilyMarkowitz-NOAA/FishR101-Models/main/lesson/Lesson.nb.html
+
+Repro: https://github.com/EmilyMarkowitz-NOAA/FishR101-Models
+
+1. lm(), glm(), gam()
+2. Other models (?)
+3. Broom package
+
+",
 "Thursday, February 18, 2021",9:50 AM,10:00 AM,Break,Break,,,,,
-"Thursday, February 18, 2021",10:00 AM,10:40 AM,Interactive Learning,,,,,"Resources
+"Thursday, February 18, 2021",10:00 AM,10:40 AM,Interactive Learning,,,Caitlin Allen Akselrud,,"Resources
 
 1. 
 ",

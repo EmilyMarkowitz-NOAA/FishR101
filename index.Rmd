@@ -1,5 +1,5 @@
 ---
-title: "R Workshop for AFSC RACE Groundfish Assesment Group"
+title: "FishR 101: R Workshop for AFSC RACE Groundfish Assesment Group Jan-Feb 2021"
 output:
   html_document:
     includes:
@@ -7,6 +7,7 @@ output:
 editor_options: 
   chunk_output_type: console
 ---
+
 
 ## **This is the website for all of the materials you'll need for the workshop.** 
 

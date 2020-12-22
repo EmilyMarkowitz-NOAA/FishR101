@@ -13,7 +13,21 @@ navbar:
       icon: fa-user 
       href: members.html
     - text: ""
-      href: les_BestScriptingPractices.nb.html
+      href: FishR101-BestScripting.nb.html
+    - text: ""
+      href: FishR101-BaseRvTidy.nb.html
+    - text: ""
+      href: FishR101-TidyPt1.nb.html
+    - text: ""
+      href: FishR101-BestScripting.nb.html
+    - text: ""
+      href: FishR101-Functions.nb.html
+    - text: ""
+      href: FishR101-BestScripting.nb.html
+    - text: ""
+      href: FishR101-BestScripting.nb.html
+    - text: ""
+      href: FishR101-Models.nb.html
   right:
     - icon: fa-envelope-o
       href: mailto:emily.markowitz@noaa.gov                      # CHANGE HERE 
