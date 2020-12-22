@@ -59,16 +59,15 @@ Agenda$Notes[is.na(Agenda$Notes)]<-""
 
 # counter0<-1
 
-aaa<-strsplit(x = Agenda$Notes, split = "\n\n")
-for (i in 1:length(aaa)){
-  if (length(aaa[i][[1]])!=0) {
-    aa<-aaa[i][[1]]
-    for (ii in 1:length(aa)) {
+aa<-strsplit(x = Agenda$Notes, split = "\n\n")
+for (i in 1:length(aa)){
+  if (length(aa[i][[1]])!=0) {
+    # aa<-aa[i][[1]]
+    for (ii in 1:length(aa[i][[1]])) {
       # dd<- aa[i][[1]][ii]
-      if (grepl(pattern = "https://", x = aa[ii], ignore.case = T)) {
-        # aa[i][[1]][ii]<-trimws(x = aa[i][[1]][ii])
-        bb<-strsplit(x = aa[ii], split = ": ")
-      if (grepl(pattern = "github.com", x = aa[ii], ignore.case = T)) {
+      if (grepl(pattern = "https://", x = aa[i][[1]][ii], ignore.case = T)) {
+        bb<-strsplit(x = aa[i][[1]][ii], split = ": ")
+      if (grepl(pattern = "github.com", x = aa[i][[1]][ii], ignore.case = T)) {
         htmlname<-strsplit(split = "/", x = bb[[1]][2])[[1]]
         download.file(url = bb[[1]][2], 
                       destfile = paste0(getwd(), "/", htmlname[length(htmlname)]))
@@ -83,27 +82,27 @@ for (i in 1:length(aaa)){
         # cc<-paste0("![{",bb[[1]][2],"}]({",bb[[1]][1],"})")
         # aa[i][[1]][ii]<-paste0("<li>", cc, "</li>")
 
-        aaa[i][[1]][ii]<-cc#paste0('tags$li(', cc, ')')
+        aa[i][[1]][ii]<-cc#paste0('tags$li(', cc, ')')
         } else {
         cc<-paste0('tags$p("', aa[i][[1]][ii], '")')
         # cc<-paste0('<p>', ifelse(is.na(aa[i][[1]][ii]), "", aa[i][[1]][ii]), '</p>')
         # aa[i][[1]][ii]<-paste0("<li>", cc, "</li>")
-        aaa[i][[1]][ii]<-cc#paste0('tags$li(', cc, ')')
+        aa[i][[1]][ii]<-cc#paste0('tags$li(', cc, ')')
       }
       
     }
       # aa[i][[1]]<-paste0("tags$div(",
   #                    paste(aa[i][[1]], collapse = " "),
   #                    ")")
-    aaa[i][[1]]<-paste0('tags$li(', paste(aaa[i][[1]], collapse = ", "), ')')
+    aa[i][[1]]<-paste0('tags$li(', paste(aa[i][[1]], collapse = ", "), ')')
     # aa[i][[1]]<-paste(aa[i][[1]], collapse = ", ")
   } else {
-    aaa[i][[1]]<-""
+    aa[i][[1]]<-""
   }
   # aa[i][[1]]<-paste0("")
 }
 
-Agenda$Notes<-unlist(aaa)
+Agenda$Notes<-unlist(aa)
 Agenda<-Agenda[,c("Date","Notes","Title","Authors")]
 program<-as_tibble(Agenda) #%>%
 

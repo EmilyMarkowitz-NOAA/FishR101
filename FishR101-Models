@@ -19,7 +19,7 @@
 
 
   <link crossorigin="anonymous" media="all" integrity="sha512-BSy+E+S5PJuDWKcXiIXBoFJ7uJ+88y6hFdIhZpf7nf9MVNVvnJDPUaotaxFUQi8UXCLJOcGv1uifxVMc9o5DYQ==" rel="stylesheet" href="https://github.githubassets.com/assets/frameworks-052cbe13e4b93c9b8358a7178885c1a0.css" />
-  <link crossorigin="anonymous" media="all" integrity="sha512-ZeNVjHIlMW7XsWREO2tIqz9jK2DIjctgnfS/hxyMRbIuayWquoeQ5o/PlQEWbHqQFZqicQNKv6N9HcF6fv4hmA==" rel="stylesheet" href="https://github.githubassets.com/assets/site-65e3558c7225316ed7b164443b6b48ab.css" />
+  <link crossorigin="anonymous" media="all" integrity="sha512-EI1CLMSizMbDO5Aub8jZ0gsW5wGimU6QxnSw2E7wY6Ted7yycAPTAavo1v2rULNASgJFoYrXreciU+rtpHkTlQ==" rel="stylesheet" href="https://github.githubassets.com/assets/site-108d422cc4a2ccc6c33b902e6fc8d9d2.css" />
     <link crossorigin="anonymous" media="all" integrity="sha512-kbmoVjm4QNCb4CcvB8aPEmE7NHn9OJ+ZJv2ULgO6XlgjASNSMjKko1hSPtiEyhcJH6SaMVY5J2mAD7LkEk1xYg==" rel="stylesheet" href="https://github.githubassets.com/assets/github-91b9a85639b840d09be0272f07c68f12.css" />
     
     
@@ -64,7 +64,7 @@
   <link rel="assets" href="https://github.githubassets.com/">
   
 
-  <meta name="request-id" content="E4EE:1746:39BD046:5229346:5FE25BF8" data-pjax-transient="true"/><meta name="html-safe-nonce" content="e3f53e269c26ae85a6565277e259627e4951058e0baaaedd897967819d83020a" data-pjax-transient="true"/><meta name="visitor-payload" content="eyJyZWZlcnJlciI6IiIsInJlcXVlc3RfaWQiOiJFNEVFOjE3NDY6MzlCRDA0Njo1MjI5MzQ2OjVGRTI1QkY4IiwidmlzaXRvcl9pZCI6IjU3MjM2NjkzMTgwMDM0MjY1MTgiLCJyZWdpb25fZWRnZSI6ImlhZCIsInJlZ2lvbl9yZW5kZXIiOiJpYWQifQ==" data-pjax-transient="true"/><meta name="visitor-hmac" content="2b031a74a1282a5e8a22d98f2b42cfefbd5dbd35ef0738a8559e48d0861b9897" data-pjax-transient="true"/>
+  <meta name="request-id" content="F091:7743:24E69C8:38C5458:5FE267FB" data-pjax-transient="true"/><meta name="html-safe-nonce" content="8f25f6cf209fb2e1643f4e923247ecfec4e517b6fe9873fe5b2600730b3f436d" data-pjax-transient="true"/><meta name="visitor-payload" content="eyJyZWZlcnJlciI6IiIsInJlcXVlc3RfaWQiOiJGMDkxOjc3NDM6MjRFNjlDODozOEM1NDU4OjVGRTI2N0ZCIiwidmlzaXRvcl9pZCI6IjU3MjM2NjkzMTgwMDM0MjY1MTgiLCJyZWdpb25fZWRnZSI6ImlhZCIsInJlZ2lvbl9yZW5kZXIiOiJpYWQifQ==" data-pjax-transient="true"/><meta name="visitor-hmac" content="46ac52cbc0957f9d0006be662373fa8917f2dc3b73954e860d648a3cff031ac5" data-pjax-transient="true"/>
 
     <meta name="hovercard-subject-tag" content="repository:323549826" data-pjax-transient>
 
@@ -313,7 +313,7 @@
           spellcheck="false"
           autocomplete="off"
           >
-          <input type="hidden" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" value="KxlMsC24O/SnnMep18CscQ2Fp1/eoMVIqvo2dYyFUvsQGFoH9JYPYS/sygGPPSevxfCWRykiWLPGwfFZUG37fA==" />
+          <input type="hidden" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" value="SQUM5FN6LjjGGvR29qJhwBu1md5/a8ToliakCvmdG9+ZdC1lJmJyJu25bReOTRg4FsURDYGTrna3xAfc9zTK3g==" />
           <input type="hidden" class="js-site-search-type-field" name="type" >
             <img src="https://github.githubassets.com/images/search-key-slash.svg" alt="" class="mr-2 header-search-key-slash">
 
@@ -800,7 +800,7 @@
 
   <div class="UnderlineNav my-2 box-shadow-none">
     <div class="UnderlineNav-body" role="tablist">
-      <!-- '"` --><!-- </textarea></xmp> --></option></form><form data-remote="true" action="/users/set_protocol?protocol_type=clone" accept-charset="UTF-8" method="post"><input type="hidden" data-csrf="true" name="authenticity_token" value="QhjNVatdjyO5lnEKXioT3QKtAWn89xGL/OhoxiR1G9ss7iywj4l68wfVpabVQUnOp+ewyCRj2wo/WYEM+2CkYA==" />
+      <!-- '"` --><!-- </textarea></xmp> --></option></form><form data-remote="true" action="/users/set_protocol?protocol_type=clone" accept-charset="UTF-8" method="post"><input type="hidden" data-csrf="true" name="authenticity_token" value="SwEe/RMJ2qeFqx+okZV84UiZQXSTXykocXoYboYPLqagRmMVxuD2puel0IG6qTdgyR4D2UFGkZCu/nx5bgnHtg==" />
           <button name="protocol_selector" type="submit" role="tab" class="UnderlineNav-item lh-default f6 py-0 px-0 mr-2 position-relative" aria-selected="true" value="http" data-hydro-click="{&quot;event_type&quot;:&quot;clone_or_download.click&quot;,&quot;payload&quot;:{&quot;feature_clicked&quot;:&quot;USE_HTTPS&quot;,&quot;git_repository_type&quot;:&quot;REPOSITORY&quot;,&quot;repository_id&quot;:323549826,&quot;originating_url&quot;:&quot;https://github.com/EmilyMarkowitz-NOAA/FishR101-Models&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="7d1868350261960eb68e5356cb3e34e8d3ea937b246fef5dbc49a8aee2e42fe8">
             HTTPS
 </button>          <button name="protocol_selector" type="submit" role="tab" class="UnderlineNav-item lh-default f6 py-0 px-0 mr-2 position-relative" value="gh_cli" data-hydro-click="{&quot;event_type&quot;:&quot;clone_or_download.click&quot;,&quot;payload&quot;:{&quot;feature_clicked&quot;:&quot;USE_GH_CLI&quot;,&quot;git_repository_type&quot;:&quot;REPOSITORY&quot;,&quot;repository_id&quot;:323549826,&quot;originating_url&quot;:&quot;https://github.com/EmilyMarkowitz-NOAA/FishR101-Models&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="e1483f05f1cf7a8091701f25941943065093cb97cd960214762728551f2b2055">

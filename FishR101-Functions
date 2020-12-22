@@ -19,7 +19,7 @@
 
 
   <link crossorigin="anonymous" media="all" integrity="sha512-BSy+E+S5PJuDWKcXiIXBoFJ7uJ+88y6hFdIhZpf7nf9MVNVvnJDPUaotaxFUQi8UXCLJOcGv1uifxVMc9o5DYQ==" rel="stylesheet" href="https://github.githubassets.com/assets/frameworks-052cbe13e4b93c9b8358a7178885c1a0.css" />
-  <link crossorigin="anonymous" media="all" integrity="sha512-ZeNVjHIlMW7XsWREO2tIqz9jK2DIjctgnfS/hxyMRbIuayWquoeQ5o/PlQEWbHqQFZqicQNKv6N9HcF6fv4hmA==" rel="stylesheet" href="https://github.githubassets.com/assets/site-65e3558c7225316ed7b164443b6b48ab.css" />
+  <link crossorigin="anonymous" media="all" integrity="sha512-EI1CLMSizMbDO5Aub8jZ0gsW5wGimU6QxnSw2E7wY6Ted7yycAPTAavo1v2rULNASgJFoYrXreciU+rtpHkTlQ==" rel="stylesheet" href="https://github.githubassets.com/assets/site-108d422cc4a2ccc6c33b902e6fc8d9d2.css" />
     <link crossorigin="anonymous" media="all" integrity="sha512-kbmoVjm4QNCb4CcvB8aPEmE7NHn9OJ+ZJv2ULgO6XlgjASNSMjKko1hSPtiEyhcJH6SaMVY5J2mAD7LkEk1xYg==" rel="stylesheet" href="https://github.githubassets.com/assets/github-91b9a85639b840d09be0272f07c68f12.css" />
     
     
@@ -64,7 +64,7 @@
   <link rel="assets" href="https://github.githubassets.com/">
   
 
-  <meta name="request-id" content="E4EE:1746:39BCFFA:52292C8:5FE25BF7" data-pjax-transient="true"/><meta name="html-safe-nonce" content="e3f53e269c26ae85a6565277e259627e4951058e0baaaedd897967819d83020a" data-pjax-transient="true"/><meta name="visitor-payload" content="eyJyZWZlcnJlciI6IiIsInJlcXVlc3RfaWQiOiJFNEVFOjE3NDY6MzlCQ0ZGQTo1MjI5MkM4OjVGRTI1QkY3IiwidmlzaXRvcl9pZCI6IjU3MjM2NjkzMTgwMDM0MjY1MTgiLCJyZWdpb25fZWRnZSI6ImlhZCIsInJlZ2lvbl9yZW5kZXIiOiJpYWQifQ==" data-pjax-transient="true"/><meta name="visitor-hmac" content="d5f6458a7796ca0245c8c24ea4f12fdae0dadf5dfbed20759c068d347f7115f9" data-pjax-transient="true"/>
+  <meta name="request-id" content="F091:7743:24E6880:38C523D:5FE267F7" data-pjax-transient="true"/><meta name="html-safe-nonce" content="8f25f6cf209fb2e1643f4e923247ecfec4e517b6fe9873fe5b2600730b3f436d" data-pjax-transient="true"/><meta name="visitor-payload" content="eyJyZWZlcnJlciI6IiIsInJlcXVlc3RfaWQiOiJGMDkxOjc3NDM6MjRFNjg4MDozOEM1MjNEOjVGRTI2N0Y3IiwidmlzaXRvcl9pZCI6IjU3MjM2NjkzMTgwMDM0MjY1MTgiLCJyZWdpb25fZWRnZSI6ImlhZCIsInJlZ2lvbl9yZW5kZXIiOiJpYWQifQ==" data-pjax-transient="true"/><meta name="visitor-hmac" content="709e6779f9e16f24c6e9870e7e050e0d1ff3ac0cd68434bdcb99a8dd639b05d6" data-pjax-transient="true"/>
 
     <meta name="hovercard-subject-tag" content="repository:323549062" data-pjax-transient>
 
@@ -313,7 +313,7 @@
           spellcheck="false"
           autocomplete="off"
           >
-          <input type="hidden" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" value="YVUv2SsywjrdOw3nntB8TNlqED17Ft3v0Lbrf1QYhlZaVDlu8hz2r1VLAE/GLfeSER8hJYyUQBS8jSxTiPAv0Q==" />
+          <input type="hidden" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" value="oClJa6ywZZYa3kLHJ57sPJaVM1KVfLDsxr1ABqHmxbBwWGjq2ag5iDF926ZfcZXEm+W7gWuE2nLnX+PQr08UsQ==" />
           <input type="hidden" class="js-site-search-type-field" name="type" >
             <img src="https://github.githubassets.com/images/search-key-slash.svg" alt="" class="mr-2 header-search-key-slash">
 
@@ -800,7 +800,7 @@
 
   <div class="UnderlineNav my-2 box-shadow-none">
     <div class="UnderlineNav-body" role="tablist">
-      <!-- '"` --><!-- </textarea></xmp> --></option></form><form data-remote="true" action="/users/set_protocol?protocol_type=clone" accept-charset="UTF-8" method="post"><input type="hidden" data-csrf="true" name="authenticity_token" value="sRZQHX0z9qyw2rCJjNc+iSpKRLflaZD1CqJESZHG38/f4LH4WecDfA6ZZCUHvGSajwD1Fj39WnTJE62DTtNgdA==" />
+      <!-- '"` --><!-- </textarea></xmp> --></option></form><form data-remote="true" action="/users/set_protocol?protocol_type=clone" accept-charset="UTF-8" method="post"><input type="hidden" data-csrf="true" name="authenticity_token" value="Mf8bYzNUUifT1D+++sI/KcTv1gXjDhvof/pZtltodpTauGaL5r1+JrHa8JfR/nSoRWiUqDEXo1Cgfj2hs26fhA==" />
           <button name="protocol_selector" type="submit" role="tab" class="UnderlineNav-item lh-default f6 py-0 px-0 mr-2 position-relative" aria-selected="true" value="http" data-hydro-click="{&quot;event_type&quot;:&quot;clone_or_download.click&quot;,&quot;payload&quot;:{&quot;feature_clicked&quot;:&quot;USE_HTTPS&quot;,&quot;git_repository_type&quot;:&quot;REPOSITORY&quot;,&quot;repository_id&quot;:323549062,&quot;originating_url&quot;:&quot;https://github.com/EmilyMarkowitz-NOAA/FishR101-Functions&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="5e3681529453075879ca9708a9017c27dfecbb05a7c43b3db2fec3ea1eb6ee8f">
             HTTPS
 </button>          <button name="protocol_selector" type="submit" role="tab" class="UnderlineNav-item lh-default f6 py-0 px-0 mr-2 position-relative" value="gh_cli" data-hydro-click="{&quot;event_type&quot;:&quot;clone_or_download.click&quot;,&quot;payload&quot;:{&quot;feature_clicked&quot;:&quot;USE_GH_CLI&quot;,&quot;git_repository_type&quot;:&quot;REPOSITORY&quot;,&quot;repository_id&quot;:323549062,&quot;originating_url&quot;:&quot;https://github.com/EmilyMarkowitz-NOAA/FishR101-Functions&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="bcec56cf3773fcc9b7759469f45702cc718d42557632ea97acec4f82771121be">
@@ -893,10 +893,49 @@
   <div class="Box-header Box-header--blue position-relative">
     <h2 class="sr-only">Latest commit</h2>
     <div class="js-details-container Details d-flex rounded-top-1 flex-items-center flex-wrap" data-issue-and-pr-hovercards-enabled>
-      <include-fragment src="/EmilyMarkowitz-NOAA/FishR101-Functions/tree-commit/4ca0e33777fea835a9dc971381b1cbe0e58db0a1" class="d-flex flex-auto flex-items-center" aria-busy="true" aria-label="Loading latest commit">
-        <div class="Skeleton avatar avatar-user flex-shrink-0 ml-n1 mr-n1 mt-n1 mb-n1" style="width:24px;height:24px;"></div>
-        <div class="Skeleton Skeleton--text col-5 ml-3">&nbsp;</div>
-</include-fragment>      <div class="flex-shrink-0">
+      
+  <div class="flex-shrink-0 ml-n1 mr-n1 mt-n1 mb-n1 hx_avatar_stack_commit">
+    
+<div class="AvatarStack flex-self-start ">
+  <div class="AvatarStack-body" aria-label="emilyhmarkowitz">
+        <img src="https://camo.githubusercontent.com/ac3ebb5452f74653c7352b1ab9d5a59a7dea70c6e50dd04ba4a561fa8437a7af/68747470733a2f2f322e67726176617461722e636f6d2f6176617461722f36373064326361393462666139303637353961386635653336643864363861363f643d68747470732533412532462532466769746875622e6769746875626173736574732e636f6d253246696d6167657325324667726176617461727325324667726176617461722d757365722d3432302e706e6726723d6726733d3634" width="24" height="24" class="avatar" alt="emilyhmarkowitz">
+  </div>
+</div>
+
+  </div>
+  <div class="flex-1 d-flex flex-items-center ml-3 min-width-0">
+    <div class="css-truncate css-truncate-overflow text-gray">
+      
+        <span class="commit-author user-mention">emilyhmarkowitz</span>
+
+
+  
+
+        <span class="d-none d-sm-inline">
+          <a data-pjax="true" title="Place Holder" class="link-gray-dark" href="/EmilyMarkowitz-NOAA/FishR101-Functions/commit/4ca0e33777fea835a9dc971381b1cbe0e58db0a1">Place Holder</a>
+        </span>
+    </div>
+    <span class="hidden-text-expander ml-2 d-inline-block d-inline-block d-lg-none">
+      <button type="button" class="hx_bg-black-fade-15 text-gray-dark ellipsis-expander js-details-target" aria-expanded="false">&hellip;</button>
+    </span>
+    <div class="d-flex flex-auto flex-justify-end ml-3 flex-items-baseline">
+        <include-fragment accept="text/fragment+html" src="/EmilyMarkowitz-NOAA/FishR101-Functions/commit/4ca0e33777fea835a9dc971381b1cbe0e58db0a1/rollup?direction=sw" class="d-inline"></include-fragment>
+      <a href="/EmilyMarkowitz-NOAA/FishR101-Functions/commit/4ca0e33777fea835a9dc971381b1cbe0e58db0a1" class="f6 link-gray text-mono ml-2 d-none d-lg-inline" data-pjax>4ca0e33</a>
+      <a href="/EmilyMarkowitz-NOAA/FishR101-Functions/commit/4ca0e33777fea835a9dc971381b1cbe0e58db0a1" class="link-gray ml-2" data-pjax>
+        <relative-time datetime="2020-12-22T18:16:00Z" class="no-wrap">Dec 22, 2020</relative-time>
+      </a>
+    </div>
+  </div>
+  <div class="pl-0 pl-md-5 flex-order-1 width-full Details-content--hidden">
+      <div class="mt-2">
+        <a data-pjax="true" class="link-gray-dark text-bold" href="/EmilyMarkowitz-NOAA/FishR101-Functions/commit/4ca0e33777fea835a9dc971381b1cbe0e58db0a1">Place Holder</a>
+      </div>
+
+    <div class="d-flex flex-items-center">
+      <span class="text-gray-dark text-mono d-lg-none hx_bg-black-fade-15 px-1 rounded-1 text-small mt-2">4ca0e33</span>
+    </div>
+  </div>
+      <div class="flex-shrink-0">
         <h2 class="sr-only">Git stats</h2>
         <ul class="list-style-none d-flex">
           <li class="ml-0 ml-md-3">
@@ -918,8 +957,7 @@
   
 
 
-  <include-fragment src="/EmilyMarkowitz-NOAA/FishR101-Functions/file-list/main">
-      <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/EmilyMarkowitz-NOAA/FishR101-Functions/tree/4ca0e33777fea835a9dc971381b1cbe0e58db0a1">Permalink</a>
+    <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/EmilyMarkowitz-NOAA/FishR101-Functions/tree/4ca0e33777fea835a9dc971381b1cbe0e58db0a1">Permalink</a>
 
   <div class="include-fragment-error flash flash-error flash-full py-2">
   <svg class="octicon octicon-alert" height="16" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.22 1.754a.25.25 0 00-.44 0L1.698 13.132a.25.25 0 00.22.368h12.164a.25.25 0 00.22-.368L8.22 1.754zm-1.763-.707c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0114.082 15H1.918a1.75 1.75 0 01-1.543-2.575L6.457 1.047zM9 11a1 1 0 11-2 0 1 1 0 012 0zm-.25-5.25a.75.75 0 00-1.5 0v2.5a.75.75 0 001.5 0v-2.5z"></path></svg>
@@ -946,11 +984,13 @@
           </div>
 
           <div role="gridcell" class="flex-auto min-width-0 d-none d-md-block col-5 mr-3" >
-              <div class="Skeleton Skeleton--text col-7">&nbsp;</div>
+              <span class="css-truncate css-truncate-target d-block width-fit">
+                    <a data-pjax="true" title="Place Holder" class="link-gray" href="/EmilyMarkowitz-NOAA/FishR101-Functions/commit/4ca0e33777fea835a9dc971381b1cbe0e58db0a1">Place Holder</a>
+              </span>
           </div>
 
           <div role="gridcell" class="text-gray-light text-right" style="width:100px;">
-              <div class="Skeleton Skeleton--text">&nbsp;</div>
+              <time-ago datetime="2020-12-22T18:16:00Z" class="no-wrap">Dec 22, 2020</time-ago>
           </div>
 
         </div>
@@ -965,11 +1005,13 @@
           </div>
 
           <div role="gridcell" class="flex-auto min-width-0 d-none d-md-block col-5 mr-3" >
-              <div class="Skeleton Skeleton--text col-7">&nbsp;</div>
+              <span class="css-truncate css-truncate-target d-block width-fit">
+                    <a data-pjax="true" title="Quick fix to base homework.rmd file" class="link-gray" href="/EmilyMarkowitz-NOAA/FishR101-Functions/commit/05a845260eec71c1d1133e5fc2006dfb3416d099">Quick fix to base homework.rmd file</a>
+              </span>
           </div>
 
           <div role="gridcell" class="text-gray-light text-right" style="width:100px;">
-              <div class="Skeleton Skeleton--text">&nbsp;</div>
+              <time-ago datetime="2020-12-22T08:47:21Z" class="no-wrap">Dec 22, 2020</time-ago>
           </div>
 
         </div>
@@ -984,11 +1026,13 @@
           </div>
 
           <div role="gridcell" class="flex-auto min-width-0 d-none d-md-block col-5 mr-3" >
-              <div class="Skeleton Skeleton--text col-7">&nbsp;</div>
+              <span class="css-truncate css-truncate-target d-block width-fit">
+                    <a data-pjax="true" title="Initial Commit" class="link-gray" href="/EmilyMarkowitz-NOAA/FishR101-Functions/commit/7d0243f8cac427ab47a474f3923ec2b2b2a9987f">Initial Commit</a>
+              </span>
           </div>
 
           <div role="gridcell" class="text-gray-light text-right" style="width:100px;">
-              <div class="Skeleton Skeleton--text">&nbsp;</div>
+              <time-ago datetime="2020-12-22T08:46:19Z" class="no-wrap">Dec 22, 2020</time-ago>
           </div>
 
         </div>
@@ -1003,11 +1047,13 @@
           </div>
 
           <div role="gridcell" class="flex-auto min-width-0 d-none d-md-block col-5 mr-3" >
-              <div class="Skeleton Skeleton--text col-7">&nbsp;</div>
+              <span class="css-truncate css-truncate-target d-block width-fit">
+                    <a data-pjax="true" title="Initial Commit" class="link-gray" href="/EmilyMarkowitz-NOAA/FishR101-Functions/commit/7d0243f8cac427ab47a474f3923ec2b2b2a9987f">Initial Commit</a>
+              </span>
           </div>
 
           <div role="gridcell" class="text-gray-light text-right" style="width:100px;">
-              <div class="Skeleton Skeleton--text">&nbsp;</div>
+              <time-ago datetime="2020-12-22T08:46:19Z" class="no-wrap">Dec 22, 2020</time-ago>
           </div>
 
         </div>
@@ -1022,11 +1068,13 @@
           </div>
 
           <div role="gridcell" class="flex-auto min-width-0 d-none d-md-block col-5 mr-3" >
-              <div class="Skeleton Skeleton--text col-7">&nbsp;</div>
+              <span class="css-truncate css-truncate-target d-block width-fit">
+                    <a data-pjax="true" title="Initial Commit" class="link-gray" href="/EmilyMarkowitz-NOAA/FishR101-Functions/commit/7d0243f8cac427ab47a474f3923ec2b2b2a9987f">Initial Commit</a>
+              </span>
           </div>
 
           <div role="gridcell" class="text-gray-light text-right" style="width:100px;">
-              <div class="Skeleton Skeleton--text">&nbsp;</div>
+              <time-ago datetime="2020-12-22T08:46:19Z" class="no-wrap">Dec 22, 2020</time-ago>
           </div>
 
         </div>
@@ -1038,7 +1086,7 @@
     </div>
   </div>
 
-</include-fragment>
+
 
 
 </div>
