@@ -4,7 +4,7 @@ This acts as the landings site for the January 2021 R Workshop for Resource Asse
 
 Course held virtally January-Feburary 2021!
 
-For more information, check out the course's website at https://EmilyMarkowitz-NOAA.github.io/RWorkshopForRACEGAP/index.html
+For more information, check out the course's website at https://EmilyMarkowitz-NOAA.github.io/FishR101/index.html
 
 ## The course is co-hosted by:
 

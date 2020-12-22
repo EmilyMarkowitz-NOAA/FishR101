@@ -30,7 +30,7 @@ library(here)
 ```{r}
 
 #Agenda <- data.frame(read_csv("./R Workshop Detailed Schedule.csv", col_names = FALSE))
-Agenda <- data.frame(read_csv("./R Workshop Detailed Schedule.csv", col_names = FALSE))
+Agenda <- data.frame(read_csv(here("R Workshop Detailed Schedule.csv"), col_names = FALSE))
 # Agenda <- data.frame(read_csv(here("R Workshop Detailed Schedule.csv"), col_names = FALSE))
 names(Agenda)<-Agenda[2,]
 Agenda<-Agenda[-c(1:2),]
@@ -64,7 +64,7 @@ for (i in 1:length(aa)){
       # dd<- aa[i][[1]][ii]
       if (grepl(pattern = "https://", x = aa[i][[1]][ii], ignore.case = T)) {
         bb<-strsplit(x = aa[i][[1]][ii], split = ": ")
-      if (grepl(pattern = ".html", x = aa[i][[1]][ii], ignore.case = T)) {
+      if (grepl(pattern = "github.com", x = aa[i][[1]][ii], ignore.case = T)) {
         htmlname<-strsplit(split = "/", x = bb[[1]][2])[[1]]
         download.file(url = bb[[1]][2], 
                       destfile = paste0(getwd(), "/les_", htmlname[length(htmlname)]))
