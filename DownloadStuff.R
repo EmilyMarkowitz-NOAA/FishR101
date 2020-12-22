@@ -20,7 +20,7 @@ library(webshot)
 members<-data.frame("Name" = c("Caitlin Allen Akselrud", "Emily Markowitz"), 
                     "First Name" = c("Caitlin", "Emily"),
                     "Last Name" = c("Allen Akselrud", "Markowitz"),
-                    "github" = c("ciallen", "emilyhmarkowitz"), 
+                    "github" = c("CaitlinAkselrud-NOAA", "EmilyMarkowitz-NOAA"), 
                     "lat" = c(47.640816, 47.640816), 
                     "lon" = c(-122.669898, -122.669898), 
                     "Institution" = c("Eastern Bering Sea Group", 
