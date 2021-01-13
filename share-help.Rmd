@@ -1,5 +1,5 @@
 ---
-title: "Share & Help"
+title: "Share Insight & Help Others"
 output:
   html_document:
     includes:
@@ -52,6 +52,3 @@ library("googledrive")
 </div>
 
 <br>
-
-
-words
