@@ -1,0 +1,34 @@
+---
+title: "How is it going?"
+output:
+  html_document:
+    includes:
+      in_header: header.html
+editor_options: 
+  chunk_output_type: console
+---
+
+<div class = "row">
+<div class = "col-md-6">
+
+![Let's say, it's a journey.](images/IRProgrammer.png)
+
+</div>
+<div class = "col-md-6">
+
+## Don't just sit there, say something!
+
+Please feel free to respond here as many times as you would like or contact us directly with your questions or concerns. 
+
+All responses are anonymous unless you leave your email at the bottom of the form for us. 
+
+We want to know how we can make the course better and how we can better serve you. Thanks so much for your insight and candor! 
+
+
+</div>
+</div>
+
+
+# Tell us how it is going! (Please)
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSer4I8QeleDCvHofBd_QJfnfchpby69oe_h6EE5-FA5T-Gbyg/viewform?embedded=true" width="640" height="1433" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>

@@ -1,0 +1,167 @@
+---
+title: "Course Resources"
+output:
+  html_document:
+    includes:
+      in_header: header.html
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning=FALSE, error = FALSE, message = FALSE)
+
+library(dplyr)
+# devtools::install_github("privefl/googlesheets")
+library(googlesheets)
+# install.packages(c("leaflet", "DT"))
+library(leaflet)
+library(DT)
+
+```
+
+
+<div class = "row">
+<div class = "col-md-6">
+
+```{r, include=FALSE, fig.width=25}
+members<-data.frame("Name" = c("Caitlin Allen Akselrud", "Emily Markowitz"), 
+                    "First Name" = c("Caitlin", "Emily"),
+                    "Last Name" = c("Allen Akselrud", "Markowitz"),
+                    "github" = c("CaitlinAkselrud-NOAA", "EmilyMarkowitz-NOAA"), 
+                    "lat" = c(47.6863055, 47.6863055), 
+                    "lon" = c(-122.257055, -122.257055), 
+                    "Institution" = c("Eastern Bering Sea Group", 
+                                      "Eastern Bering Sea Group"))
+members$imagelink<-members$githublink<-NA                 
+members$Status<-"Presenter"
+for (i in 1:nrow(members)) {
+  # if (!(members$github[i] %in% "")) {
+    members$githublink[i]<-paste0("https://github.com/", members$github[i])
+    members$imagelink[i]<-paste0("./images/", gsub(pattern = " ", replacement = "", 
+                                                        x = members$Name[i]), ".png")
+}
+members$GitHub<-members$githublink
+
+members$Website<-members$githublink
+membersgit<-members[!(members$github %in% ""),]
+membersnogit<-members[(members$github %in% ""),]
+library(glue)
+membersgit<-as_tibble(membersgit)
+
+print0<-glue_data(.x = membersgit, .sep = "", 
+'
+![{githublink}]({imagelink})')
+
+# `r print0 `
+
+
+```
+
+```{r}
+library(leafpop)
+library(maps)
+
+mapStates = map("state", fill = TRUE, plot = FALSE)
+leaflet(width = "100%") %>%
+  addTiles() %>%
+    addMarkers(lng=members$lon, lat=members$lat, group = "points",
+             popup=paste("<b> NOAA Fisheries, Alaska Fisheries Science Center </b> 
+                         <br/> Resource Assessment and Conservation Engineering Division <br/> "))
+```
+
+
+
+</div>
+
+<div class = "col-md-6">
+
+## Instructor contacts:
+
+
+*The course instructors will hold office hours during the remaining time of every class (~1.5 hours), and are also available via email.*
+
+#### **Caitlin Allen Akselrud**
+
+caitlin.allen_akselrud@noaa.gov 
+
+Research Fisheries Biologist
+
+GitHub: @CaitlinAkselrud-NOAA
+
+#### **Emily Markowitz**
+
+emily.markowitz@noaa.gov 
+
+Research Fisheries Biologist
+
+GitHub: @EmilyMarkowitz-NOAA
+
+</div>
+
+</div>
+
+
+## Course info
+
+This course is being taught January-Feburary 2021 virtually over WebEx. For WebEx information, please contact the course instructors. Lessons will be recorded and shared as soon as they become available via links from google drive. 
+
+## Course content
+
+A [github website](https://emilymarkowitz-noaa.github.io/FishR101/) and repositories will be set up for each lesson. More details will be shared soon and during our first lesson. 
+
+*Fun fact you might have already guessed: this whole website was built using R! (Check out the code we used to create it [here](https://github.com/emilymarkowitz-NOAA/FishR101)).*
+
+
+## Course structure:
+
+ - 3.5 hours (including breaks), 2x/wk, 5 weeks
+ - Review HW from previous lesson ~10 mins
+ - Introduce new materials ~40 min
+ - Interactive learning ~40 min
+ - Homework assignment (about ½ hour of work) ~30 mins (assigned for next meeting)
+ - Open time for help from instructors (on hw or otherwise) ~ 1.5 hrs
+
+
+## Assignments
+
+Assignments are for the student's benefit and no grades will be collected. Assignments are intended to give students the opportunity to practice and explore the material and reinforce lesson material. Ideally, homeworks should take 30 minutes or less to complete. Time will be available after each lesson to assist with questions. 
+
+
+## Course pep-talk
+
+We want you to be able to really *learn* in this course! We want this to be a safe space to ask questions, help one another, and have no one feel like they are being left behind. If you feel like it is moving too fast, come to office hours or please let us know. We are (and the other students) are some of your many resources. R is not intuitive or easy to learn, but once you get over the hump, opprotunities are boundless. Please, *do not* hesitate to reach out!
+
+<div class = "row">
+<div class = "col-md-6">
+
+### Booo! No, no, no not this!
+
+![Woah-cakes, what?](images/draw-an-owl.jpg){width=75%}
+
+
+</div>
+
+<div class = "col-md-6">
+
+### Yes, please!
+
+![Why we are really here, amiright?](images/ComeForReproStayForScience.jpg){width=75%}
+
+
+</div>
+
+</div>
+
+
+## Inclusion, access, and accommodations:
+
+We strive to create a learning environment that supports a diversity of thoughts, perspectives, and experiences. If something was said in class (by anyone) that made you feel uncomfortable, please talk to us about it or reach out to the AFSC Team for Inclusion, Diversity, and Equity (TIDE) directly (email contact: AFSC.TIDE@noaa.gov) or anonymously. Additional resources are also available on the TIDE intranet site: https://sites.google.com/a/noaa.gov/afsc-home/home/diversity-inclusion. 
+There is also a copy of the AFSC Code of Conduct in the Resources folder of our shared Google Drive.
+
+All attendees deserve access to the full range of learning experiences, and we are committed to creating inclusive and accessible learning environments consistent with federal laws. Please communicate your accommodation requirements to us at your earliest convenience so we can discuss your needs for this course.
+
+
+
+
+

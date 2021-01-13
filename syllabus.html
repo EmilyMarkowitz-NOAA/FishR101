@@ -1,0 +1,1447 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Course Syllabus and Materials</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>R Workshop for Social Scientists</title>
+
+<link rel="shortcut icon" href="https://www.noaa.gov/sites/all/themes/custom/noaa/favicon.ico" />
+<link rel="manifest" href="./icons/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="./icons/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+<!-- <link rel="stylesheet" href="./css/bootstrap_insta.min.css">
+    <link rel="stylesheet" href="./css/magnific_insta.css"> -->
+    <link rel="stylesheet" href="./css/style_insta.css">
+    <link href="./css/styles.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="./libs/font-awesome/css/font-awesome.min.css">
+
+</head>
+
+
+</html>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 51px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h2 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h3 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h4 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h5 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h6 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html"><p><img id="logo" style="width: 20px;" src="Noaa_logo.png" /> FishR101: AFSC RACE Groundfish Assesment Group Intro To R Course </p></a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    <span class="fas fa-list-ul"></span>
+     
+    Explore
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="courseinfo.html">
+        <span class="fas fa-briefcase"></span>
+         
+        Course Resources
+      </a>
+    </li>
+    <li>
+      <a href="pre-meet.html">
+        <span class="fas fa-hand-pointer"></span>
+         
+        Pre-Meet Materials
+      </a>
+    </li>
+    <li>
+      <a href="syllabus.html">
+        <span class="fas fa-calendar"></span>
+         
+        Syllabus
+      </a>
+    </li>
+    <li>
+      <a href="share-help.html">
+        <span class="fas fa-comment-alt"></span>
+         
+        Share Insights
+      </a>
+    </li>
+    <li>
+      <a href="feedback.html">
+        <span class="fas fa-file-invoice"></span>
+         
+        How is it going?
+      </a>
+    </li>
+    <li>
+      <a href="FishR101-BestScripting.nb.html"></a>
+    </li>
+    <li>
+      <a href="FishR101-BaseRvTidy.nb.html"></a>
+    </li>
+    <li>
+      <a href="FishR101-TidyPt1.nb.html"></a>
+    </li>
+    <li>
+      <a href="FishR101-BestScripting.nb.html"></a>
+    </li>
+    <li>
+      <a href="FishR101-Functions.nb.html"></a>
+    </li>
+    <li>
+      <a href="FishR101-BestScripting.nb.html"></a>
+    </li>
+    <li>
+      <a href="FishR101-BestScripting.nb.html"></a>
+    </li>
+    <li>
+      <a href="FishR101-Models.nb.html"></a>
+    </li>
+  </ul>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="mailto:emily.markowitz@noaa.gov">
+    <span class="fas fa-paper-plane fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://github.com/emilymarkowitz-NOAA/FishR101">
+    <span class="fab fa-github fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://drive.google.com/drive/folders/10k8d1LAHSh2ql9nSQ3svUvRaD1gmWxY9?usp=sharing">
+    <span class="fab fa-google"></span>
+     
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">Course Syllabus and Materials</h1>
+
+</div>
+
+
+<div class="row">
+<div class="col-md-6">
+<div class="figure">
+<img src="images/CodeAllTheThings.png" alt="Y’all ready for this?" />
+<p class="caption">Y’all ready for this?</p>
+</div>
+<p><em>All times are in Pacific Time. </em></p>
+</div>
+<div class="col-md-6">
+<h1 id="ready-set-go">Ready, Set, Go!</h1>
+<p><strong>Anything out of place?</strong> Please let us know if anything is missing, broken (e.g., broken links), or if there is anything else that would be helpful to include. Feel free to submit any comments to our <a href="https://emilymarkowitz-noaa.github.io/FishR101/feedback.html">feedback page</a>.</p>
+<p><strong>This class should be a collaborative learning space.</strong> Have any helpful links or snipits of code along the way you think would be helpful to to your fellow classmates? Share your <a href="https://emilymarkowitz-noaa.github.io/FishR101/share-help.html">nifty-est tips and tricks here!</a></p>
+</div>
+</div>
+<p><em>Please click on the title to see the session description</em></p>
+<style type="text/css">
+.schedule {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.limit {
+  width: 100%;
+  padding: 5px 0 5px 0;
+}
+
+.workshops-button {
+  padding: 0.75em 1.25em;
+  background-color: #cccccc;
+  opacity: 0.9;
+  width: auto;
+  color: black;
+  text-align: center;
+  overflow: auto;
+}
+
+.workshops-button {
+  padding: 0.75em 1.25em;
+  background-color: #cccccc;
+  opacity: 0.9;
+  width: auto;
+  color: black;
+  text-align: center;
+  overflow: auto;
+}
+
+.left-date {
+  width: 20%;
+  float: left;
+  text-align: left;
+}
+
+.center-title {
+  width: 60%;
+  float: left;
+  text-align: left;
+  font-size: 120%;
+}
+
+.right-authors {
+  width: 20%;
+  float: right;
+  text-align: right;
+}
+
+.workshops {
+  margin: 1em 1em 0 0;
+}
+
+.active {
+  background-color: #333333;
+  color: whitesmoke;
+}
+
+</style>
+<script type="text/javascript">
+function main() {
+  $('.schedule').hide();
+  $('.schedule').fadeIn(2000);
+  $('.workshops').hide();
+  $('.workshops-button').on('click', function() {
+    $(this).next().slideToggle(400);
+    $(this).toggleClass('active');
+  });
+}
+ 
+$(document).ready(main);
+</script>
+<div id="tuesday-january-19-2021" class="section level2">
+<h2>Tuesday, January 19, 2021</h2>
+<div class="schedule">
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">9:00 AM-9:10 AM</div>
+<div class="center-title">
+<b>Introductions</b>
+</div>
+<div class="right-authors">Host: 
+Caitlin Allen Akselrud &amp; Emily Markowitz</div>
+</div>
+<ul class="workshops">
+<li>
+<p>Welcome!</p>
+</li>
+</ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">9:10 AM-9:50 AM</div>
+<div class="center-title">
+<b>Introduce New Materials - Basic mathematics in R
+</b>
+</div>
+<div class="right-authors">Host: Caitlin Allen Akselrud</div>
+</div>
+<ul class="workshops">
+<li>
+<p>Agenda</p>
+<p></p>
+<a href="https://raw.githubusercontent.com/EmilyMarkowitz-NOAA/FishR101-BestScripting/main/lesson/Lesson.nb.html">Lesson</a>
+<p></p>
+<a href="FishR101-BestScripting">Repository</a>
+<p>Open R Studio and check it out: </p>
+<p>1. R project</p>
+<p>2. Keyboard shortcuts (Tools &gt; Keyboard shortcuts)</p>
+<p>3. Workflow (good file structure)- example</p>
+<p>4. Basic math</p>
+<p>5. Vectors, Matrices, Arrays, Lists, and Data Frames</p>
+<p>6. Best Practices Review</p>
+<p>
+</p>
+</li>
+</ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">9:50 AM-10:00 AM</div>
+<div class="center-title">
+<b>Break</b>
+</div>
+<div class="right-authors"></div>
+</div>
+<ul class="workshops">
+<li>
+<p>Phew, That was a lot!</p>
+</li>
+</ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">10:00 AM-10:40 AM</div>
+<div class="center-title">
+<b>Interactive Learning</b>
+</div>
+<div class="right-authors">Host: Caitlin Allen Akselrud</div>
+</div>
+<ul class="workshops">
+<li>
+<p>Resources</p>
+<p></p>
+<a href="https://r4ds.had.co.nz/index.html">1. Intro to R for Data Science (Hadley Wickham)</a>
+<p></p>
+<a href="https://adv-r.hadley.nz/">2. Advanced R (Hadley Wickham)</a>
+<p></p>
+<a href="https://rstudio.com/resources/cheatsheets/">3. Cheatsheets (in general)</a>
+<p>4. Provide specific ones at each class</p>
+<p>5. Base R cheatsheet</p>
+<p>6. Intro to R course &amp; slides: http://ericdunford.com/ppol670/ </p>
+<p></p>
+<a href="https://ourcodingclub.github.io/tutorials.html ">7. Our Coding Club</a>
+<p></p>
+<a href="https://swirlstats.com/students.html">8. Swirl R Package</a>
+</li>
+</ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">10:40 AM-10:50 AM</div>
+<div class="center-title">
+<b>Break</b>
+</div>
+<div class="right-authors"></div>
+</div>
+<ul class="workshops"></ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">10:50 AM-12:00 AM</div>
+<div class="center-title">
+<b>Office Hours - Homework Assignment</b>
+</div>
+<div class="right-authors">Host: 
+Caitlin Allen Akselrud &amp; Emily Markowitz</div>
+</div>
+<ul class="workshops">
+<li>
+<p>An informal opprotunity to come by to ask any questions you have about the course, content, or with specific questions about issues you have with the homework or in your own analyses.</p>
+<p>Today's Homework
+1. Series of tasks in Excel and then in R
+</p>
+</li>
+</ul>
+</div>
+</div>
+<p><br></p>
+</div>
+<div id="thursday-january-21-2021" class="section level2">
+<h2>Thursday, January 21, 2021</h2>
+<div class="schedule">
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">9:00 AM-9:10 AM</div>
+<div class="center-title">
+<b>Review Homework</b>
+</div>
+<div class="right-authors"></div>
+</div>
+<ul class="workshops">
+<li>
+<p>Answers will be added here.</p>
+</li>
+</ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">9:10 AM-9:50 AM</div>
+<div class="center-title">
+<b>Introduce New Materials - Base R language and {Tidyverse} language</b>
+</div>
+<div class="right-authors">Host: Caitlin Allen Akselrud</div>
+</div>
+<ul class="workshops">
+<li>
+<p>Agenda</p>
+<p></p>
+<a href="https://raw.githubusercontent.com/EmilyMarkowitz-NOAA/FishR101-BaseRvTidy/main/lesson/Lesson.nb.html">Lesson</a>
+<p></p>
+<a href="FishR101-BaseRvTidy">Repro</a>
+<p>1. The importance of checking as you go.  ; </p>
+<p>2. Loading libraries (e.g. tidyverse: install.packages() and library())</p>
+<p>3. Best practices - ‘renv’ package to track package versions in projects</p>
+<p>*Note that after this lessson we will be using Tidy.</p>
+</li>
+</ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">9:50 AM-10:00 AM</div>
+<div class="center-title">
+<b>Break</b>
+</div>
+<div class="right-authors"></div>
+</div>
+<ul class="workshops">
+<li>
+<p>Take a breather!</p>
+<p></p>
+<a href="https://i.redd.it/8wxhbk1z63q01.jpg&#10;">le meme!</a>
+</li>
+</ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">10:00 AM-10:40 AM</div>
+<div class="center-title">
+<b>Interactive Learning</b>
+</div>
+<div class="right-authors">Host: Caitlin Allen Akselrud</div>
+</div>
+<ul class="workshops">
+<li>
+<p>Resources</p>
+<p>1. 
+</p>
+</li>
+</ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">10:40 AM-10:50 AM</div>
+<div class="center-title">
+<b>Break</b>
+</div>
+<div class="right-authors"></div>
+</div>
+<ul class="workshops"></ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">10:50 AM-12:00 AM</div>
+<div class="center-title">
+<b>Office Hours - Homework Assignment</b>
+</div>
+<div class="right-authors">Host: Caitlin Allen Akselrud &amp; Emily Markowitz</div>
+</div>
+<ul class="workshops">
+<li>
+<p>An informal opprotunity to come by to ask any questions you have about the course, content, or with specific questions about issues you have with the homework or in your own analyses.</p>
+</li>
+</ul>
+</div>
+</div>
+<p><br></p>
+</div>
+<div id="tuesday-february-2-2021" class="section level2">
+<h2>Tuesday, February 2, 2021</h2>
+<div class="schedule">
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">9:00 AM-9:10 AM</div>
+<div class="center-title">
+<b>Review Homework</b>
+</div>
+<div class="right-authors">Host: Emily Markowitz</div>
+</div>
+<ul class="workshops">
+<li>
+<p>Answers will be added here.</p>
+</li>
+</ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">9:10 AM-9:50 AM</div>
+<div class="center-title">
+<b>Introduce New Materials - Dive into Tidy: data wrangling and manipulation Part I</b>
+</div>
+<div class="right-authors">Host: Caitlin Allen Akselrud</div>
+</div>
+<ul class="workshops">
+<li>
+<p>Agenda</p>
+<p></p>
+<a href="https://raw.githubusercontent.com/EmilyMarkowitz-NOAA/FishR101-TidyPt1/main/lesson/Lesson.nb.html">Lesson</a>
+<p></p>
+<a href="FishR101-TidyPt1">Repro</a>
+<p>1. Workflow</p>
+<p>2. snake_case</p>
+<p>3. Reading in data, read-in problems and solutions </p>
+<p>4. Writing data (e.g., to .csv) </p>
+<p>5. Best Practices</p>
+</li>
+</ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">9:50 AM-10:00 AM</div>
+<div class="center-title">
+<b>Break</b>
+</div>
+<div class="right-authors"></div>
+</div>
+<ul class="workshops">
+<li>
+<p></p>
+<a href="https://www.kai-arzheimer.com/16022604/wp-content/webp-express/webp-images/doc-root/16022604/wp-content/uploads/2019/03/adobe_post_20190330_180506-011386275827.jpeg.webp">le meme!</a>
+</li>
+</ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">10:00 AM-10:40 AM</div>
+<div class="center-title">
+<b>Interactive Learning</b>
+</div>
+<div class="right-authors">Host: Caitlin Allen Akselrud</div>
+</div>
+<ul class="workshops">
+<li>
+<p>Resources</p>
+<p></p>
+<a href="https://evoldyn.gitlab.io/evomics-2018/ref-sheets/R_data-import.pdf&#10;">1. Import Data Cheatsheet</a>
+</li>
+</ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">10:40 AM-10:50 AM</div>
+<div class="center-title">
+<b>Break</b>
+</div>
+<div class="right-authors"></div>
+</div>
+<ul class="workshops"></ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">10:50 AM-12:00 AM</div>
+<div class="center-title">
+<b>Office Hours - Homework Assignment</b>
+</div>
+<div class="right-authors">Host: Caitlin Allen Akselrud &amp; Emily Markowitz</div>
+</div>
+<ul class="workshops">
+<li>
+<p>An informal opprotunity to come by to ask any questions you have about the course, content, or with specific questions about issues you have with the homework or in your own analyses.</p>
+</li>
+</ul>
+</div>
+</div>
+<p><br></p>
+</div>
+<div id="thursday-february-4-2021" class="section level2">
+<h2>Thursday, February 4, 2021</h2>
+<div class="schedule">
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">9:00 AM-9:10 AM</div>
+<div class="center-title">
+<b>Review Homework</b>
+</div>
+<div class="right-authors">Host: Emily Markowitz</div>
+</div>
+<ul class="workshops">
+<li>
+<p>Answers will be added here.</p>
+</li>
+</ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">9:10 AM-9:50 AM</div>
+<div class="center-title">
+<b>Introduce New Materials - Dive into Tidy: data wrangling and manipulation Part II</b>
+</div>
+<div class="right-authors"></div>
+</div>
+<ul class="workshops">
+<li>
+<p>Agenda</p>
+<p></p>
+<a href="https://raw.githubusercontent.com/EmilyMarkowitz-NOAA/FishR101-BestScripting/main/lesson/Lesson.nb.html">Lesson</a>
+<p></p>
+<a href="FishR101-BestScripting">Repro</a>
+<p>1. </p>
+<p>2. Best Practices</p>
+</li>
+</ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">9:50 AM-10:00 AM</div>
+<div class="center-title">
+<b>Break</b>
+</div>
+<div class="right-authors">Host: Caitlin Allen Akselrud</div>
+</div>
+<ul class="workshops"></ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">10:00 AM-10:40 AM</div>
+<div class="center-title">
+<b>Interactive Learning</b>
+</div>
+<div class="right-authors"></div>
+</div>
+<ul class="workshops">
+<li>
+<p>Resources:</p>
+<p></p>
+<a href="https://rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf">1. Data Wrangling Cheat Sheet</a>
+</li>
+</ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">10:40 AM-10:50 AM</div>
+<div class="center-title">
+<b>Break</b>
+</div>
+<div class="right-authors">Host: Caitlin Allen Akselrud</div>
+</div>
+<ul class="workshops"></ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">10:50 AM-12:00 AM</div>
+<div class="center-title">
+<b>Office Hours - Homework Assignment</b>
+</div>
+<div class="right-authors">Host: Caitlin Allen Akselrud &amp; Emily Markowitz</div>
+</div>
+<ul class="workshops">
+<li>
+<p>An informal opprotunity to come by to ask any questions you have about the course, content, or with specific questions about issues you have with the homework or in your own analyses.</p>
+</li>
+</ul>
+</div>
+</div>
+<p><br></p>
+</div>
+<div id="tuesday-february-9-2021" class="section level2">
+<h2>Tuesday, February 9, 2021</h2>
+<div class="schedule">
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">9:00 AM-9:10 AM</div>
+<div class="center-title">
+<b>Review Homework</b>
+</div>
+<div class="right-authors">Host: Caitlin Allen Akselrud</div>
+</div>
+<ul class="workshops">
+<li>
+<p>Answers will be added here.</p>
+</li>
+</ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">9:10 AM-9:50 AM</div>
+<div class="center-title">
+<b>Introduce New Materials - Let's Modularize! All Things Functions</b>
+</div>
+<div class="right-authors">Host: Emily Markowitz</div>
+</div>
+<ul class="workshops">
+<li>
+<p>Agenda</p>
+<p></p>
+<a href="https://raw.githubusercontent.com/EmilyMarkowitz-NOAA/FishR101-Functions/main/lesson/Lesson.nb.html">Lesson</a>
+<p></p>
+<a href="FishR101-Functions">Repro</a>
+<p>1. Writing</p>
+<p>2. Checking</p>
+<p>3. Calling</p>
+<p>4. Best practices</p>
+<p>5. Best Practices - Modular coding style</p>
+<p>6. {roxygen2}</p>
+</li>
+</ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">9:50 AM-10:00 AM</div>
+<div class="center-title">
+<b>Break</b>
+</div>
+<div class="right-authors"></div>
+</div>
+<ul class="workshops"></ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">10:00 AM-10:40 AM</div>
+<div class="center-title">
+<b>Interactive Learning</b>
+</div>
+<div class="right-authors">Host: Emily Markowitz</div>
+</div>
+<ul class="workshops">
+<li>
+<p>Resources</p>
+<p>1.</p>
+</li>
+</ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">10:40 AM-10:50 AM</div>
+<div class="center-title">
+<b>Break</b>
+</div>
+<div class="right-authors"></div>
+</div>
+<ul class="workshops"></ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">10:50 AM-12:00 AM</div>
+<div class="center-title">
+<b>Office Hours</b>
+</div>
+<div class="right-authors">Host: Caitlin Allen Akselrud &amp; Emily Markowitz</div>
+</div>
+<ul class="workshops">
+<li>
+<p>An informal opprotunity to come by to ask any questions you have about the course, content, or with specific questions about issues you have with the homework or in your own analyses.
+ 
+Take these famous equations and make them into functions!</p>
+</li>
+</ul>
+</div>
+</div>
+<p><br></p>
+</div>
+<div id="thursday-february-11-2021" class="section level2">
+<h2>Thursday, February 11, 2021</h2>
+<div class="schedule">
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">9:00 AM-9:10 AM</div>
+<div class="center-title">
+<b>Review Homework</b>
+</div>
+<div class="right-authors">Host: Caitlin Allen Akselrud</div>
+</div>
+<ul class="workshops">
+<li>
+<p>Answers will be added here.</p>
+</li>
+</ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">9:10 AM-9:50 AM</div>
+<div class="center-title">
+<b>Introduce New Materials - Best Scripting Practices</b>
+</div>
+<div class="right-authors">Host: Caitlin Allen Akselrud &amp; Emily Markowitz</div>
+</div>
+<ul class="workshops">
+<li>
+<p>Agenda</p>
+<p></p>
+<a href="https://raw.githubusercontent.com/EmilyMarkowitz-NOAA/FishR101-BestScripting/main/lesson/Lesson.nb.html">Lesson</a>
+<p></p>
+<a href="FishR101-BestScripting">Repro</a>
+<p>Learn about how to write and prepare a script by </p>
+<p>1. Conforming to a predictable script structure</p>
+<p>2. Annotation</p>
+<p>3. Never repeating code</p>
+<p>4. Naming files with predictable and helpful names</p>
+<p>5. Predictable folder structure</p>
+<p>6. Scripts with specific tasks</p>
+<p>7. Saving scripts in an “R Project</p>
+<p></p>
+</li>
+</ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">9:50 AM-10:00 AM</div>
+<div class="center-title">
+<b>Break</b>
+</div>
+<div class="right-authors"></div>
+</div>
+<ul class="workshops"></ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">10:00 AM-10:40 AM</div>
+<div class="center-title">
+<b>Interactive Learning</b>
+</div>
+<div class="right-authors">Host: Emily Markowitz</div>
+</div>
+<ul class="workshops">
+<li>
+<p>An informal opprotunity to come by to ask any questions you have about the course, content, or with specific questions about issues you have with the homework or in your own analyses. </p>
+<p>Homework</p>
+<p></p>
+<a href="https://drive.google.com/file/d/1oSHAP_IsZRJizPqmXGJxG6QewHCp8qSZ/view?usp=sharing">1. Watch Julia Stewart Lowdes' Talk @ Groundfish Seminar</a>
+</li>
+</ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">10:40 AM-10:50 AM</div>
+<div class="center-title">
+<b>Break</b>
+</div>
+<div class="right-authors"></div>
+</div>
+<ul class="workshops"></ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">10:50 AM-12:00 AM</div>
+<div class="center-title">
+<b>Office Hours</b>
+</div>
+<div class="right-authors">Host: Caitlin Allen Akselrud &amp; Emily Markowitz</div>
+</div>
+<ul class="workshops">
+<li>
+<p>An informal opprotunity to come by to ask any questions you have about the course, content, or with specific questions about issues you have with the homework or in your own analyses.</p>
+</li>
+</ul>
+</div>
+</div>
+<p><br></p>
+</div>
+<div id="tuesday-february-16-2021" class="section level2">
+<h2>Tuesday, February 16, 2021</h2>
+<div class="schedule">
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">9:00 AM-9:10 AM</div>
+<div class="center-title">
+<b>Review Homework</b>
+</div>
+<div class="right-authors">Host: Emily Markowitz</div>
+</div>
+<ul class="workshops">
+<li>
+<p>Answers will be added here.</p>
+</li>
+</ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">9:10 AM-9:50 AM</div>
+<div class="center-title">
+<b>Introduce New Materials - Making things pretty: Figures and Tables</b>
+</div>
+<div class="right-authors">Host: Caitlin Allen Akselrud</div>
+</div>
+<ul class="workshops">
+<li>
+<p>Agenda</p>
+<p></p>
+<a href="https://raw.githubusercontent.com/EmilyMarkowitz-NOAA/FishR101-BestScripting/main/lesson/Lesson.nb.html">Lesson</a>
+<p></p>
+<a href="FishR101-BestScripting">Repro</a>
+<p>1. ggplot</p>
+<p></p>
+<a href="https://rfortherestofus.com/2019/11/how-to-make-beautiful-tables-in-r/">2. tables</a>
+<p>3. formattable</p>
+<p>4. gt() ?</p>
+</li>
+</ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">9:50 AM-10:00 AM</div>
+<div class="center-title">
+<b>Break</b>
+</div>
+<div class="right-authors"></div>
+</div>
+<ul class="workshops"></ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">10:00 AM-10:40 AM</div>
+<div class="center-title">
+<b>Interactive Learning</b>
+</div>
+<div class="right-authors">Host: Caitlin Allen Akselrud &amp; Emily Markowitz</div>
+</div>
+<ul class="workshops">
+<li>
+<p>Resources</p>
+<p>1. 
+</p>
+</li>
+</ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">10:40 AM-10:50 AM</div>
+<div class="center-title">
+<b>Break</b>
+</div>
+<div class="right-authors"></div>
+</div>
+<ul class="workshops"></ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">10:50 AM-12:00 AM</div>
+<div class="center-title">
+<b>Office Hours</b>
+</div>
+<div class="right-authors">Host: Caitlin Allen Akselrud</div>
+</div>
+<ul class="workshops">
+<li>
+<p>An informal opprotunity to come by to ask any questions you have about the course, content, or with specific questions about issues you have with the homework or in your own analyses.</p>
+</li>
+</ul>
+</div>
+</div>
+<p><br></p>
+</div>
+<div id="thursday-february-18-2021" class="section level2">
+<h2>Thursday, February 18, 2021</h2>
+<div class="schedule">
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">9:00 AM-9:10 AM</div>
+<div class="center-title">
+<b>Review Homework</b>
+</div>
+<div class="right-authors">Host: Caitlin Allen Akselrud</div>
+</div>
+<ul class="workshops">
+<li>
+<p>Answers will be added here.</p>
+</li>
+</ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">9:10 AM-9:50 AM</div>
+<div class="center-title">
+<b>Introduce New Materials - Built-in Models in R</b>
+</div>
+<div class="right-authors">Host: Emily Markowitz</div>
+</div>
+<ul class="workshops">
+<li>
+<p>Agenda</p>
+<p></p>
+<a href="https://raw.githubusercontent.com/EmilyMarkowitz-NOAA/FishR101-Models/main/lesson/Lesson.nb.html">Lesson</a>
+<p></p>
+<a href="FishR101-Models">Repro</a>
+<p>1. lm(), glm(), gam()</p>
+<p>2. Other models (?)</p>
+<p>3. Broom package</p>
+</li>
+</ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">9:50 AM-10:00 AM</div>
+<div class="center-title">
+<b>Break</b>
+</div>
+<div class="right-authors"></div>
+</div>
+<ul class="workshops"></ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">10:00 AM-10:40 AM</div>
+<div class="center-title">
+<b>Interactive Learning</b>
+</div>
+<div class="right-authors">Host: Emily Markowitz</div>
+</div>
+<ul class="workshops">
+<li>
+<p>Resources</p>
+<p>1. </p>
+<p>2.</p>
+</li>
+</ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">10:40 AM-10:50 AM</div>
+<div class="center-title">
+<b>Break</b>
+</div>
+<div class="right-authors"></div>
+</div>
+<ul class="workshops"></ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">10:50 AM-12:00 AM</div>
+<div class="center-title">
+<b>Office Hours</b>
+</div>
+<div class="right-authors">Host: Caitlin Allen Akselrud &amp; Emily Markowitz</div>
+</div>
+<ul class="workshops">
+<li>
+<p>An informal opprotunity to come by to ask any questions you have about the course, content, or with specific questions about issues you have with the homework or in your own analyses.</p>
+</li>
+</ul>
+</div>
+</div>
+<p><br></p>
+</div>
+<div id="tuesday-february-23-2021" class="section level2">
+<h2>Tuesday, February 23, 2021</h2>
+<div class="schedule">
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">9:00 AM-9:10 AM</div>
+<div class="center-title">
+<b>Review Homework</b>
+</div>
+<div class="right-authors">Host: Emily Markowitz</div>
+</div>
+<ul class="workshops">
+<li>
+<p>Answers will be added here.</p>
+</li>
+</ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">9:10 AM-9:20 AM</div>
+<div class="center-title">
+<b>Introduction - Lightning Talks</b>
+</div>
+<div class="right-authors">Host: Caitlin Allen Akselrud &amp; Emily Markowitz</div>
+</div>
+<ul class="workshops"></ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">9:20 AM-9:30 AM</div>
+<div class="center-title">
+<b>Introduce New Materials - SCRUGs</b>
+</div>
+<div class="right-authors">Presenter: Caitlin Allen Akselrud </div>
+</div>
+<ul class="workshops"></ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">9:30 AM-9:50 AM</div>
+<div class="center-title">
+<b>Introduce New Materials - ROracle</b>
+</div>
+<div class="right-authors">Presenter: Rebecca Haehn </div>
+</div>
+<ul class="workshops"></ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">9:50 AM-10:10 AM</div>
+<div class="center-title">
+<b>Introduce New Materials - sumfish</b>
+</div>
+<div class="right-authors">Presenter: Jason Conner </div>
+</div>
+<ul class="workshops"></ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">10:10 AM-10:30 AM</div>
+<div class="center-title">
+<b>Introduce New Materials - akgfmaps</b>
+</div>
+<div class="right-authors">Presenter: Sean Rohan </div>
+</div>
+<ul class="workshops"></ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">10:40 AM-11:00 AM</div>
+<div class="center-title">
+<b>Introduce New Materials - General packages and shiny</b>
+</div>
+<div class="right-authors">Presenter: Megsie Siple </div>
+</div>
+<ul class="workshops"></ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">9:50 AM-10:00 AM</div>
+<div class="center-title">
+<b>Introduce New Materials - VAST</b>
+</div>
+<div class="right-authors">Presenter: Cecilia O'Leary </div>
+</div>
+<ul class="workshops"></ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">10:00 AM-10:40 AM</div>
+<div class="center-title">
+<b>Break - R Markdown</b>
+</div>
+<div class="right-authors">Presenter: Emily Markowitz </div>
+</div>
+<ul class="workshops"></ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">10:50 AM-12:00 AM</div>
+<div class="center-title">
+<b>Office Hours</b>
+</div>
+<div class="right-authors">Host: Caitlin Allen Akselrud &amp; Emily Markowitz</div>
+</div>
+<ul class="workshops">
+<li>
+<p>An informal opprotunity to come by to ask any questions you have about the course, content, or with specific questions about issues you have with the homework or in your own analyses.</p>
+</li>
+</ul>
+</div>
+</div>
+<p><br></p>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

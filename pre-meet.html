@@ -11,7 +11,7 @@
 
 
 
-<title>FishR 101: R Workshop for AFSC RACE Groundfish Assesment Group Jan-Feb 2021</title>
+<title>Pre-Meet Materials</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -48,7 +48,6 @@
 
 </head>
 
-<div><img src="cover_with_logo.JPG" alt = "The contract survey vessel QUICKSILVER underway. Alaska, Kenai Fiords. 2000 (https://www.flickr.com/photos/noaaphotolib/5125467697/in/album-72157625403065572/).", width="100%" align="center" ></div>
 
 </html>
 
@@ -409,15 +408,322 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">FishR 101: R Workshop for AFSC RACE Groundfish Assesment Group Jan-Feb 2021</h1>
+<h1 class="title toc-ignore">Pre-Meet Materials</h1>
 
 </div>
 
 
-<div id="this-is-the-website-for-all-of-the-materials-youll-need-for-the-workshop." class="section level2">
-<h2><strong>This is the website for all of the materials you’ll need for the workshop.</strong></h2>
-<div id="enjoy" class="section level3">
-<h3>Enjoy!</h3>
+<div class = "row">
+<div class="col-md-6">
+<div class="figure">
+<img src="images/RLordAndSaviour.jpg" alt="R Lord and Saviour" />
+<p class="caption"><em>R</em> Lord and Saviour</p>
+</div>
+</div>
+<div class="col-md-6">
+<h1 id="dont-forget-to-install-r">Don’t forget to Install R!</h1>
+<p>Submit an <a href="https://sites.google.com/a/noaa.gov/afsc-home/it-services/service-desk">IT request</a> to have the latest version of these softwares installed:</p>
+<h4 id="r"><a href="https://cran.r-project.org/bin/windows/base/">R</a></h4>
+<p>The base graphical user interface (GUI) program, which is needed to run RStudio.</p>
+<h4 id="rstudio"><a href="https://rstudio.com/products/rstudio/download/">RStudio</a></h4>
+<p>an integrated development environment (IDE) is a set of tools designed to help you be more productive with R. (There are some weathered souls out there who endeavor to use the R GUI, but we assure you that the RStudio interface is much nicer to work in!)</p>
+<h4 id="rtools"><a href="https://cran.r-project.org/bin/windows/Rtools/">RTools</a></h4>
+<p>Base tools needed for some functions and packages to work in R.</p>
+</div>
+<div id="video-tutorials" class="section level1">
+<h1>Video Tutorials</h1>
+<p>These videos were created for the R Workshop for NMFS Social Scientists Workshop from September 2020</p>
+<p><em>Please click on the title to see the session description</em></p>
+<style type="text/css">
+.schedule {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.limit {
+  width: 100%;
+  padding: 5px 0 5px 0;
+}
+
+.workshops-button {
+  padding: 0.75em 1.25em;
+  background-color: #cccccc;
+  opacity: 0.9;
+  width: auto;
+  color: black;
+  text-align: center;
+  overflow: auto;
+}
+
+.workshops-button {
+  padding: 0.75em 1.25em;
+  background-color: #cccccc;
+  opacity: 0.9;
+  width: auto;
+  color: black;
+  text-align: center;
+  overflow: auto;
+}
+
+.left-date {
+  width: 20%;
+  float: left;
+  text-align: left;
+}
+
+.center-title {
+  width: 60%;
+  float: left;
+  text-align: left;
+  font-size: 120%;
+}
+
+.right-authors {
+  width: 20%;
+  float: right;
+  text-align: right;
+}
+
+.workshops {
+  margin: 1em 1em 0 0;
+}
+
+.active {
+  background-color: #333333;
+  color: whitesmoke;
+}
+
+</style>
+<script type="text/javascript">
+function main() {
+  $('.schedule').hide();
+  $('.schedule').fadeIn(2000);
+  $('.workshops').hide();
+  $('.workshops-button').on('click', function() {
+    $(this).next().slideToggle(400);
+    $(this).toggleClass('active');
+  });
+}
+ 
+$(document).ready(main);
+</script>
+<div id="getting-started" class="section level3">
+<h3>Getting Started</h3>
+<div class="schedule">
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">Importance Level: Low</div>
+<div class="center-title">
+<b>R is a Language</b>
+</div>
+<div class="right-authors">Aaron Mamula</div>
+</div>
+<ul class="workshops">
+<li>
+<p>Fun-ness: Medium</p>
+<p>Suggested For: Very early beginners</p>
+<p>I talk pretty slow, if you adjust your YouTube settings to 1.5X playback speed you won't miss anything important and will save yourself several minutes</p>
+<a href="https://www.youtube.com/watch?v=Fnb71lsGut4">Video Link</a>
+<p></p>
+<a href="https://www.youtube.com/playlist?list=PLJI4SWhcIx2ibeWJoEb_CyTMy2QskBVrc">Playlist Link</a>
+</li>
+</ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">High</div>
+<div class="center-title">
+<b>Dealing with Packages and Libraries</b>
+</div>
+<div class="right-authors">Aaron Mamula</div>
+</div>
+<ul class="workshops">
+<li>
+<p>Fun-ness: Low</p>
+<p>Suggested For: Begginers</p>
+<p>There is a lot of background noise in this one. Sorry if that is distracting. I'm pretty sure my daughter's remote 1st grade class has reached the point where everyday is show off your dog/cat day</p>
+<a href="https://youtu.be/6q4s47zZMRA">Video Link</a>
+<p></p>
+<a href="https://www.youtube.com/playlist?list=PLJI4SWhcIx2ibeWJoEb_CyTMy2QskBVrc">Playlist Link</a>
+</li>
+</ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">High</div>
+<div class="center-title">
+<b>Accessing Workshop Code and Data Files</b>
+</div>
+<div class="right-authors">Aaron Mamula</div>
+</div>
+<ul class="workshops">
+<li>
+<p>Fun-ness: Low</p>
+<p>Suggested For: Everyone</p>
+<a href="https://youtu.be/BBI750M833o">Video Link</a>
+<p></p>
+<a href="https://www.youtube.com/playlist?list=PLJI4SWhcIx2ibeWJoEb_CyTMy2QskBVrc">Playlist Link</a>
+</li>
+</ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">High</div>
+<div class="center-title">
+<b>Running R Code</b>
+</div>
+<div class="right-authors">Aaron Mamula</div>
+</div>
+<ul class="workshops">
+<li>
+<p>Fun-ness: Low</p>
+<p>Suggested For: Mostly Beginners</p>
+<a href="https://youtu.be/tIgmhhCMfTI">Video Link</a>
+<p></p>
+<a href="https://www.youtube.com/playlist?list=PLJI4SWhcIx2ibeWJoEb_CyTMy2QskBVrc">Playlist Link</a>
+</li>
+</ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">Medium</div>
+<div class="center-title">
+<b>Working with the Course Materials</b>
+</div>
+<div class="right-authors">Aaron Mamula</div>
+</div>
+<ul class="workshops">
+<li>
+<p>Fun-ness: Low</p>
+<p>Suggested For: Everyone</p>
+<p>I think a lot this will be pretty self-explanatory and we will also go over this in the workshop, but I made this video of how to use the materials that I provided</p>
+<a href="https://youtu.be/h1tozcxanlM">Video Link</a>
+<p></p>
+<a href="https://www.youtube.com/playlist?list=PLJI4SWhcIx2ibeWJoEb_CyTMy2QskBVrc">Playlist Link</a>
+</li>
+</ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">Medium</div>
+<div class="center-title">
+<b>R Studio with git &amp; GitHub</b>
+</div>
+<div class="right-authors">Aaron Mamula</div>
+</div>
+<ul class="workshops">
+<li>
+<p>Fun-ness: Medium</p>
+<p>Suggested For: Anyone interested in collaboration tools or reproducable research</p>
+<p>The real sticking point to full git/GitHub adoption in my experience is setting up git. I do not address this issue in depth here (I provide links to some good tutorials) but I do provide some illustrations of what an R Studio-git-GitHub workflow looks like</p>
+<a href="https://youtu.be/LOw0CmhYF00">Video Link</a>
+<p></p>
+<a href="https://www.youtube.com/playlist?list=PLJI4SWhcIx2ibeWJoEb_CyTMy2QskBVrc">Playlist Link</a>
+</li>
+</ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">Low</div>
+<div class="center-title">
+<b>R Studio Cloud</b>
+</div>
+<div class="right-authors">Aaron Mamula</div>
+</div>
+<ul class="workshops">
+<li>
+<p>Fun-ness: Low</p>
+<p>Suggested For: Anyone struggling with installing R</p>
+<a href="https://youtu.be/3yoL0G8whNo">Video Link</a>
+<p></p>
+<a href="https://www.youtube.com/playlist?list=PLJI4SWhcIx2ibeWJoEb_CyTMy2QskBVrc">Playlist Link</a>
+</li>
+</ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">Medium</div>
+<div class="center-title">
+<b>Sourcing an R Script</b>
+</div>
+<div class="right-authors">Aaron Mamula</div>
+</div>
+<ul class="workshops">
+<li>
+<p>Fun-ness: Low</p>
+<p>Suggested For: Anyone</p>
+<p>This video provides a short intro on how to write an R script, how to run an R script from a different R script, and why you might want to do this.</p>
+<a href="https://youtu.be/Nyo7g1MvwgQ">Video Link</a>
+<p></p>
+<a href="https://www.youtube.com/playlist?list=PLJI4SWhcIx2ibeWJoEb_CyTMy2QskBVrc">Playlist Link</a>
+</li>
+</ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">Medium</div>
+<div class="center-title">
+<b>Sourcing an R Script from the Terminal (Command Line)</b>
+</div>
+<div class="right-authors">Aaron Mamula</div>
+</div>
+<ul class="workshops">
+<li>
+<p>Fun-ness: Low</p>
+<p>Suggested For: Mostly intermediate users but might be useful for beginners as well</p>
+<p>This video provides an illustration of how to run an R Script from the Terminal or Command Line. It probably is not the most practical skill but I think it helps with overall understanding of the R language</p>
+<a href="https://youtu.be/SOmxPkpV6oo">Video Link</a>
+<p></p>
+<a href="https://www.youtube.com/playlist?list=PLJI4SWhcIx2ibeWJoEb_CyTMy2QskBVrc">Playlist Link</a>
+</li>
+</ul>
+</div>
+</div>
+<p><br></p>
+</div>
+<div id="r-studio" class="section level3">
+<h3>R Studio</h3>
+<div class="schedule">
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">Medium-High</div>
+<div class="center-title">
+<b>R Studio Intro</b>
+</div>
+<div class="right-authors">Aaron Mamula</div>
+</div>
+<ul class="workshops">
+<li>
+<p>Fun-ness: Low</p>
+<p>Suggested For: Everyone not currently in love with R Studio</p>
+<p>I again suggest using a 1.5X or 2X playback speed. I don't think you'll miss anything critical and you'll save a lot of time</p>
+<a href="https://youtu.be/CaAX2sRGI1A">Video Link</a>
+<p></p>
+<a href="https://www.youtube.com/playlist?list=PLJI4SWhcIx2jCZD68gVHVXjGIpyHKLhDa">Playlist Link</a>
+</li>
+</ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">Low</div>
+<div class="center-title">
+<b>Projects in R Studio</b>
+</div>
+<div class="right-authors">Aaron Mamula</div>
+</div>
+<ul class="workshops">
+<li>
+<p>Fun-ness: Low</p>
+<p>Suggested For: Everyone not currently in love with R Studio</p>
+<a href="https://youtu.be/bmUwgpqLVSw">Video Link</a>
+<p></p>
+<a href="https://www.youtube.com/playlist?list=PLJI4SWhcIx2jCZD68gVHVXjGIpyHKLhDa">Playlist Link</a>
+</li>
+</ul>
+</div>
+</div>
+<p><br></p>
 </div>
 </div>
 

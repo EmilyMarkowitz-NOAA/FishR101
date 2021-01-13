@@ -11,11 +11,11 @@
 
 
 
-<title>About</title>
+<title>Share &amp; Help</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
+<link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
@@ -50,6 +50,15 @@
 
 
 </html>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
@@ -99,6 +108,7 @@ h6 {
 
 
 
+
 <style type = "text/css">
 .main-container {
   max-width: 940px;
@@ -130,33 +140,33 @@ summary {
 <style type="text/css">
 /* padding for bootstrap navbar */
 body {
-  padding-top: 60px;
+  padding-top: 51px;
   padding-bottom: 40px;
 }
 /* offset scroll position for anchor links (for fixed navbar)  */
 .section h1 {
-  padding-top: 65px;
-  margin-top: -65px;
+  padding-top: 56px;
+  margin-top: -56px;
 }
 .section h2 {
-  padding-top: 65px;
-  margin-top: -65px;
+  padding-top: 56px;
+  margin-top: -56px;
 }
 .section h3 {
-  padding-top: 65px;
-  margin-top: -65px;
+  padding-top: 56px;
+  margin-top: -56px;
 }
 .section h4 {
-  padding-top: 65px;
-  margin-top: -65px;
+  padding-top: 56px;
+  margin-top: -56px;
 }
 .section h5 {
-  padding-top: 65px;
-  margin-top: -65px;
+  padding-top: 56px;
+  margin-top: -56px;
 }
 .section h6 {
-  padding-top: 65px;
-  margin-top: -65px;
+  padding-top: 56px;
+  margin-top: -56px;
 }
 .dropdown-submenu {
   position: relative;
@@ -295,51 +305,97 @@ $(document).ready(function () {
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.html"><p><img id="logo" style="width: 20px;" src="Noaa_logo.png" /> R Workshop for AFSC RACE GAP </p></a>
+      <a class="navbar-brand" href="index.html"><p><img id="logo" style="width: 20px;" src="Noaa_logo.png" /> FishR101: AFSC RACE Groundfish Assesment Group Intro To R Course </p></a>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
-        <li>
-  <a href="about.html">
-    <span class="fa fa-briefcase"></span>
+        <li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    <span class="fas fa-list-ul"></span>
      
-    About
-  </a>
-</li>
-<li>
-  <a href="sessions.html">
-    <span class="fa fa-calendar"></span>
+    Explore
      
-    Agenda
+    <span class="caret"></span>
   </a>
-</li>
-<li>
-  <a href="members.html">
-    <span class="fa fa-user"></span>
-     
-    Presenters
-  </a>
-</li>
-<li>
-  <a href="les_BestScriptingPractices.nb.html"></a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="courseinfo.html">
+        <span class="fas fa-briefcase"></span>
+         
+        Course Resources
+      </a>
+    </li>
+    <li>
+      <a href="pre-meet.html">
+        <span class="fas fa-hand-pointer"></span>
+         
+        Pre-Meet Materials
+      </a>
+    </li>
+    <li>
+      <a href="syllabus.html">
+        <span class="fas fa-calendar"></span>
+         
+        Syllabus
+      </a>
+    </li>
+    <li>
+      <a href="share-help.html">
+        <span class="fas fa-comment-alt"></span>
+         
+        Share Insights
+      </a>
+    </li>
+    <li>
+      <a href="feedback.html">
+        <span class="fas fa-file-invoice"></span>
+         
+        How is it going?
+      </a>
+    </li>
+    <li>
+      <a href="FishR101-BestScripting.nb.html"></a>
+    </li>
+    <li>
+      <a href="FishR101-BaseRvTidy.nb.html"></a>
+    </li>
+    <li>
+      <a href="FishR101-TidyPt1.nb.html"></a>
+    </li>
+    <li>
+      <a href="FishR101-BestScripting.nb.html"></a>
+    </li>
+    <li>
+      <a href="FishR101-Functions.nb.html"></a>
+    </li>
+    <li>
+      <a href="FishR101-BestScripting.nb.html"></a>
+    </li>
+    <li>
+      <a href="FishR101-BestScripting.nb.html"></a>
+    </li>
+    <li>
+      <a href="FishR101-Models.nb.html"></a>
+    </li>
+  </ul>
 </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li>
   <a href="mailto:emily.markowitz@noaa.gov">
-    <span class="fa fa-envelope-o"></span>
+    <span class="fas fa-paper-plane fa-lg"></span>
      
   </a>
 </li>
 <li>
-  <a href="https://github.com/emilyhmarkowitz/RWorkshopForRACEGAP">
-    <span class="fa fa-github"></span>
+  <a href="https://github.com/emilymarkowitz-NOAA/FishR101">
+    <span class="fab fa-github fa-lg"></span>
      
   </a>
 </li>
 <li>
-  <a href="https://drive.google.com/drive/folders/17zlwvwDduKH-llxV7WcZFC1qy8aJtIL3?usp=sharing">
-    <span class="fa fa-google"></span>
+  <a href="https://drive.google.com/drive/folders/10k8d1LAHSh2ql9nSQ3svUvRaD1gmWxY9?usp=sharing">
+    <span class="fab fa-google"></span>
      
   </a>
 </li>
@@ -352,22 +408,34 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">About</h1>
+<h1 class="title toc-ignore">Share &amp; Help</h1>
 
 </div>
 
 
-<div id="r-workshop-for-the-afsc-race-groundfish-assesment-group" class="section level2">
-<h2>R Workshop for the AFSC RACE Groundfish Assesment Group</h2>
-<div class = "row">
+<div class="row">
 <div class="col-md-6">
-<!-- ![Photo by Alvaro Almeida, [NOAA Flickr](https://www.flickr.com/photos/alvarolsalmeida/45332600361/).](aboutimg.jpg) -->
-<p><img src="aboutimg.jpg" alt="Photo by Alvaro Almeida, NOAA Flickr." /> <!-- ![Photo by Alvaro Almeida, NOAA Flickr](aboutimg.jpg) --></p>
+<div class="figure">
+<img src="images/WhoWillWinParens.jpg" alt="Some wisdom I wish I had when I was a wee R newbie." />
+<p class="caption">Some wisdom I wish I had when I was a wee R newbie.</p>
+</div>
+<p><strong>If you are in the class, you will be able to access and <a href="https://docs.google.com/document/d/1UNCEJpu1fWj_qWdIpI9HImH4eOPxXgLYOobyGn90li8/edit?usp=sharing">contribute to the google document here.</a></strong></p>
 </div>
 <div class="col-md-6">
-<p>[Blurb]</p>
+<p>Even virtually, we can learn from each other! <strong>This is a resource for students, by students!</strong> Add to the document below so we can all see what great resources or R-life lessons everyone has been finding. As you add to this sheet, we want you to approach it with these attitudes:</p>
+<blockquote>
+<p>“If I have seen further it is by standing on the sholder of giants.” ~ Sir Issac Newton</p>
+</blockquote>
+<p>Essentially, we make intellectual progress by using the understanding gained by major thinkers who have come and gone before us. Building, using, and improving R and all things done in R has taken a <em>community</em> of people. No one person could have made R what it is today, and for that we not only use the resources made by others, but also make resources for others to use! <em>You can start being a sholder for others today!</em></p>
 </div>
 </div>
+<br>
+<div class="h_iframe">
+<iframe width="100%" height="1500" src="https://docs.google.com/document/d/e/2PACX-1vQW3GNxT3JeRukTHFQ6mF3WiWf4zVGymDTy31kUTJIj9Yabij64SrGGidInI8tjuAaBf8VCsdDS90im/pub?embedded=true">
+</iframe>
+</div>
+<p><br></p>
+<p>words</p>
 
 
 
@@ -378,7 +446,7 @@ $(document).ready(function () {
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();

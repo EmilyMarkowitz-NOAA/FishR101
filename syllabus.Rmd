@@ -1,5 +1,5 @@
 ---
-title: "Course Agenda and Lessons"
+title: "Course Syllabus and Materials"
 output:
   html_document:
     includes:
@@ -8,13 +8,25 @@ editor_options:
   chunk_output_type: console
 ---
 
-</br>
+<div class = "row">
+<div class = "col-md-6">
 
-All times are in Pacific Time
+![Y'all ready for this?](images/CodeAllTheThings.png)
 
-</br>
+*All times are in Pacific Time. *
 
-Let us know what you thought of the workshop by filling out of the [google form](https://forms.gle/cQGizSgEbXisE3TK8)!
+</div>
+<div class = "col-md-6">
+
+# Ready, Set, Go!
+
+**Anything out of place?** Please let us know if anything is missing, broken (e.g., broken links), or if there is anything else that would be helpful to include. Feel free to submit any comments to our [feedback page](https://emilymarkowitz-noaa.github.io/FishR101/feedback.html). 
+
+**This class should be a collaborative learning space.** Have any helpful links or snipits of code along the way you think would be helpful to to your fellow classmates? Share your [nifty-est tips and tricks here!](https://emilymarkowitz-noaa.github.io/FishR101/share-help.html)
+
+
+</div>
+</div>
 
 *Please click on the title to see the session description*
 

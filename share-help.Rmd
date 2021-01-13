@@ -1,0 +1,57 @@
+---
+title: "Share & Help"
+output:
+  html_document:
+    includes:
+      in_header: header.html
+editor_options: 
+  chunk_output_type: console
+---
+
+<div class = "row">
+<div class = "col-md-6">
+
+![Some wisdom I wish I had when I was a wee R newbie.](images/WhoWillWinParens.jpg)
+
+**If you are in the class, you will be able to access and [contribute to the google document here.](https://docs.google.com/document/d/1UNCEJpu1fWj_qWdIpI9HImH4eOPxXgLYOobyGn90li8/edit?usp=sharing)**
+
+</div>
+
+<div class = "col-md-6"> 
+
+Even virtually, we can learn from each other! **This is a resource for students, by students!** Add to the document below so we can all see what great resources or R-life lessons everyone has been finding. As you add to this sheet, we want you to approach it with these attitudes:
+
+> "If I have seen further it is by standing on the sholder of giants." ~ Sir Issac Newton
+
+Essentially, we make intellectual progress by using the understanding gained by major thinkers who have come and gone before us.  Building, using, and improving R and all things done in R has taken a *community* of people. No one person could have made R what it is today, and for that we not only use the resources made by others, but also make resources for others to use! *You can start being a sholder for others today!*
+
+</div>
+
+</div>
+
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning=FALSE, error = FALSE, message = FALSE)
+library("googledrive")
+
+# BEFORE YOU FREAK OUT!: the preview can't see embeded content. Open in browser! <3 past me
+
+# <div class="h_iframe">
+# <img class="ratio" src="http://placehold.it/16x12"/>
+# <iframe src="https://docs.google.com/document/d/e/2PACX-1vQW3GNxT3JeRukTHFQ6mF3WiWf4zVGymDTy31kUTJIj9Yabij64SrGGidInI8tjuAaBf8VCsdDS90im/pub?embedded=true" style="border: 0" frameborder="0" width="800" height="600" scrolling="no"></iframe>
+# </div>
+
+# <iframe src="https://docs.google.com/document/d/e/2PACX-1vQW3GNxT3JeRukTHFQ6mF3WiWf4zVGymDTy31kUTJIj9Yabij64SrGGidInI8tjuAaBf8VCsdDS90im/pub?embedded=true"></iframe>
+
+```
+
+<br>
+<div class="h_iframe">
+<iframe width='100%' height='1500' src="https://docs.google.com/document/d/e/2PACX-1vQW3GNxT3JeRukTHFQ6mF3WiWf4zVGymDTy31kUTJIj9Yabij64SrGGidInI8tjuAaBf8VCsdDS90im/pub?embedded=true"></iframe>
+</div>
+
+<br>
+
+
+words
