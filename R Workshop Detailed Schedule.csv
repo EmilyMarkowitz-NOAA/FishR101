@@ -25,7 +25,7 @@ Open R Studio and check it out:
 
 
 ",Presentation: https://docs.google.com/presentation/d/1XFU8nEpnvoJKES4SxO88L3ddqAtZtQTeEauLzQlFfXk/edit?usp=sharing
-"Tuesday, January 19, 2021",9:50 AM,10:00 AM,Break,Break,,,,"Phew, That was a lot!","
+"Tuesday, January 19, 2021",9:50 AM,10:00 AM,Break,Break,,,,tags$img(src = './images/IKnowSomeOfTheseWords.jpg'),"
 <div><img src=""https://rforcats.net/assets/img/programmer.png"" width=""100%"" align=""center""></div>
 
 ![](`r https://rforcats.net/assets/img/programmer.png`)"
@@ -56,6 +56,8 @@ Today's Homework
 "Thursday, January 21, 2021",9:00 AM,9:10 AM,Review Homework,Review Homework,,,,Answers will be added here. ,Add Answers!
 "Thursday, January 21, 2021",9:10 AM,9:50 AM,Introduce New Materials,Base R language and {Tidyverse} language,,Caitlin Allen Akselrud,,"Agenda
 
+*You can not use #tidyverse without base R. It's not a dichotomy. Pick the tools that make you most effective.* - Hadley Wickham, the great
+
 Lesson: https://raw.githubusercontent.com/EmilyMarkowitz-NOAA/FishR101-BaseRvTidy/main/lesson/Lesson.nb.html
 
 Repro: https://github.com/EmilyMarkowitz-NOAA/FishR101-BaseRvTidy
@@ -66,11 +68,9 @@ Repro: https://github.com/EmilyMarkowitz-NOAA/FishR101-BaseRvTidy
 
 3. Best practices - ‘renv’ package to track package versions in projects
 
-*Note that after this lessson we will be using Tidy.",
-"Thursday, January 21, 2021",9:50 AM,10:00 AM,Break,Break,,,,"Take a breather!
-
-le meme!: https://i.redd.it/8wxhbk1z63q01.jpg
+*Note that after this lessson we will be using Tidy.
 ",
+"Thursday, January 21, 2021",9:50 AM,10:00 AM,Break,Break,,,,tags$img(src = './images/RVsExcel.jpg'),
 "Thursday, January 21, 2021",10:00 AM,10:40 AM,Interactive Learning,,,Caitlin Allen Akselrud,,"Resources
 
 1. 
@@ -93,7 +93,7 @@ Repro: https://github.com/EmilyMarkowitz-NOAA/FishR101-TidyPt1
 4. Writing data (e.g., to .csv) 
 
 5. Best Practices",
-"Tuesday, February 2, 2021",9:50 AM,10:00 AM,Break,Break,,,,le meme!: https://www.kai-arzheimer.com/16022604/wp-content/webp-express/webp-images/doc-root/16022604/wp-content/uploads/2019/03/adobe_post_20190330_180506-011386275827.jpeg.webp,
+"Tuesday, February 2, 2021",9:50 AM,10:00 AM,Break,Break,,,,tags$img(src = './images/Gooood.jpg'),
 "Tuesday, February 2, 2021",10:00 AM,10:40 AM,Interactive Learning,,,Caitlin Allen Akselrud,,"Resources
 
 1. Import Data Cheatsheet: https://evoldyn.gitlab.io/evomics-2018/ref-sheets/R_data-import.pdf
@@ -110,7 +110,7 @@ Repro: https://github.com/EmilyMarkowitz-NOAA/FishR101-BestScripting
 1. 
 
 2. Best Practices",
-"Thursday, February 4, 2021",9:50 AM,10:00 AM,Break,Break,,Caitlin Allen Akselrud,,,
+"Thursday, February 4, 2021",9:50 AM,10:00 AM,Break,Break,,Caitlin Allen Akselrud,,tags$img(src = './images/TidySparkJoy.png'),
 "Thursday, February 4, 2021",10:00 AM,10:40 AM,Interactive Learning,,,,,"Resources:
 
 1. Data Wrangling Cheat Sheet: https://rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf",
@@ -134,7 +134,7 @@ Repro: https://github.com/EmilyMarkowitz-NOAA/FishR101-Functions
 5. Best Practices - Modular coding style
 
 6. {roxygen2}",
-"Tuesday, February 9, 2021",9:50 AM,10:00 AM,Break,Break,,,,,
+"Tuesday, February 9, 2021",9:50 AM,10:00 AM,Break,Break,,,,tags$img(src = './images/SaveYourWork.jpg'),
 "Tuesday, February 9, 2021",10:00 AM,10:40 AM,Interactive Learning,,,Emily Markowitz,,"Resources
 
 1. ",
@@ -168,7 +168,7 @@ Learn about how to write and prepare a script by
 
 
 ",
-"Thursday, February 11, 2021",9:50 AM,10:00 AM,Break,Break,,,,,
+"Thursday, February 11, 2021",9:50 AM,10:00 AM,Break,Break,,,,tags$img(src = './images/RealWorldData.jpg'),
 "Thursday, February 11, 2021",10:00 AM,10:40 AM,Interactive Learning,,,Emily Markowitz,,"An informal opprotunity to come by to ask any questions you have about the course, content, or with specific questions about issues you have with the homework or in your own analyses. 
 
 Homework
@@ -190,7 +190,7 @@ Repro: https://github.com/EmilyMarkowitz-NOAA/FishR101-BestScripting
 3. formattable
 
 4. gt() ?",
-"Tuesday, February 16, 2021",9:50 AM,10:00 AM,Break,Break,,,,,
+"Tuesday, February 16, 2021",9:50 AM,10:00 AM,Break,Break,,,,tags$img(src = './images/GreatPowerGreatCustomization.jpg'),
 "Tuesday, February 16, 2021",10:00 AM,10:40 AM,Interactive Learning,,,Caitlin Allen Akselrud & Emily Markowitz,,"Resources
 
 1. 
@@ -209,7 +209,7 @@ Repro: https://github.com/EmilyMarkowitz-NOAA/FishR101-Models
 2. Other models (?)
 
 3. Broom package",
-"Thursday, February 18, 2021",9:50 AM,10:00 AM,Break,Break,,,,,
+"Thursday, February 18, 2021",9:50 AM,10:00 AM,Break,Break,,,,tags$img(src = './images/RTheHero.png'),
 "Thursday, February 18, 2021",10:00 AM,10:40 AM,Interactive Learning,,,Emily Markowitz,,"Resources
 
 1. 

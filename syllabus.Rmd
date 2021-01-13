@@ -96,7 +96,11 @@ for (i in 1:length(aa)){
 
         aa[i][[1]][ii]<-cc#paste0('tags$li(', cc, ')')
         } else {
-        cc<-paste0('tags$p("', aa[i][[1]][ii], '")')
+          if (grepl(pattern = "tags", x = aa[i][[1]][ii])) {
+            cc<-aa[i][[1]][ii]
+          } else {
+            cc<-paste0('tags$p("', aa[i][[1]][ii], '")')
+          }
         # cc<-paste0('<p>', ifelse(is.na(aa[i][[1]][ii]), "", aa[i][[1]][ii]), '</p>')
         # aa[i][[1]][ii]<-paste0("<li>", cc, "</li>")
         aa[i][[1]][ii]<-cc#paste0('tags$li(', cc, ')')
@@ -106,7 +110,9 @@ for (i in 1:length(aa)){
       # aa[i][[1]]<-paste0("tags$div(",
   #                    paste(aa[i][[1]], collapse = " "),
   #                    ")")
-    aa[i][[1]]<-paste0('tags$li(', paste(aa[i][[1]], collapse = ", "), ')')
+    
+      aa[i][[1]]<-paste0('tags$li(', paste(aa[i][[1]], collapse = ", "), ')')
+    
     # aa[i][[1]]<-paste(aa[i][[1]], collapse = ", ")
   } else {
     aa[i][[1]]<-""
