@@ -130,7 +130,7 @@ Assignments are for the student's benefit and no grades will be collected. Assig
 
 ## Course pep-talk
 
-We want you to be able to really *learn* in this course! We want this to be a safe space to ask questions, help one another, and have no one feel like they are being left behind. If you feel like it is moving too fast, come to office hours or please let us know. We are (and the other students) are some of your many resources. R is not intuitive or easy to learn, but once you get over the hump, opprotunities are boundless. Please, *do not* hesitate to reach out!
+We want you to be able to really *learn* in this course! We want this to be a safe space to ask questions, help one another, and have no one feel like they are being left behind. If you feel like it is moving too fast, come to office hours or please let us know. We (and the other students) are some of your many resources. R is not intuitive or easy to learn, but once you get over the hump, opprotunities are boundless. Please, *do not* hesitate to reach out!
 
 <div class = "row">
 <div class = "col-md-6">

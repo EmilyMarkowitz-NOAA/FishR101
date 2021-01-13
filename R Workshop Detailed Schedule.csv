@@ -145,6 +145,12 @@ Take these famous equations and make them into functions!",Add HW!
 "Thursday, February 11, 2021",9:00 AM,9:10 AM,Review Homework,Review Homework,,Caitlin Allen Akselrud,,Answers will be added here. ,Add Answers!
 "Thursday, February 11, 2021",9:10 AM,9:50 AM,Introduce New Materials,Best Scripting Practices,,Caitlin Allen Akselrud & Emily Markowitz,,"Agenda
 
+tags$em('[Bad file and data management] ...prepetuate inequalities when people have to start from scratch.')
+
+tags$em('Future you is your most important collaborator')
+
+ ~ Julia Stewart Lowndes
+
 Lesson: https://raw.githubusercontent.com/EmilyMarkowitz-NOAA/FishR101-BestScripting/main/lesson/Lesson.nb.html
 
 Repro: https://github.com/EmilyMarkowitz-NOAA/FishR101-BestScripting
@@ -164,6 +170,8 @@ Learn about how to write and prepare a script by
 6. Scripts with specific tasks
 
 7. Saving scripts in an “R Project
+
+
 
 
 
