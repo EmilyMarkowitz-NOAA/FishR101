@@ -64,7 +64,7 @@
   <link rel="assets" href="https://github.githubassets.com/">
   
 
-  <meta name="request-id" content="D8EB:626E:E439E6:158D6C7:5FFFDD13" data-pjax-transient="true"/><meta name="html-safe-nonce" content="936bde7bf1b1b6a0f357c43e3749b615d969eaf123123e75c7f33ab1022665a2" data-pjax-transient="true"/><meta name="visitor-payload" content="eyJyZWZlcnJlciI6IiIsInJlcXVlc3RfaWQiOiJEOEVCOjYyNkU6RTQzOUU2OjE1OEQ2Qzc6NUZGRkREMTMiLCJ2aXNpdG9yX2lkIjoiNTcyMzY2OTMxODAwMzQyNjUxOCIsInJlZ2lvbl9lZGdlIjoiaWFkIiwicmVnaW9uX3JlbmRlciI6ImlhZCJ9" data-pjax-transient="true"/><meta name="visitor-hmac" content="37cb7d89652e43754c03af6ae839163ef8e720d8f092b4ba79390cfd5b803fb5" data-pjax-transient="true"/>
+  <meta name="request-id" content="DF08:6D7D:B4F3A6:119C76D:5FFFE417" data-pjax-transient="true"/><meta name="html-safe-nonce" content="5a59243720050d05d04ee5fceedfaf3366493a72c9a9485f746f123f9de3b129" data-pjax-transient="true"/><meta name="visitor-payload" content="eyJyZWZlcnJlciI6IiIsInJlcXVlc3RfaWQiOiJERjA4OjZEN0Q6QjRGM0E2OjExOUM3NkQ6NUZGRkU0MTciLCJ2aXNpdG9yX2lkIjoiNTcyMzY2OTMxODAwMzQyNjUxOCIsInJlZ2lvbl9lZGdlIjoiaWFkIiwicmVnaW9uX3JlbmRlciI6ImlhZCJ9" data-pjax-transient="true"/><meta name="visitor-hmac" content="121df67112bd67ec48e8d56e09700ff7f7f5d51cd2015022913a13ef1d5d0731" data-pjax-transient="true"/>
 
     <meta name="hovercard-subject-tag" content="repository:323549062" data-pjax-transient>
 
@@ -312,7 +312,7 @@
           spellcheck="false"
           autocomplete="off"
           >
-          <input type="hidden" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" value="E3TtUM0EijF4wOIxlbHFPvu4UNTTBiMsxRAS/5yx5JnAZIGJKa3MiuigrJzpQ+u+VcfAsdXnpq+/HjjEH4WQjA==" />
+          <input type="hidden" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" value="GfFVm5Id43mk1uGwC1hvKqFB9mUlOVUfZksbtxo4Qp0sjAEQ4Ha+YnWbWi5i7PHzmZ5fKbGQI/yesOxxYnw8hw==" />
           <input type="hidden" class="js-site-search-type-field" name="type" >
             <img src="https://github.githubassets.com/images/search-key-slash.svg" alt="" class="mr-2 header-search-key-slash">
 
@@ -831,7 +831,7 @@
 
   <div class="UnderlineNav my-2 box-shadow-none">
     <div class="UnderlineNav-body" role="tablist">
-      <!-- '"` --><!-- </textarea></xmp> --></option></form><form data-remote="true" action="/users/set_protocol?protocol_type=clone" accept-charset="UTF-8" method="post"><input type="hidden" data-csrf="true" name="authenticity_token" value="72kpfahVgtYZlbokcmVA8ujfPELfErnMo+jwx52PB02O7xL/3DqowEOjnBtwkqhU2BolzdQHN2GPyvpLFNK64Q==" />
+      <!-- '"` --><!-- </textarea></xmp> --></option></form><form data-remote="true" action="/users/set_protocol?protocol_type=clone" accept-charset="UTF-8" method="post"><input type="hidden" data-csrf="true" name="authenticity_token" value="818E8k5AmhaY+vjkWiUKW3A22vd2AG1VoAHtr8392MlbrAo/yte7Iys564WWEXAi2yZacaR8Wd+966OVKZ5zyA==" />
           <button name="protocol_selector" type="submit" role="tab" class="UnderlineNav-item lh-default f6 py-0 px-0 mr-2 position-relative" aria-selected="true" value="http" data-hydro-click="{&quot;event_type&quot;:&quot;clone_or_download.click&quot;,&quot;payload&quot;:{&quot;feature_clicked&quot;:&quot;USE_HTTPS&quot;,&quot;git_repository_type&quot;:&quot;REPOSITORY&quot;,&quot;repository_id&quot;:323549062,&quot;originating_url&quot;:&quot;https://github.com/EmilyMarkowitz-NOAA/FishR101-Functions&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="5e3681529453075879ca9708a9017c27dfecbb05a7c43b3db2fec3ea1eb6ee8f">
             HTTPS
 </button>          <button name="protocol_selector" type="submit" role="tab" class="UnderlineNav-item lh-default f6 py-0 px-0 mr-2 position-relative" value="gh_cli" data-hydro-click="{&quot;event_type&quot;:&quot;clone_or_download.click&quot;,&quot;payload&quot;:{&quot;feature_clicked&quot;:&quot;USE_GH_CLI&quot;,&quot;git_repository_type&quot;:&quot;REPOSITORY&quot;,&quot;repository_id&quot;:323549062,&quot;originating_url&quot;:&quot;https://github.com/EmilyMarkowitz-NOAA/FishR101-Functions&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="bcec56cf3773fcc9b7759469f45702cc718d42557632ea97acec4f82771121be">

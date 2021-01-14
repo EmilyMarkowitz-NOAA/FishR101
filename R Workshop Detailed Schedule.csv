@@ -1,4 +1,4 @@
-,,R Workshop for RACE-GAP Schedule,,,,,,,https://emilymarkowitz-noaa.github.io/RWorkshopForRACEGAP/sessions.html
+,,R Workshop for RACE-GAP Schedule,,,,,,,
 Date,Start Time (PT),End Time (PT),Course Segment,Topics,Presenter,Host,Chat/Q&A,Notes,Notes to Add Later
 "Tuesday, January 19, 2021",9:00 AM,9:10 AM,Introductions,Introductions,,"
 Caitlin Allen Akselrud & Emily Markowitz",,Welcome! ,
@@ -31,7 +31,7 @@ Open R Studio and check it out:
 
 
 ",
-"Tuesday, January 19, 2021",9:50 AM,10:00 AM,Break,Break,,,,,tags$img(src = './images/IKnowSomeOfTheseWords.jpg')
+"Tuesday, January 19, 2021",9:50 AM,10:00 AM,Break,Break,,,,tags$img(src = './images/StrongerSpongebob.jpg'),
 "Tuesday, January 19, 2021",10:00 AM,10:40 AM,Interactive Learning,,,Caitlin Allen Akselrud,,"Resources
 
 From the presentation:

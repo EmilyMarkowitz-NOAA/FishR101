@@ -64,7 +64,7 @@
   <link rel="assets" href="https://github.githubassets.com/">
   
 
-  <meta name="request-id" content="D8EB:626E:E43974:158D637:5FFFDD12" data-pjax-transient="true"/><meta name="html-safe-nonce" content="936bde7bf1b1b6a0f357c43e3749b615d969eaf123123e75c7f33ab1022665a2" data-pjax-transient="true"/><meta name="visitor-payload" content="eyJyZWZlcnJlciI6IiIsInJlcXVlc3RfaWQiOiJEOEVCOjYyNkU6RTQzOTc0OjE1OEQ2Mzc6NUZGRkREMTIiLCJ2aXNpdG9yX2lkIjoiNTcyMzY2OTMxODAwMzQyNjUxOCIsInJlZ2lvbl9lZGdlIjoiaWFkIiwicmVnaW9uX3JlbmRlciI6ImlhZCJ9" data-pjax-transient="true"/><meta name="visitor-hmac" content="afdf87e491f320332c6f4f846dd168a7f962865dc13c3b828e443c12f63971c4" data-pjax-transient="true"/>
+  <meta name="request-id" content="DF08:6D7D:B4F355:119C6F8:5FFFE416" data-pjax-transient="true"/><meta name="html-safe-nonce" content="5a59243720050d05d04ee5fceedfaf3366493a72c9a9485f746f123f9de3b129" data-pjax-transient="true"/><meta name="visitor-payload" content="eyJyZWZlcnJlciI6IiIsInJlcXVlc3RfaWQiOiJERjA4OjZEN0Q6QjRGMzU1OjExOUM2Rjg6NUZGRkU0MTYiLCJ2aXNpdG9yX2lkIjoiNTcyMzY2OTMxODAwMzQyNjUxOCIsInJlZ2lvbl9lZGdlIjoiaWFkIiwicmVnaW9uX3JlbmRlciI6ImlhZCJ9" data-pjax-transient="true"/><meta name="visitor-hmac" content="4bf06ad80d532f604631b084c2b34647147fbc0acb9b21ee607fb0fef8cbf75b" data-pjax-transient="true"/>
 
     <meta name="hovercard-subject-tag" content="repository:327971679" data-pjax-transient>
 
@@ -312,7 +312,7 @@
           spellcheck="false"
           autocomplete="off"
           >
-          <input type="hidden" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" value="IerIMed/7NbyDX/GTGrIQnNpr6dkfTv0rPbxL02u37zy+qToA9aqbWJtMWswmObC3RY/wmKcvnfW+NsUzpqrqQ==" />
+          <input type="hidden" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" value="nIdxNXA9xjmcAOmFvqL0ReRiX5nnRqwjI6onx0C2Ruyp+iW+AlabIk1NUhvXFmqc3L321XPv2sDbUdABOPI49g==" />
           <input type="hidden" class="js-site-search-type-field" name="type" >
             <img src="https://github.githubassets.com/images/search-key-slash.svg" alt="" class="mr-2 header-search-key-slash">
 
@@ -838,7 +838,7 @@
 
   <div class="UnderlineNav my-2 box-shadow-none">
     <div class="UnderlineNav-body" role="tablist">
-      <!-- '"` --><!-- </textarea></xmp> --></option></form><form data-remote="true" action="/users/set_protocol?protocol_type=clone" accept-charset="UTF-8" method="post"><input type="hidden" data-csrf="true" name="authenticity_token" value="iXAvIeqR7F9qIlEJXPeCjq2aSsk9MFbtYX3baSwJDnHo9hSjnv7GSTAUdzZeAGoonV9TRjYl2EBNX9HlpVSz3Q==" />
+      <!-- '"` --><!-- </textarea></xmp> --></option></form><form data-remote="true" action="/users/set_protocol?protocol_type=clone" accept-charset="UTF-8" method="post"><input type="hidden" data-csrf="true" name="authenticity_token" value="K2dSMXwG6R7Nue309SeSpGkpBHQZq8k6TIx5XcyohoeDlFz8+JHIK356/pU5E+jdwjmE8svX/bBRZjdnKMsthg==" />
           <button name="protocol_selector" type="submit" role="tab" class="UnderlineNav-item lh-default f6 py-0 px-0 mr-2 position-relative" aria-selected="true" value="http" data-hydro-click="{&quot;event_type&quot;:&quot;clone_or_download.click&quot;,&quot;payload&quot;:{&quot;feature_clicked&quot;:&quot;USE_HTTPS&quot;,&quot;git_repository_type&quot;:&quot;REPOSITORY&quot;,&quot;repository_id&quot;:327971679,&quot;originating_url&quot;:&quot;https://github.com/EmilyMarkowitz-NOAA/FishR101-WelcomeR&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="d4a0c6265f8ac4d10f8fc6da874ee74b57f30996c2f9555cb7c4a86906b48ff7">
             HTTPS
 </button>          <button name="protocol_selector" type="submit" role="tab" class="UnderlineNav-item lh-default f6 py-0 px-0 mr-2 position-relative" value="gh_cli" data-hydro-click="{&quot;event_type&quot;:&quot;clone_or_download.click&quot;,&quot;payload&quot;:{&quot;feature_clicked&quot;:&quot;USE_GH_CLI&quot;,&quot;git_repository_type&quot;:&quot;REPOSITORY&quot;,&quot;repository_id&quot;:327971679,&quot;originating_url&quot;:&quot;https://github.com/EmilyMarkowitz-NOAA/FishR101-WelcomeR&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="4f3e72ff56d1bc663e066c62ab9cde4f9bb63def725b93451be73c829bf11b32">
@@ -931,10 +931,49 @@
   <div class="Box-header Box-header--blue position-relative">
     <h2 class="sr-only">Latest commit</h2>
     <div class="js-details-container Details d-flex rounded-top-1 flex-items-center flex-wrap" data-issue-and-pr-hovercards-enabled>
-      <include-fragment src="/EmilyMarkowitz-NOAA/FishR101-WelcomeR/tree-commit/42cf73acbac882818dda1b9233e6f2be2584d744" class="d-flex flex-auto flex-items-center" aria-busy="true" aria-label="Loading latest commit">
-        <div class="Skeleton avatar avatar-user flex-shrink-0 ml-n1 mr-n1 mt-n1 mb-n1" style="width:24px;height:24px;"></div>
-        <div class="Skeleton Skeleton--text col-5 ml-3">&nbsp;</div>
-</include-fragment>      <div class="flex-shrink-0">
+      
+  <div class="flex-shrink-0 ml-n1 mr-n1 mt-n1 mb-n1 hx_avatar_stack_commit">
+    
+<div class="AvatarStack flex-self-start ">
+  <div class="AvatarStack-body" aria-label="emilyhmarkowitz">
+        <img src="https://camo.githubusercontent.com/ac3ebb5452f74653c7352b1ab9d5a59a7dea70c6e50dd04ba4a561fa8437a7af/68747470733a2f2f322e67726176617461722e636f6d2f6176617461722f36373064326361393462666139303637353961386635653336643864363861363f643d68747470732533412532462532466769746875622e6769746875626173736574732e636f6d253246696d6167657325324667726176617461727325324667726176617461722d757365722d3432302e706e6726723d6726733d3634" width="24" height="24" class="avatar" alt="emilyhmarkowitz">
+  </div>
+</div>
+
+  </div>
+  <div class="flex-1 d-flex flex-items-center ml-3 min-width-0">
+    <div class="css-truncate css-truncate-overflow text-gray">
+      
+        <span class="commit-author user-mention">emilyhmarkowitz</span>
+
+
+  
+
+        <span class="d-none d-sm-inline">
+          <a data-pjax="true" title="initial commit" class="link-gray-dark" href="/EmilyMarkowitz-NOAA/FishR101-WelcomeR/commit/42cf73acbac882818dda1b9233e6f2be2584d744">initial commit</a>
+        </span>
+    </div>
+    <span class="hidden-text-expander ml-2 d-inline-block d-inline-block d-lg-none">
+      <button type="button" class="hx_bg-black-fade-15 text-gray-dark ellipsis-expander js-details-target" aria-expanded="false">&hellip;</button>
+    </span>
+    <div class="d-flex flex-auto flex-justify-end ml-3 flex-items-baseline">
+        <include-fragment accept="text/fragment+html" src="/EmilyMarkowitz-NOAA/FishR101-WelcomeR/commit/42cf73acbac882818dda1b9233e6f2be2584d744/rollup?direction=sw" class="d-inline"></include-fragment>
+      <a href="/EmilyMarkowitz-NOAA/FishR101-WelcomeR/commit/42cf73acbac882818dda1b9233e6f2be2584d744" class="f6 link-gray text-mono ml-2 d-none d-lg-inline" data-pjax>42cf73a</a>
+      <a href="/EmilyMarkowitz-NOAA/FishR101-WelcomeR/commit/42cf73acbac882818dda1b9233e6f2be2584d744" class="link-gray ml-2" data-pjax>
+        <relative-time datetime="2021-01-13T19:46:32Z" class="no-wrap">Jan 13, 2021</relative-time>
+      </a>
+    </div>
+  </div>
+  <div class="pl-0 pl-md-5 flex-order-1 width-full Details-content--hidden">
+      <div class="mt-2">
+        <a data-pjax="true" class="link-gray-dark text-bold" href="/EmilyMarkowitz-NOAA/FishR101-WelcomeR/commit/42cf73acbac882818dda1b9233e6f2be2584d744">initial commit</a>
+      </div>
+
+    <div class="d-flex flex-items-center">
+      <span class="text-gray-dark text-mono d-lg-none hx_bg-black-fade-15 px-1 rounded-1 text-small mt-2">42cf73a</span>
+    </div>
+  </div>
+      <div class="flex-shrink-0">
         <h2 class="sr-only">Git stats</h2>
         <ul class="list-style-none d-flex">
           <li class="ml-0 ml-md-3">
