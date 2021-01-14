@@ -11,9 +11,9 @@
 
 
 
-<title>FishR 101: R Workshop for AFSC RACE Groundfish Assesment Group Jan-Feb 2021</title>
+<title>Course Resources</title>
 
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/jquery-1.12.4/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
@@ -22,6 +22,14 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<script src="site_libs/htmlwidgets-1.5.3/htmlwidgets.js"></script>
+<link href="site_libs/leaflet-1.3.1/leaflet.css" rel="stylesheet" />
+<script src="site_libs/leaflet-1.3.1/leaflet.js"></script>
+<link href="site_libs/leafletfix-1.0.0/leafletfix.css" rel="stylesheet" />
+<script src="site_libs/Proj4Leaflet-1.0.1/proj4-compressed.js"></script>
+<script src="site_libs/Proj4Leaflet-1.0.1/proj4leaflet.js"></script>
+<link href="site_libs/rstudio_leaflet-1.3.1/rstudio_leaflet.css" rel="stylesheet" />
+<script src="site_libs/leaflet-binding-2.0.3/leaflet.js"></script>
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 <html class="no-js" lang="en">
@@ -48,7 +56,6 @@
 
 </head>
 
-<div><img src="cover_with_logo.JPG" alt = "The contract survey vessel QUICKSILVER underway. Alaska, Kenai Fiords. 2000 (https://www.flickr.com/photos/noaaphotolib/5125467697/in/album-72157625403065572/).", width="100%" align="center" ></div>
 
 </html>
 
@@ -409,16 +416,77 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">FishR 101: R Workshop for AFSC RACE Groundfish Assesment Group Jan-Feb 2021</h1>
+<h1 class="title toc-ignore">Course Resources</h1>
 
 </div>
 
 
-<div id="this-is-the-website-for-all-of-the-materials-youll-need-for-the-workshop." class="section level2">
-<h2><strong>This is the website for all of the materials you’ll need for the workshop.</strong></h2>
-<div id="enjoy" class="section level3">
-<h3>Enjoy!</h3>
+<div class="row">
+<div class="col-md-6">
+<div id="htmlwidget-dfd7c9c837a27b4fd2c0" style="width:100%;height:480px;" class="leaflet html-widget"></div>
+<script type="application/json" data-for="htmlwidget-dfd7c9c837a27b4fd2c0">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["//{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"http://openstreetmap.org\">OpenStreetMap<\/a> contributors, <a href=\"http://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA<\/a>"}]},{"method":"addMarkers","args":[[47.6863055,47.6863055],[-122.257055,-122.257055],null,null,"points",{"interactive":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},"<b> NOAA Fisheries, Alaska Fisheries Science Center <\/b> \n                         <br/> Resource Assessment and Conservation Engineering Division <br/> ",null,null,null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]}],"limits":{"lat":[47.6863055,47.6863055],"lng":[-122.257055,-122.257055]}},"evals":[],"jsHooks":[]}</script>
 </div>
+<div class="col-md-6">
+<h2 id="instructor-contacts">Instructor contacts:</h2>
+<p><em>The course instructors will hold office hours during the remaining time of every class (~1.5 hours), and are also available via email.</em></p>
+<h4 id="caitlin-allen-akselrud"><strong>Caitlin Allen Akselrud</strong></h4>
+<p><a href="mailto:caitlin.allen_akselrud@noaa.gov" class="email">caitlin.allen_akselrud@noaa.gov</a></p>
+<p>Research Fisheries Biologist</p>
+<p>GitHub: <span class="citation">@CaitlinAkselrud-NOAA</span></p>
+<h4 id="emily-markowitz"><strong>Emily Markowitz</strong></h4>
+<p><a href="mailto:emily.markowitz@noaa.gov" class="email">emily.markowitz@noaa.gov</a></p>
+<p>Research Fisheries Biologist</p>
+<p>GitHub: <span class="citation">@EmilyMarkowitz-NOAA</span></p>
+</div>
+</div>
+<div id="course-info" class="section level2">
+<h2>Course info</h2>
+<p>This course is being taught January-Feburary 2021 virtually over WebEx. For WebEx information, please contact the course instructors. Lessons will be recorded and shared as soon as they become available via links from google drive.</p>
+</div>
+<div id="course-content" class="section level2">
+<h2>Course content</h2>
+<p>A <a href="https://emilymarkowitz-noaa.github.io/FishR101/">github website</a> and repositories will be set up for each lesson. More details will be shared soon and during our first lesson.</p>
+<p><em>Fun fact you might have already guessed: this whole website was built using R! (Check out the code we used to create it <a href="https://github.com/emilymarkowitz-NOAA/FishR101">here</a>).</em></p>
+</div>
+<div id="course-structure" class="section level2">
+<h2>Course structure:</h2>
+<ul>
+<li>3.5 hours (including breaks), 2x/wk, 5 weeks</li>
+<li>Review HW from previous lesson ~10 mins</li>
+<li>Introduce new materials ~40 min</li>
+<li>Interactive learning ~40 min</li>
+<li>Homework assignment (about ½ hour of work) ~30 mins (assigned for next meeting)</li>
+<li>Open time for help from instructors (on hw or otherwise) ~ 1.5 hrs</li>
+</ul>
+</div>
+<div id="assignments" class="section level2">
+<h2>Assignments</h2>
+<p>Assignments are for the student’s benefit and no grades will be collected. Assignments are intended to give students the opportunity to practice and explore the material and reinforce lesson material. Ideally, homeworks should take 30 minutes or less to complete. Time will be available after each lesson to assist with questions.</p>
+</div>
+<div id="course-pep-talk" class="section level2">
+<h2>Course pep-talk</h2>
+<p>We want you to be able to really <em>learn</em> in this course! We want this to be a safe space to ask questions, help one another, and have no one feel like they are being left behind. If you feel like it is moving too fast, come to office hours or please let us know. We (and the other students) are some of your many resources. R is not intuitive or easy to learn, but once you get over the hump, opprotunities are boundless. Please, <em>do not</em> hesitate to reach out!</p>
+<div class="row">
+<div class="col-md-6">
+<h3 id="booo-no-no-no-not-this">Booo! No, no, no not this!</h3>
+<div class="figure">
+<img src="images/draw-an-owl.jpg" alt="Woah-cakes, what?" style="width:75.0%" />
+<p class="caption">Woah-cakes, what?</p>
+</div>
+</div>
+<div class="col-md-6">
+<h3 id="yes-please">Yes, please!</h3>
+<div class="figure">
+<img src="images/ComeForReproStayForScience.jpg" alt="Why we are really here, amiright?" style="width:75.0%" />
+<p class="caption">Why we are really here, amiright?</p>
+</div>
+</div>
+</div>
+</div>
+<div id="inclusion-access-and-accommodations" class="section level2">
+<h2>Inclusion, access, and accommodations:</h2>
+<p>We strive to create a learning environment that supports a diversity of thoughts, perspectives, and experiences. If something was said in class (by anyone) that made you feel uncomfortable, please talk to us about it or reach out to the AFSC Team for Inclusion, Diversity, and Equity (TIDE) directly (email contact: <a href="mailto:AFSC.TIDE@noaa.gov" class="email">AFSC.TIDE@noaa.gov</a>) or anonymously. Additional resources are also available on the TIDE intranet site: <a href="https://sites.google.com/a/noaa.gov/afsc-home/home/diversity-inclusion" class="uri">https://sites.google.com/a/noaa.gov/afsc-home/home/diversity-inclusion</a>. There is also a copy of the AFSC Code of Conduct in the Resources folder of our shared Google Drive.</p>
+<p>All attendees deserve access to the full range of learning experiences, and we are committed to creating inclusive and accessible learning environments consistent with federal laws. Please communicate your accommodation requirements to us at your earliest convenience so we can discuss your needs for this course.</p>
 </div>
 
 

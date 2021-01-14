@@ -8,13 +8,13 @@ navbar:
       menu:
         - text: "Course Resources"
           icon: fa-briefcase
-          href: courseinfo.html  
-        - text: "Pre-Meet Materials"
-          icon: fa-hand-pointer
-          href: pre-meet.html  
+          href: course-resources.html  
         - text: "Syllabus"
           icon: fa-calendar
           href: syllabus.html  
+        - text: "Other Resources"
+          icon: fa-hand-pointer
+          href: other-resources.html  
         - text: "Share Insights"
           icon: fa-comment-alt
           href: share-help.html

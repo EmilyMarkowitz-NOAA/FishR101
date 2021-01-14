@@ -1,5 +1,5 @@
 ---
-title: "Pre-Meet Materials"
+title: "Other Resources"
 output:
   html_document:
     includes:
@@ -36,9 +36,9 @@ Base tools needed for some functions and packages to work in R.
 </div>
 
 
-# Video Tutorials
+# Additional Video Tutorials
 
-These videos were created for the R Workshop for NMFS Social Scientists Workshop from September 2020 
+These videos were created by Aaron Mamula for the R Workshop for NMFS Social Scientists Workshop held back in September 2020. These are great tutorial videos within and beyond the scope of our class. Enjoy!
 
 *Please click on the title to see the session description*
 

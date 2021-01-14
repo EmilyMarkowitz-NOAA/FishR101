@@ -27,7 +27,7 @@
     
 
   <script crossorigin="anonymous" defer="defer" integrity="sha512-8K2vvwbW+6H27Nad5ydg8PA2/aMD/LKq+EiK9s0U0hhVZxCI2tWBsYk9beAtisRw2j+Or5k2/F+6dk02nmj/PA==" type="application/javascript" src="https://github.githubassets.com/assets/environment-f0adafbf.js"></script>
-    <script crossorigin="anonymous" defer="defer" integrity="sha512-UMdfnyVwEtei3++M3+gP1X5ox+czOup5pGiLvvtz4cZ4BH5SVsVkuVDbRIBm50/tKrUjHlq+uDdcg3SohOyFjA==" type="application/javascript" src="https://github.githubassets.com/assets/chunk-frameworks-50c75f9f.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-gTjC1ic0ersdwkGtjmhlO/Naqw5uUpfPWb0UdMEWOzhRM+OXnCryP3vYD7MRVVYGG8TEQLIQD33P4BBaivIWMA==" type="application/javascript" src="https://github.githubassets.com/assets/chunk-frameworks-8138c2d6.js"></script>
     <script crossorigin="anonymous" defer="defer" integrity="sha512-TZfq2T+XE31Mcp17bGlABjjeQ/69IH2f/sBvS31c4Jua0e1O/NE+aVbQtItMM2GFlmeEm13p/zyyWGIx10jVKQ==" type="application/javascript" src="https://github.githubassets.com/assets/chunk-vendor-4d97ead9.js"></script>
   
   <script crossorigin="anonymous" defer="defer" integrity="sha512-PAXQ2jjchz/I1JubF7VI2FoOYCY4nJn4cxamKEJ2mrqDjHu3j2KnVfNw04W1In6xXFBpIHIdZAU59sMPFOsiTA==" type="application/javascript" src="https://github.githubassets.com/assets/behaviors-3c05d0da.js"></script>
@@ -64,7 +64,7 @@
   <link rel="assets" href="https://github.githubassets.com/">
   
 
-  <meta name="request-id" content="F780:6C77:DE0702:14A9E78:5FFF685E" data-pjax-transient="true"/><meta name="html-safe-nonce" content="3c27e5dbfb7f1a2db9b87f42887b0ef9fe679c7246674dbef2ba5483cb5ec5d5" data-pjax-transient="true"/><meta name="visitor-payload" content="eyJyZWZlcnJlciI6IiIsInJlcXVlc3RfaWQiOiJGNzgwOjZDNzc6REUwNzAyOjE0QTlFNzg6NUZGRjY4NUUiLCJ2aXNpdG9yX2lkIjoiNTcyMzY2OTMxODAwMzQyNjUxOCIsInJlZ2lvbl9lZGdlIjoiaWFkIiwicmVnaW9uX3JlbmRlciI6ImlhZCJ9" data-pjax-transient="true"/><meta name="visitor-hmac" content="cc018aae755eff7d3a8529e340f75a99c808bc2b52b2731445e7682bd068ed78" data-pjax-transient="true"/>
+  <meta name="request-id" content="E45B:69E2:3A0847:665EBA:5FFF95A8" data-pjax-transient="true"/><meta name="html-safe-nonce" content="8d399cf94415fd95a006a2e44ce5f654a844000b772f287e6ad912845d66f07f" data-pjax-transient="true"/><meta name="visitor-payload" content="eyJyZWZlcnJlciI6IiIsInJlcXVlc3RfaWQiOiJFNDVCOjY5RTI6M0EwODQ3OjY2NUVCQTo1RkZGOTVBOCIsInZpc2l0b3JfaWQiOiI1NzIzNjY5MzE4MDAzNDI2NTE4IiwicmVnaW9uX2VkZ2UiOiJpYWQiLCJyZWdpb25fcmVuZGVyIjoiaWFkIn0=" data-pjax-transient="true"/><meta name="visitor-hmac" content="b928b50f885e41b083de33cdaba9bc30aeef353dc2333f108dc59b725f484cbb" data-pjax-transient="true"/>
 
     <meta name="hovercard-subject-tag" content="repository:327972348" data-pjax-transient>
 
@@ -106,7 +106,7 @@
 
     <meta name="enabled-features" content="MARKETPLACE_PENDING_INSTALLATIONS">
 
-  <meta http-equiv="x-pjax-version" content="d0a70a45fc7b0934da480207f0893d36d447a9d3ba9826c29abf939370c2c4ba">
+  <meta http-equiv="x-pjax-version" content="d39b10805f6e9a142250db166a997510b467ed82ac01d1fc957c964e27867cc5">
   
 
         <link href="https://github.com/EmilyMarkowitz-NOAA/FishR101-RMarkdown/commits/main.atom" rel="alternate" title="Recent Commits to FishR101-RMarkdown:main" type="application/atom+xml">
@@ -312,7 +312,7 @@
           spellcheck="false"
           autocomplete="off"
           >
-          <input type="hidden" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" value="sF36YTl25uODu5hA2DDGrkRIdssk8gC6BlduFPOfT45ZojCZszXcNoyyystzWIlJAzQ4ubqjsooK2FBVZhlg2w==" />
+          <input type="hidden" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" value="UhBDYvrRVHNOHVWyFlIclr/n9aK9MjI373TvVwzI4+FV9I06zB6V1DrZ8IpLfByer+RD6rPdXDD9xxpT7K5sLQ==" />
           <input type="hidden" class="js-site-search-type-field" name="type" >
             <img src="https://github.githubassets.com/images/search-key-slash.svg" alt="" class="mr-2 header-search-key-slash">
 
@@ -838,7 +838,7 @@
 
   <div class="UnderlineNav my-2 box-shadow-none">
     <div class="UnderlineNav-body" role="tablist">
-      <!-- '"` --><!-- </textarea></xmp> --></option></form><form data-remote="true" action="/users/set_protocol?protocol_type=clone" accept-charset="UTF-8" method="post"><input type="hidden" data-csrf="true" name="authenticity_token" value="fqedjXaxti8/j3DZlVg7N74+Kaxbv3RLDQfTTr/Ru/pFITGJvOAX7Ibc58zW5pBQCTvwQYB6aRjb/3NmFV4GKg==" />
+      <!-- '"` --><!-- </textarea></xmp> --></option></form><form data-remote="true" action="/users/set_protocol?protocol_type=clone" accept-charset="UTF-8" method="post"><input type="hidden" data-csrf="true" name="authenticity_token" value="HgYgOnLlkZ69KQ8edqzD1S5MCeAVUH96jxEHV+XxIeHBaMi3XmmYWpZIOAhcCfPoKMEvnyCuT0ZWlCHYTZerbg==" />
           <button name="protocol_selector" type="submit" role="tab" class="UnderlineNav-item lh-default f6 py-0 px-0 mr-2 position-relative" aria-selected="true" value="http" data-hydro-click="{&quot;event_type&quot;:&quot;clone_or_download.click&quot;,&quot;payload&quot;:{&quot;feature_clicked&quot;:&quot;USE_HTTPS&quot;,&quot;git_repository_type&quot;:&quot;REPOSITORY&quot;,&quot;repository_id&quot;:327972348,&quot;originating_url&quot;:&quot;https://github.com/EmilyMarkowitz-NOAA/FishR101-RMarkdown&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="7928fce30345c23e1d8f51e3c69f7caad2deeabb8663683f7f4dc357498111d2">
             HTTPS
 </button>          <button name="protocol_selector" type="submit" role="tab" class="UnderlineNav-item lh-default f6 py-0 px-0 mr-2 position-relative" value="gh_cli" data-hydro-click="{&quot;event_type&quot;:&quot;clone_or_download.click&quot;,&quot;payload&quot;:{&quot;feature_clicked&quot;:&quot;USE_GH_CLI&quot;,&quot;git_repository_type&quot;:&quot;REPOSITORY&quot;,&quot;repository_id&quot;:327972348,&quot;originating_url&quot;:&quot;https://github.com/EmilyMarkowitz-NOAA/FishR101-RMarkdown&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="522d20ec530e629b0d0a88cbf87fa8689aa42287ba9b1c031dc8a0c64017fc18">
@@ -1126,20 +1126,20 @@
   <h3 class="sr-only">Topics</h3>
   <div class="mt-3">
       <div class="f6">
+      <a data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:rmarkdown" href="/topics/rmarkdown" title="Topic: rmarkdown" class="topic-tag topic-tag-link ">
+  rmarkdown
+</a>
       <a data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:noaa" href="/topics/noaa" title="Topic: noaa" class="topic-tag topic-tag-link ">
   noaa
 </a>
-      <a data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:fisheries" href="/topics/fisheries" title="Topic: fisheries" class="topic-tag topic-tag-link ">
-  fisheries
+      <a data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:rstats" href="/topics/rstats" title="Topic: rstats" class="topic-tag topic-tag-link ">
+  rstats
 </a>
       <a data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:lesson" href="/topics/lesson" title="Topic: lesson" class="topic-tag topic-tag-link ">
   lesson
 </a>
-      <a data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:rmarkdown" href="/topics/rmarkdown" title="Topic: rmarkdown" class="topic-tag topic-tag-link ">
-  rmarkdown
-</a>
-      <a data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:rstats" href="/topics/rstats" title="Topic: rstats" class="topic-tag topic-tag-link ">
-  rstats
+      <a data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:fisheries" href="/topics/fisheries" title="Topic: fisheries" class="topic-tag topic-tag-link ">
+  fisheries
 </a>
   </div>
 
