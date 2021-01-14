@@ -1,5 +1,5 @@
 ---
-title: "Share Insight & Help Others"
+title: "**Share Insight & Help Others**"
 output:
   html_document:
     includes:

@@ -1,5 +1,5 @@
 ---
-title: "Course Syllabus and Materials"
+title: "**Course Syllabus and Materials**"
 output:
   html_document:
     includes:

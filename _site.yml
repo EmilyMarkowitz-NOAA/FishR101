@@ -12,31 +12,15 @@ navbar:
         - text: "Syllabus"
           icon: fa-calendar
           href: syllabus.html  
-        - text: "Other Resources"
+        - text: "Additional R Resources"
           icon: fa-hand-pointer
-          href: other-resources.html  
+          href: add-r-resources.html  
         - text: "Share Insights"
           icon: fa-comment-alt
           href: share-help.html
         - text: "How is it going?"
           icon: fa-file-invoice
           href: feedback.html
-        - text: ""
-          href: FishR101-BestScripting.nb.html
-        - text: ""
-          href: FishR101-BaseRvTidy.nb.html
-        - text: ""
-          href: FishR101-TidyPt1.nb.html
-        - text: ""
-          href: FishR101-BestScripting.nb.html
-        - text: ""
-          href: FishR101-Functions.nb.html
-        - text: ""
-          href: FishR101-BestScripting.nb.html
-        - text: ""
-          href: FishR101-BestScripting.nb.html
-        - text: ""
-          href: FishR101-Models.nb.html
   right:
     - icon: fas fa-paper-plane fa-lg
       href: mailto:emily.markowitz@noaa.gov                      # CHANGE HERE 

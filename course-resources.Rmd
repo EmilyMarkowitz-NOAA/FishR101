@@ -1,5 +1,5 @@
 ---
-title: "Course Resources"
+title: "**Course Resources**"
 output:
   html_document:
     includes:
