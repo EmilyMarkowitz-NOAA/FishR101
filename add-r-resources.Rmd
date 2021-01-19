@@ -11,7 +11,7 @@ editor_options:
 <div class = "row">
 <div class = "col-md-6">
 
-![*R* Lord and Saviour](images/RLordAndSaviour.jpg)
+![Do you have a moment to learn about *R* Lord and Saviour?](images/RLordAndSaviour.jpg)
 
 </div>
 <div class = "col-md-6">

@@ -25,13 +25,8 @@ Open R Studio and check it out:
 
 5. Vectors, Matrices, Arrays, Lists, and Data Frames
 
-6. Best Practices Review
-
-
-
-
-",
-"Tuesday, January 19, 2021",9:50 AM,10:00 AM,Break,Break,,,,tags$img(src = './images/StrongerSpongebob.jpg'),
+6. Best Practices Review",
+"Tuesday, January 19, 2021",9:50 AM,10:00 AM,Break,Break,,,,tags$img(src = './images/RTheHero.png'),
 "Tuesday, January 19, 2021",10:00 AM,10:40 AM,Interactive Learning,,,Caitlin Allen Akselrud,,"Resources
 
 From the presentation:
@@ -69,14 +64,17 @@ Today's Homework
 
 1. Practice the skills we just learned in R. 
 
-","An informal opprotunity to come by to ask any questions you have about the course, content, or with specific questions about issues you have with the homework or in your own analyses.
+9_homework1.R file: https://github.com/EmilyMarkowitz-NOAA/FishR101-WelcomeR/blob/main/R/9_homework1.R
+
+2. Add to Share Insights: https://emilymarkowitz-noaa.github.io/FishR101/share-help.html","An informal opprotunity to come by to ask any questions you have about the course, content, or with specific questions about issues you have with the homework or in your own analyses.
 
 Today's Homework
 
 1. Practice the skills we just learned in R. 
 
 9_homework1.R file: https://github.com/EmilyMarkowitz-NOAA/FishR101-WelcomeR/blob/main/R/9_homework1.R
-"
+
+2. Add to Share Insights: https://emilymarkowitz-noaa.github.io/FishR101/share-help.html"
 "Thursday, January 21, 2021",9:00 AM,9:10 AM,Review Homework,Review Homework,,,,Answers will be added here. ,Add Answers!
 "Thursday, January 21, 2021",9:10 AM,9:50 AM,Introduce New Materials,Base R language and {Tidyverse} language,,Caitlin Allen Akselrud,,"Agenda
 
@@ -278,13 +276,13 @@ Repro: https://github.com/EmilyMarkowitz-NOAA/FishR101-Models
 "Thursday, February 18, 2021",10:40 AM,10:50 AM,Break,Break,,,,,
 "Thursday, February 18, 2021",10:50 AM,12:00 AM,Office Hours,,,Caitlin Allen Akselrud & Emily Markowitz,,"An informal opprotunity to come by to ask any questions you have about the course, content, or with specific questions about issues you have with the homework or in your own analyses.",Add HW!
 "Tuesday, February 23, 2021",9:00 AM,9:10 AM,Review Homework,Review Homework,,Emily Markowitz,,Answers will be added here. ,Add Answers!
-"Tuesday, February 23, 2021",9:10 AM,9:20 AM,Introduction,Lightning Talks,,Caitlin Allen Akselrud & Emily Markowitz,,,
-"Tuesday, February 23, 2021",9:20 AM,9:30 AM,Introduce New Materials,SCRUGs,Caitlin Allen Akselrud,,,,
-"Tuesday, February 23, 2021",9:30 AM,9:50 AM,Introduce New Materials,ROracle,Rebecca Haehn,,,,
-"Tuesday, February 23, 2021",9:50 AM,10:10 AM,Introduce New Materials,sumfish,Jason Conner,,,,
-"Tuesday, February 23, 2021",10:10 AM,10:30 AM,Introduce New Materials,akgfmaps,Sean Rohan,,,,
-,10:30 AM,10:40 AM,Break,,,,,tags$img(src = './images/RTheHero.png'),
-"Tuesday, February 23, 2021",10:40 AM,11:00 AM,Introduce New Materials,General packages and shiny,Megsie Siple,,,,
-"Tuesday, February 23, 2021",9:50 AM,10:00 AM,Introduce New Materials,VAST,Cecilia O'Leary,,,,
-"Tuesday, February 23, 2021",10:00 AM,10:40 AM,Break,R Markdown,Emily Markowitz,,,Repro: https://github.com/EmilyMarkowitz-NOAA/FishR101-RMarkdown,
+"Tuesday, February 23, 2021",9:10 AM,9:20 AM,Introduction,,,Caitlin Allen Akselrud & Emily Markowitz,,,
+"Tuesday, February 23, 2021",9:20 AM,9:30 AM,Lightning Talks,SCRUGs,Caitlin Allen Akselrud,,,,
+"Tuesday, February 23, 2021",9:30 AM,9:50 AM,Lightning Talks,ROracle,Rebecca Haehn,,,,
+"Tuesday, February 23, 2021",9:50 AM,10:10 AM,Lightning Talks,sumfish,Jason Conner,,,,
+"Tuesday, February 23, 2021",10:10 AM,10:30 AM,Lightning Talks,akgfmaps,Sean Rohan,,,,
+,10:30 AM,10:40 AM,Break,,,,,tags$img(src = './images/StrongerSpongebob.jpg'),
+"Tuesday, February 23, 2021",10:40 AM,11:00 AM,Lightning Talks,General packages and shiny,Megsie Siple,,,,
+"Tuesday, February 23, 2021",9:50 AM,10:00 AM,Lightning Talks,VAST,Cecilia O'Leary,,,,
+"Tuesday, February 23, 2021",10:00 AM,10:40 AM,Lightning Talks,R Markdown,Emily Markowitz,,,Repro: https://github.com/EmilyMarkowitz-NOAA/FishR101-RMarkdown,
 "Tuesday, February 23, 2021",10:50 AM,12:00 AM,Office Hours,,,Caitlin Allen Akselrud & Emily Markowitz,,"An informal opprotunity to come by to ask any questions you have about the course, content, or with specific questions about issues you have with the homework or in your own analyses.",

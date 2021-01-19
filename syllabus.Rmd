@@ -79,13 +79,13 @@ for (i in 1:length(aa)){
       # dd<- aa[i][[1]][ii]
       if (grepl(pattern = "https://", x = aa[i][[1]][ii], ignore.case = T)) {
         bb<-strsplit(x = aa[i][[1]][ii], split = ": ")
-      if (grepl(pattern = "github.com", x = aa[i][[1]][ii], ignore.case = T)) {
-        htmlname<-strsplit(split = "/", x = bb[[1]][2])[[1]]
-        download.file(url = bb[[1]][2], 
-                      destfile = paste0(getwd(), "/", htmlname[length(htmlname)]))
-        bb[[1]][2]<-paste0(htmlname[length(htmlname)])
-        # counter0<-counter0+1
-      }
+      # if (grepl(pattern = "github.com", x = aa[i][[1]][ii], ignore.case = T)) {
+      #   htmlname<-strsplit(split = "/", x = bb[[1]][2])[[1]]
+      #   download.file(url = bb[[1]][2], 
+      #                 destfile = paste0(getwd(), "/", htmlname[length(htmlname)]))
+      #   bb[[1]][2]<-paste0(htmlname[length(htmlname)])
+      #   # counter0<-counter0+1
+      # }
         # cc<-paste0('["', bb[[1]][1], '"] (', bb[[1]][2], '")')
         # cc<-paste0('<a href="', bb[[1]][2], '">', bb[[1]][1], '</a>')
         cc<-paste0('
