@@ -12,6 +12,8 @@ tags$strong(tags$em('Start by doing what is necessary; then do what is possible;
 
 Lesson: https://docs.google.com/presentation/d/1XFU8nEpnvoJKES4SxO88L3ddqAtZtQTeEauLzQlFfXk/edit?usp=sharing
 
+Recording of lesson: https://drive.google.com/file/d/1uZkvtsLROntRssNVBC5mptKdd1XloOls/view?usp=sharing
+
 Repository: https://github.com/EmilyMarkowitz-NOAA/FishR101-WelcomeR
 
 Download Repository: https://github.com/EmilyMarkowitz-NOAA/FishR101-BestScripting/archive/main.zip
@@ -29,6 +31,7 @@ Open R Studio and check it out:
 5. Vectors, Matrices, Arrays, Lists, and Data Frames
 
 6. Best Practices Review
+
 
 ",
 "Tuesday, January 19, 2021",9:50 AM,10:00 AM,Break,Break,,,,tags$img(src = './images/RTheHero.png'),
@@ -67,12 +70,12 @@ Caitlin Allen Akselrud & Emily Markowitz",,"An informal opprotunity to come by t
 
 Today's Homework
 
-1. Practice the skills we just learned in R! Download and refer to 9_homework1.R: https://github.com/EmilyMarkowitz-NOAA/FishR101-WelcomeR/blob/main/R/9_homework1.R
+1. Practice the skills we just learned in R! Download and refer to 9_homework1.R: https://github.com/EmilyMarkowitz-NOAA/FishR101-WelcomeR/blob/main/code/9_homework1.R
 
 2. Add to Share Insights with one thing you learned!: https://emilymarkowitz-noaa.github.io/FishR101/share-help.html",
 "Thursday, January 21, 2021",9:00 AM,9:10 AM,Review Homework,Review Homework,,,,"Welcome! 
 
-Answers to the homework will be added here. 
+Answers to the homework: https://github.com/EmilyMarkowitz-NOAA/FishR101-WelcomeR/blob/main/code/10_homework1_solutions.R
 ",Add Answers!
 "Thursday, January 21, 2021",9:10 AM,9:50 AM,Introduce New Materials,Base R language and {Tidyverse} language,,Caitlin Allen Akselrud,,"Agenda
 
@@ -82,18 +85,21 @@ tags$em('You can not use #tidyverse without base R. It is not a dichotomy. Pick 
 
 Lesson: https://docs.google.com/presentation/d/1C855dzCUu25-45f4rLHJc56hkBTS309JC_cNRa_lItM/edit?usp=sharing
 
-Reprository: https://github.com/EmilyMarkowitz-NOAA/FishR101-BaseRvTidy
+Repository Webpage: https://github.com/EmilyMarkowitz-NOAA/FishR101-BaseRvTidy
 
-Download Repository: https://github.com/EmilyMarkowitz-NOAA/FishR101-BaseRvTidy/archive/main.zip
+Download Repository Content: https://github.com/EmilyMarkowitz-NOAA/FishR101-BaseRvTidy/archive/main.zip
 
 0. Review of how to create R Projects and download content from GitHub: https://docs.google.com/document/d/17vqfBYUxyasruIdkjhp2YA3Afcr1BXvcSoQ5lvl3Wcs/edit?usp=sharing
-1. The importance of checking as you go.  ; 
 
-2. Loading libraries (e.g. tidyverse: install.packages() and library())
+1. The importance of checking as you go. 
+
+2. Loading libraries (e.g., tidyverse: install.packages() and library())
 
 3. Best practices - ‘renv’ package to track package versions in projects
 
 *Note that after this lessson we will be focusing on Tidy methods.
+
+
 
 
 
