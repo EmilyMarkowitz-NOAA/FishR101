@@ -113,6 +113,14 @@ A [github website](https://emilymarkowitz-noaa.github.io/FishR101/) and reposito
 *Fun fact you might have already guessed: this whole website was built using R! (Check out the code we used to create it [here](https://github.com/emilymarkowitz-NOAA/FishR101)).*
 
 
+## How to access course materials
+
+Follow this guide to help you [download course materials](https://docs.google.com/presentation/d/1C855dzCUu25-45f4rLHJc56hkBTS309JC_cNRa_lItM/edit?usp=sharing) from GitHub so you can follow along with the course. Feel free to comment or suggest edits to make this more helpful and straight forward for other classmates. 
+
+We post material on GitHub because it is an easy way to push and pull changes directly from R. This is beyond the scope of the course, be we are more than happy to talk more about how great GitHub is during office hours or outside of class. 
+
+
+
 ## Course structure:
 
  - 3.5 hours (including breaks), 2x/wk, 5 weeks

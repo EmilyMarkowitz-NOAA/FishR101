@@ -78,7 +78,7 @@ Answers to the homework will be added here.
 
 tags$em('You can not use #tidyverse without base R. It is not a dichotomy. Pick the tools that make you most effective.')
 
- ~ The Great Hadley Wickham
+ ~ The Great Hadley Wickham, creater of Tidyverse
 
 Lesson: https://docs.google.com/presentation/d/1C855dzCUu25-45f4rLHJc56hkBTS309JC_cNRa_lItM/edit?usp=sharing
 
@@ -112,7 +112,7 @@ Download Repository: https://github.com/EmilyMarkowitz-NOAA/FishR101-BaseRvTidy/
 3. Tidyverse: https://www.tidyverse.org/ 
 
 
-4. janitor package: clean_names() https://garthtarr.github.io/meatR/janitor.html#clean_names() 
+4. janitor package (e.g., clean_names()): https://garthtarr.github.io/meatR/janitor.html#clean_names() 
 
 
 5. renv package: https://rstudio.github.io/renv/articles/renv.html 
@@ -134,7 +134,7 @@ Today's Homework
 R Script of questions: https://github.com/EmilyMarkowitz-NOAA/FishR101-BaseRvTidy/blob/main/code/3_homework.R
 
 
-Pretty PDF of questions: https://github.com/EmilyMarkowitz-NOAA/FishR101-BaseRvTidy/blob/main/code/3_Homework.pdf
+Pretty PDF of questions (made in R Markdown): https://github.com/EmilyMarkowitz-NOAA/FishR101-BaseRvTidy/blob/main/code/3_Homework.pdf
 
 
 2. Add to Share Insights with one thing you learned! 
@@ -142,7 +142,9 @@ Pretty PDF of questions: https://github.com/EmilyMarkowitz-NOAA/FishR101-BaseRvT
 Add to the google docs how you will be able to use what you learned today to improve how you work with data: https://emilymarkowitz-noaa.github.io/FishR101/share-help.html
 
 
-",
+3. Check out the rstudio global(2021): https://rstudio.com/conference/
+
+Check out any of the talks, but the first keynote talk by Hadley Wickham might be a good one!: https://global.rstudio.com/student/page/40521?course_session_id=2792",
 "Tuesday, February 2, 2021",9:00 AM,9:10 AM,Review Homework,Review Homework,,Emily Markowitz,,Welcome! ,Add Answers!
 "Tuesday, February 2, 2021",9:10 AM,9:50 AM,Introduce New Materials,Dive into Tidy: data wrangling and manipulation Part I,,Caitlin Allen Akselrud,,TBD,"Agenda
 
