@@ -83,6 +83,8 @@ tags$em('You can not use #tidyverse without base R. It is not a dichotomy. Pick 
 
  ~ The Great Hadley Wickham, creater of Tidyverse
 
+Recording of Lesson: https://drive.google.com/file/d/14qscFfcWZrWQjC6g2L0AQeq79CSEiq0h/view?usp=sharing
+
 Lesson: https://docs.google.com/presentation/d/1C855dzCUu25-45f4rLHJc56hkBTS309JC_cNRa_lItM/edit?usp=sharing
 
 Repository Webpage: https://github.com/EmilyMarkowitz-NOAA/FishR101-BaseRvTidy
@@ -105,6 +107,8 @@ Download Repository Content: https://github.com/EmilyMarkowitz-NOAA/FishR101-Bas
 
 
 
+
+
 ",
 "Thursday, January 21, 2021",9:50 AM,10:00 AM,Break,Break,,,,tags$img(src = './images/RVsExcel.jpg'),
 "Thursday, January 21, 2021",10:00 AM,10:40 AM,Interactive Learning,,,Caitlin Allen Akselrud,,"Resources
@@ -118,13 +122,24 @@ Download Repository Content: https://github.com/EmilyMarkowitz-NOAA/FishR101-Bas
 3. Tidyverse: https://www.tidyverse.org/ 
 
 
-4. janitor package (e.g., clean_names()): https://garthtarr.github.io/meatR/janitor.html#clean_names() 
+4. janitor package (e.g., clean_names())
+Guide: https://garthtarr.github.io/meatR/janitor.html#clean_names() 
 
 
-5. renv package: https://rstudio.github.io/renv/articles/renv.html 
+5. renv package
+
+Guide: https://rstudio.github.io/renv/articles/renv.html 
+
+RStudio::Conf(2020) Talk by Creator: https://rstudio.com/resources/rstudioconf-2020/renv-project-environments-for-r/
+
+Slides from RStudio::Conf(2020) Talk by Creator: https://kevinushey-2020-rstudio-conf.netlify.app/slides.html#1
 
 
 6. EXTRA: R Cheatsheets: https://rstudio.com/resources/cheatsheets/ 
+
+
+
+
 
 ",
 "Thursday, January 21, 2021",10:50 AM,11:00 AM,Break,Break,,,,"Inspiration Time!
@@ -151,7 +166,10 @@ Add to the google docs how you will be able to use what you learned today to imp
 3. Check out the rstudio global(2021): https://rstudio.com/conference/
 
 Check out any of the talks, but the first keynote talk by Hadley Wickham might be a good one!: https://global.rstudio.com/student/page/40521?course_session_id=2792",
-"Tuesday, February 2, 2021",9:00 AM,9:10 AM,Review Homework,Review Homework,,Emily Markowitz,,Welcome! ,Add Answers!
+"Tuesday, February 2, 2021",9:00 AM,9:10 AM,Review Homework,Review Homework,,Emily Markowitz,,"Welcome! 
+
+Homework answers: https://github.com/EmilyMarkowitz-NOAA/FishR101-BaseRvTidy/blob/main/code/3_Homework-Answers.pdf
+",
 "Tuesday, February 2, 2021",9:10 AM,9:50 AM,Introduce New Materials,Dive into Tidy: data wrangling and manipulation Part I,,Caitlin Allen Akselrud,,TBD,"Agenda
 
 tags$strong(tags$em('ADD SOMETHING.'))
