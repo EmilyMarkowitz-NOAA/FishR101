@@ -1,6 +1,5 @@
 
 
-#Vinettes
 library(fontawesome)
 library("googledrive")
 

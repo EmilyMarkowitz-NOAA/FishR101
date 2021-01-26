@@ -13,8 +13,6 @@ editor_options:
 
 ![Y'all ready for this?](images/CodeAllTheThings.png)
 
-*All times are in Pacific Time. *
-
 </div>
 <div class = "col-md-6">
 
@@ -28,7 +26,7 @@ editor_options:
 </div>
 </div>
 
-*Please click on the title to see the session description*
+*All times are in Pacific Time. Please click on the title to see the session description. *
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE, warning=FALSE, error = FALSE, message = FALSE)
