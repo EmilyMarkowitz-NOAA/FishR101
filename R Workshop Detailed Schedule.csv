@@ -137,7 +137,7 @@ Slides from RStudio::Conf(2020) Talk by Creator: https://kevinushey-2020-rstudio
 "Thursday, January 21, 2021",10:50 AM,11:00 AM,Break,Break,,,,"Inspiration Time!
 
 
-You Should Learn to Program: Christian Genco at TEDxSMU: https://www.youtube.com/watch?v=xfBWk4nw440 ",
+You Should Learn to Program - Christian Genco at TEDxSMU: https://www.youtube.com/watch?v=xfBWk4nw440 ",
 "Thursday, January 21, 2021",11:00 AM,12:00 AM,Office Hours,Homework Assignment,,Caitlin Allen Akselrud & Emily Markowitz,,"An informal opprotunity to come by to ask any questions you have about the course, content, or with specific questions about issues you have with the homework or in your own analyses.
 
 Today's Homework
@@ -164,9 +164,9 @@ Homework answers: https://github.com/EmilyMarkowitz-NOAA/FishR101-BaseRvTidy/blo
 ",
 "Tuesday, February 2, 2021",9:10 AM,9:50 AM,Introduce New Materials,Dive into Tidy: data wrangling and manipulation Part I,,Caitlin Allen Akselrud,,"Agenda
 
-tags$strong(tags$em('ADD SOMETHING.'))
+tags$strong(tags$em('Achievement is talent plus preparation.'))
 
- ~ Somebody cool
+ ~ Malcolm Gladwell, Outliers: The Story of Success
 
 Recording of Lesson [posted after lesson]
 
@@ -204,16 +204,10 @@ Excel - Here’s some helpful options: http://www.sthda.com/english/wiki/reading
 
 Memory issues: https://www.rdocumentation.org/packages/utils/versions/3.6.2/topics/memory.size 
 
-Import Data Cheatsheet: https://evoldyn.gitlab.io/evomics-2018/ref-sheets/R_data-import.pdf
+Import Data Cheatsheet: https://evoldyn.gitlab.io/evomics-2018/ref-sheets/R_data-import.pdf",
+"Tuesday, February 2, 2021",10:50 AM,11:00 AM,Break,Break,,,,"Inspiration Time!
 
-
-
-
-
-
-
-",
-"Tuesday, February 2, 2021",10:50 AM,11:00 AM,Break,Break,,,,101 Data Science Quotes: https://medium.com/data-professor/101-data-science-quotes-afad20d1e6ee,
+101 Data Science Quotes: https://medium.com/data-professor/101-data-science-quotes-afad20d1e6ee",
 "Tuesday, February 2, 2021",11:00 AM,12:00 AM,Office Hours,Homework Assignment,,Caitlin Allen Akselrud & Emily Markowitz,,"An informal opprotunity to come by to ask any questions you have about the course, content, or with specific questions about issues you have with the homework or in your own analyses.
 
 Today's Homework
@@ -330,7 +324,7 @@ Homework
 "Tuesday, February 16, 2021",9:00 AM,9:10 AM,Review Homework,Review Homework,,Emily Markowitz,,Answers will be added here. ,Add Answers!
 "Tuesday, February 16, 2021",9:10 AM,9:50 AM,Introduce New Materials,Making things pretty: Figures and Tables,,Caitlin Allen Akselrud,,"Agenda
 
-tags$strong(tags$em('Maybe stories are just data with a soul..'))
+tags$strong(tags$em('Maybe stories are just data with a soul.'))
 
  ~ Brené Brown,  American professor, lecturer, author, and podcast host
 
