@@ -102,7 +102,7 @@ Download Repository Content: https://github.com/EmilyMarkowitz-NOAA/FishR101-Bas
 *Note that after this lessson we will be focusing on Tidy methods.
 
 ",
-"Thursday, January 21, 2021",9:50 AM,10:00 AM,Break,Break,,,,tags$img(src = './images/RVsExcel.jpg'),
+"Thursday, January 21, 2021",9:50 AM,10:00 AM,Break,Break,,,,tags$img(src = './images/Gooood.jpg'),
 "Thursday, January 21, 2021",10:00 AM,10:40 AM,Interactive Learning,,,Caitlin Allen Akselrud,,"Resources
 
 1. R Project: https://www.r-project.org/about.html
@@ -158,6 +158,16 @@ Add to the google docs how you will be able to use what you learned today to imp
 3. Check out the rstudio global(2021): https://rstudio.com/conference/
 
 Check out any of the talks, but the first keynote talk by Hadley Wickham might be a good one!: https://global.rstudio.com/student/page/40521?course_session_id=2792",
+"Tuesday, February 2, 2021",8:30 AM,8:55 AM,Download Classwork Help,Download Classwork Help,,Emily Markowitz,,"I'll help you go through the steps in this guide and get you set up class!
+
+
+
+Join me by adding this google calendar event to your calendar.: https://calendar.google.com/event?action=TEMPLATE&tmeid=MW5hbjg5Y25wbzUxcWMwZWRxaGc0MWZvYmpfMjAyMTAyMDJUMTYzMDAwWiBlbWlseS5tYXJrb3dpdHpAbm9hYS5nb3Y&tmsrc=emily.markowitz%40noaa.gov 
+
+
+Review of how to create R Projects and download content from GitHub: https://docs.google.com/document/d/17vqfBYUxyasruIdkjhp2YA3Afcr1BXvcSoQ5lvl3Wcs/edit?usp=sharing 
+
+",
 "Tuesday, February 2, 2021",9:00 AM,9:10 AM,Review Homework,Review Homework,,Emily Markowitz,,"Welcome! 
 
 Homework answers: https://github.com/EmilyMarkowitz-NOAA/FishR101-BaseRvTidy/blob/main/code/3_Homework-Answers.pdf
@@ -170,13 +180,11 @@ tags$strong(tags$em('Achievement is talent plus preparation.'))
 
 Recording of Lesson [posted after lesson]
 
-Lesson: https://docs.google.com/presentation/d/1C9AGuHVk9tR5wI0h96bJ3bnK19uGxjZ0aSVY-tP_CbE/edit?usp=sharing
+Lesson: https://docs.google.com/presentation/d/1C9AGuHVk9tR5wI0h96bJ3bnK19uGxjZ0aSVY-tP_CbE/edit?usp=sharing 
 
-Repository Webpage: https://github.com/EmilyMarkowitz-NOAA/FishR101-BaseRvTidy
+Repository Webpage: https://github.com/EmilyMarkowitz-NOAA/FishR101-TidyPt1 
 
 Download Repository Content: https://github.com/EmilyMarkowitz-NOAA/FishR101-TidyPt1/archive/main.zip
-
-0. Review of how to create R Projects and download content from GitHub: https://docs.google.com/document/d/17vqfBYUxyasruIdkjhp2YA3Afcr1BXvcSoQ5lvl3Wcs/edit?usp=sharing
 
 1. Workflow
 
@@ -188,8 +196,9 @@ Download Repository Content: https://github.com/EmilyMarkowitz-NOAA/FishR101-Tid
 
 5. Best Practices
 
+
 ",
-"Tuesday, February 2, 2021",9:50 AM,10:00 AM,Break,Break,,,,tags$img(src = './images/Gooood.jpg'),
+"Tuesday, February 2, 2021",9:50 AM,10:00 AM,Break,Break,,,,tags$img(src = './images/RVsExcel.jpg'),
 "Tuesday, February 2, 2021",10:00 AM,10:40 AM,Interactive Learning,,,Caitlin Allen Akselrud,,"Resources
 
 RStudio Cheat Sheets: https://www.rstudio.com/resources/cheatsheets/
@@ -223,6 +232,16 @@ Pretty PDF of questions (made in R Markdown): https://github.com/EmilyMarkowitz-
 
 Add to the google docs how you will be able to use what you learned today to improve how you work with data: https://emilymarkowitz-noaa.github.io/FishR101/share-help.html
 ",Add HW!
+"Thursday, February 4, 2021",8:30 AM,8:55 AM,Download Classwork Help,Download Classwork Help,,Emily Markowitz,,"I'll help you go through the steps in this guide and get you set up class!
+
+
+
+Join me by adding this google calendar event to your calendar.: https://calendar.google.com/event?action=TEMPLATE&tmeid=MDlhNGZubnY1NmswaW0zZzhrc3VsOWk5ODcgZW1pbHkubWFya293aXR6QG5vYWEuZ292&tmsrc=emily.markowitz%40noaa.gov
+
+
+Review of how to create R Projects and download content from GitHub: https://docs.google.com/document/d/17vqfBYUxyasruIdkjhp2YA3Afcr1BXvcSoQ5lvl3Wcs/edit?usp=sharing 
+
+",
 "Thursday, February 4, 2021",9:00 AM,9:10 AM,Review Homework,Review Homework,,Emily Markowitz,,Answers will be added here. ,Add Answers!
 "Thursday, February 4, 2021",9:10 AM,9:50 AM,Introduce New Materials,Dive into Tidy: data wrangling and manipulation Part II,,,,"Agenda
 
