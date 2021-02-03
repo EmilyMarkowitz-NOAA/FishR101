@@ -31,8 +31,6 @@ Open R Studio and check it out:
 5. Vectors, Matrices, Arrays, Lists, and Data Frames
 
 6. Best Practices Review
-
-
 ",
 "Tuesday, January 19, 2021",9:50 AM,10:00 AM,Break,Break,,,,tags$img(src = './images/RTheHero.png'),
 "Tuesday, January 19, 2021",10:00 AM,10:40 AM,Interactive Learning,,,Caitlin Allen Akselrud,,"Resources
@@ -178,7 +176,7 @@ tags$strong(tags$em('Achievement is talent plus preparation.'))
 
  ~ Malcolm Gladwell, Outliers: The Story of Success
 
-Recording of Lesson [posted after lesson]
+Recording of Lesson: https://drive.google.com/file/d/1hnVYKcafMvwSHYq2NdyQNmWopj5Vo1pH/view?usp=sharing
 
 Lesson: https://docs.google.com/presentation/d/1C9AGuHVk9tR5wI0h96bJ3bnK19uGxjZ0aSVY-tP_CbE/edit?usp=sharing 
 
@@ -245,39 +243,78 @@ Review of how to create R Projects and download content from GitHub: https://doc
 "Thursday, February 4, 2021",9:00 AM,9:10 AM,Review Homework,Review Homework,,Emily Markowitz,,Answers will be added here. ,Add Answers!
 "Thursday, February 4, 2021",9:10 AM,9:50 AM,Introduce New Materials,Dive into Tidy: data wrangling and manipulation Part II,,,,"Agenda
 
-tags$strong(tags$em('If you have a difficult task to do, give it to a lazy man, he will find an easier way to do it.'))
+tags$strong(tags$em('Everybody should learn to program a computer, because it teaches you how to think.'))
 
- ~ Henry Ford, inventor of the production line and someone who probably would have been a programmer if he were alive to see computers. 
+ ~ Steve Jobs 
+
+Recording of Lesson [posted after lesson]
 
 Lesson: https://docs.google.com/presentation/d/1bTfBpQ-_Or5C3wOzs0oEqvoQWXecE9lRLcjHS6hN5J4/edit?usp=sharing
 
+Repository Webpage: https://github.com/EmilyMarkowitz-NOAA/FishR101-TidyPt2
+
+Download Repository Content: https://github.com/EmilyMarkowitz-NOAA/FishR101-TidyPt2/archive/main.zip
+
 Repro: https://github.com/EmilyMarkowitz-NOAA/FishR101-TidyPt2
 
-1. TBD
+1. More wrangling data!
 
 2. Best Practices
 ",
 "Thursday, February 4, 2021",9:50 AM,10:00 AM,Break,Break,,Caitlin Allen Akselrud,,tags$img(src = './images/TidySparkJoy.png'),
 "Thursday, February 4, 2021",10:00 AM,10:40 AM,Interactive Learning,,,,,"Resources
 
+1. Introduction to Programming in R Youtube Playlist for Fisheries Science by Introduction to Programming in R: https://www.youtube.com/playlist?list=PLOj5McD9FWIwhPoZ-AKBUl-zrP_CZKtnm 
 
-1. Introduction to Programming in R Youtube Playlist for Fisheries Science by Introduction to Programming in R: https://www.youtube.com/playlist?list=PLOj5McD9FWIwhPoZ-AKBUl-zrP_CZKtnm
+2. Our coding club - Data manipulation: https://ourcodingclub.github.io/tutorials.html 
 
+3. Data Wrangling Cheat Sheet: https://rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf
 
-2. Data Wrangling Cheat Sheet: https://rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf
-",
+4. RStudio Cheat Sheets: https://www.rstudio.com/resources/cheatsheets/ 
+
+5. Tidyverse website (includes free online textbook): https://www.tidyverse.org/ 
+
+6. Regular expressions: https://www.geeksforgeeks.org/write-regular-expressions/ ",
 "Thursday, February 4, 2021",10:50 AM,11:00 AM,Break,Break,,Caitlin Allen Akselrud,,,
-"Thursday, February 4, 2021",11:00 AM,12:00 AM,Office Hours,Homework Assignment,,Caitlin Allen Akselrud & Emily Markowitz,,"An informal opprotunity to come by to ask any questions you have about the course, content, or with specific questions about issues you have with the homework or in your own analyses.",Add HW!
+"Thursday, February 4, 2021",11:00 AM,12:00 AM,Office Hours,Homework Assignment,,Caitlin Allen Akselrud & Emily Markowitz,,"An informal opprotunity to come by to ask any questions you have about the course, content, or with specific questions about issues you have with the homework or in your own analyses.
+
+Today's Homework
+
+1. Practice the skills we just learned in R! 
+
+R Script of questions: https://github.com/EmilyMarkowitz-NOAA/FishR101-TidyPt2/blob/main/code/4_homework4.R 
+
+Pretty PDF of questions (made in R Markdown): https://github.com/EmilyMarkowitz-NOAA/FishR101-TidyPt2/blob/main/code/4_homework4.pdf
+
+
+2. Add to Share Insights with one thing you learned! 
+
+Add to the google docs how you will be able to use what you learned today to improve how you work with data: https://emilymarkowitz-noaa.github.io/FishR101/share-help.html
+",Add HW!
+"Tuesday, February 9, 2021",8:30 AM,8:55 AM,Download Classwork Help,Download Classwork Help,,Emily Markowitz,,"I'll help you go through the steps in this guide and get you set up class!
+
+
+
+Join me by adding this google calendar event to your calendar.: https://calendar.google.com/event?action=TEMPLATE&tmeid=MW5hbjg5Y25wbzUxcWMwZWRxaGc0MWZvYmpfMjAyMTAyMDlUMTYzMDAwWiBlbWlseS5tYXJrb3dpdHpAbm9hYS5nb3Y&tmsrc=emily.markowitz%40noaa.gov
+
+Review of how to create R Projects and download content from GitHub: https://docs.google.com/document/d/17vqfBYUxyasruIdkjhp2YA3Afcr1BXvcSoQ5lvl3Wcs/edit?usp=sharing 
+
+R for Data Science Chapter 8 - Workflow: projects: https://r4ds.had.co.nz/workflow-projects.html",
 "Tuesday, February 9, 2021",9:00 AM,9:10 AM,Review Homework,Review Homework,,Caitlin Allen Akselrud,,Answers will be added here. ,Add Answers!
 "Tuesday, February 9, 2021",9:10 AM,9:50 AM,Introduce New Materials,Let's Modularize! All Things Functions,,Emily Markowitz,,"Agenda
 
-tags$strong(tags$em('ADD SOMETHING.'))
+tags$strong(tags$em('If you have a difficult task to do, give it to a lazy man, he will find an easier way to do it.'))
 
- ~ Somebody cool
+ ~ Henry Ford, inventor of the production line and someone who probably would have been a programmer if he were alive to see computers.
 
-Lesson: TBD
+Recording of Lesson [TBD]
 
-Repro: https://github.com/EmilyMarkowitz-NOAA/FishR101-Functions
+Lesson [TBD]
+
+Repository Webpage: https://github.com/EmilyMarkowitz-NOAA/FishR101-Functions
+
+Download Repository Content: https://github.com/EmilyMarkowitz-NOAA/FishR101-Functions/archive/main.zip
+
 
 1. Writing
 
@@ -289,7 +326,8 @@ Repro: https://github.com/EmilyMarkowitz-NOAA/FishR101-Functions
 
 5. Best Practices - Modular coding style
 
-6. {roxygen2}",
+6. {roxygen2}
+",
 "Tuesday, February 9, 2021",9:50 AM,10:00 AM,Break,Break,,,,tags$img(src = './images/lightbulbfunction.jpg'),
 "Tuesday, February 9, 2021",10:00 AM,10:40 AM,Interactive Learning,,,Emily Markowitz,,"Resources
 
@@ -298,6 +336,15 @@ Repro: https://github.com/EmilyMarkowitz-NOAA/FishR101-Functions
 "Tuesday, February 9, 2021",11:00 AM,12:00 AM,Office Hours,,,Caitlin Allen Akselrud & Emily Markowitz,,"An informal opprotunity to come by to ask any questions you have about the course, content, or with specific questions about issues you have with the homework or in your own analyses.
  
 Take these famous equations and make them into functions!",Add HW!
+"Thursday, February 11, 2021",8:30 AM,8:55 AM,Download Classwork Help,Download Classwork Help,,Emily Markowitz,,"I'll help you go through the steps in this guide and get you set up class!
+
+
+
+Join me by adding this google calendar event to your calendar: https://calendar.google.com/event?action=TEMPLATE&tmeid=MW5hbjg5Y25wbzUxcWMwZWRxaGc0MWZvYmpfMjAyMTAyMDlUMTYzMDAwWiBlbWlseS5tYXJrb3dpdHpAbm9hYS5nb3Y&tmsrc=emily.markowitz%40noaa.gov
+
+Review of how to create R Projects and download content from GitHub: https://docs.google.com/document/d/17vqfBYUxyasruIdkjhp2YA3Afcr1BXvcSoQ5lvl3Wcs/edit?usp=sharing 
+
+R for Data Science Chapter 8 - Workflow: projects: https://r4ds.had.co.nz/workflow-projects.html",
 "Thursday, February 11, 2021",9:00 AM,9:10 AM,Review Homework,Review Homework,,Caitlin Allen Akselrud,,Answers will be added here. ,Add Answers!
 "Thursday, February 11, 2021",9:10 AM,9:50 AM,Introduce New Materials,Best Scripting Practices,,Caitlin Allen Akselrud & Emily Markowitz,,"Agenda
 
@@ -309,11 +356,15 @@ tags$em('Future you is your most important collaborator')
 
  ~ Julia Stewart Lowndes
 
-Lesson: https://raw.githubusercontent.com/EmilyMarkowitz-NOAA/FishR101-BestScripting/main/lesson/Lesson.nb.html
+Recording of Lesson [TBD]
 
-Repro: https://github.com/EmilyMarkowitz-NOAA/FishR101-BestScripting
+Lesson [TBD]
 
-Learn about how to write and prepare a script by 
+Repository Webpage: https://github.com/EmilyMarkowitz-NOAA/FishR101-BestScripting
+
+Download Repository Content: https://github.com/EmilyMarkowitz-NOAA/FishR101-BestScripting/archive/main.zip
+
+Learn about how to write and prepare a script by...
 
 1. Conforming to a predictable script structure
 
@@ -340,6 +391,24 @@ Learn about how to write and prepare a script by
 Homework
 
 1. Watch Julia Stewart Lowdes' Talk @ Groundfish Seminar: https://drive.google.com/file/d/1oSHAP_IsZRJizPqmXGJxG6QewHCp8qSZ/view?usp=sharing",Add HW!
+"Thursday, February 11, 2021",8:30 AM,8:55 AM,Download Classwork Help,Download Classwork Help,,Emily Markowitz,,"I'll help you go through the steps in this guide and get you set up class!
+
+
+
+Join me by adding this google calendar event to your calendar: https://calendar.google.com/event?action=TEMPLATE&tmeid=MDlhNGZubnY1NmswaW0zZzhrc3VsOWk5ODdfMjAyMTAyMTFUMTYzMDAwWiBlbWlseS5tYXJrb3dpdHpAbm9hYS5nb3Y&tmsrc=emily.markowitz%40noaa.gov
+
+Review of how to create R Projects and download content from GitHub: https://docs.google.com/document/d/17vqfBYUxyasruIdkjhp2YA3Afcr1BXvcSoQ5lvl3Wcs/edit?usp=sharing 
+
+R for Data Science Chapter 8 - Workflow: projects: https://r4ds.had.co.nz/workflow-projects.html",
+"Tuesday, February 16, 2021",8:30 AM,8:55 AM,Download Classwork Help,Download Classwork Help,,Emily Markowitz,,"I'll help you go through the steps in this guide and get you set up class!
+
+
+
+Join me by adding this google calendar event to your calendar: https://calendar.google.com/event?action=TEMPLATE&tmeid=MW5hbjg5Y25wbzUxcWMwZWRxaGc0MWZvYmpfMjAyMTAyMTZUMTYzMDAwWiBlbWlseS5tYXJrb3dpdHpAbm9hYS5nb3Y&tmsrc=emily.markowitz%40noaa.gov
+
+Review of how to create R Projects and download content from GitHub: https://docs.google.com/document/d/17vqfBYUxyasruIdkjhp2YA3Afcr1BXvcSoQ5lvl3Wcs/edit?usp=sharing 
+
+R for Data Science Chapter 8 - Workflow: projects: https://r4ds.had.co.nz/workflow-projects.html",
 "Tuesday, February 16, 2021",9:00 AM,9:10 AM,Review Homework,Review Homework,,Emily Markowitz,,Answers will be added here. ,Add Answers!
 "Tuesday, February 16, 2021",9:10 AM,9:50 AM,Introduce New Materials,Making things pretty: Figures and Tables,,Caitlin Allen Akselrud,,"Agenda
 
@@ -348,9 +417,14 @@ tags$strong(tags$em('Maybe stories are just data with a soul.'))
  ~ Brené Brown,  American professor, lecturer, author, and podcast host
 
 
-Lesson: TBD
+Recording of Lesson [TBD]
 
-Repro: https://github.com/EmilyMarkowitz-NOAA/FishR101-FigTab
+Lesson [TBD]
+
+Repository Webpage: https://github.com/EmilyMarkowitz-NOAA/FishR101-FigTab
+
+Download Repository Content: https://github.com/EmilyMarkowitz-NOAA/FishR101-FigTab/archive/main.zip
+
 
 1. ggplot
 
@@ -365,17 +439,32 @@ Repro: https://github.com/EmilyMarkowitz-NOAA/FishR101-FigTab
 1. ",
 "Tuesday, February 16, 2021",10:50 AM,11:00 AM,Break,Break,,,,,
 "Tuesday, February 16, 2021",11:00 AM,12:00 AM,Office Hours,,,Caitlin Allen Akselrud,,"An informal opprotunity to come by to ask any questions you have about the course, content, or with specific questions about issues you have with the homework or in your own analyses.",Add HW!
+"Thursday, February 18, 2021",8:30 AM,8:55 AM,Download Classwork Help,Download Classwork Help,,Emily Markowitz,,"I'll help you go through the steps in this guide and get you set up class!
+
+
+
+Join me by adding this google calendar event to your calendar: https://calendar.google.com/event?action=TEMPLATE&tmeid=MDlhNGZubnY1NmswaW0zZzhrc3VsOWk5ODdfMjAyMTAyMThUMTYzMDAwWiBlbWlseS5tYXJrb3dpdHpAbm9hYS5nb3Y&tmsrc=emily.markowitz%40noaa.gov
+
+Review of how to create R Projects and download content from GitHub: https://docs.google.com/document/d/17vqfBYUxyasruIdkjhp2YA3Afcr1BXvcSoQ5lvl3Wcs/edit?usp=sharing 
+
+R for Data Science Chapter 8 - Workflow: projects: https://r4ds.had.co.nz/workflow-projects.html",
 "Thursday, February 18, 2021",9:00 AM,9:10 AM,Review Homework,Review Homework,,Caitlin Allen Akselrud,,Answers will be added here. ,Add Answers!
 "Thursday, February 18, 2021",9:10 AM,9:50 AM,Introduce New Materials,Built-in Models in R,,Emily Markowitz,,"Agenda
 
-tags$strong(tags$em('I never guess. It is a capital mistake to theorize before one has data. Insensibly one begins to twist facts to suit theories, instead of theories to suit facts.'))
+tags$strong(tags$em('I never guess. It is a capital mistake to theorize before one has data. Insensibly one begins to twist facts to suit theories, instead of theories to suit facts... The temptation to form premature theories upon insufficient data is the bane of our profession.'))
 
  ~ Sherlock Holmes, as written by Arthur Conan Doyle
 
 
-Lesson: https://raw.githubusercontent.com/EmilyMarkowitz-NOAA/FishR101-Models/main/lesson/Lesson.nb.html
 
-Repro: https://github.com/EmilyMarkowitz-NOAA/FishR101-Models
+Recording of Lesson [TBD]
+
+Lesson [TBD]
+
+Repository Webpage: https://github.com/EmilyMarkowitz-NOAA/FishR101-Models
+
+Download Repository Content: https://github.com/EmilyMarkowitz-NOAA/FishR101-Models/archive/main.zip
+
 
 1. lm(), glm(), gam()
 
@@ -388,6 +477,15 @@ Repro: https://github.com/EmilyMarkowitz-NOAA/FishR101-Models
 1. ",
 "Thursday, February 18, 2021",10:50 AM,11:00 AM,Break,Break,,,,,
 "Thursday, February 18, 2021",11:00 AM,12:00 AM,Office Hours,,,Caitlin Allen Akselrud & Emily Markowitz,,"An informal opprotunity to come by to ask any questions you have about the course, content, or with specific questions about issues you have with the homework or in your own analyses.",Add HW!
+"Tuesday, February 23, 2021",8:30 AM,8:55 AM,Download Classwork Help,Download Classwork Help,,Emily Markowitz,,"I'll help you go through the steps in this guide and get you set up class!
+
+
+
+Join me by adding this google calendar event to your calendar: https://calendar.google.com/event?action=TEMPLATE&tmeid=MW5hbjg5Y25wbzUxcWMwZWRxaGc0MWZvYmpfMjAyMTAyMjNUMTYzMDAwWiBlbWlseS5tYXJrb3dpdHpAbm9hYS5nb3Y&tmsrc=emily.markowitz%40noaa.gov
+
+Review of how to create R Projects and download content from GitHub: https://docs.google.com/document/d/17vqfBYUxyasruIdkjhp2YA3Afcr1BXvcSoQ5lvl3Wcs/edit?usp=sharing 
+
+R for Data Science Chapter 8 - Workflow: projects: https://r4ds.had.co.nz/workflow-projects.html",
 "Tuesday, February 23, 2021",9:00 AM,9:10 AM,Review Homework,Review Homework,,Emily Markowitz,,Answers will be added here. ,Add Answers!
 "Tuesday, February 23, 2021",9:10 AM,9:20 AM,Introduction,,,Caitlin Allen Akselrud & Emily Markowitz,,,
 "Tuesday, February 23, 2021",9:20 AM,9:30 AM,Lightning Talks,SCRUGs,Caitlin Allen Akselrud,,,,
