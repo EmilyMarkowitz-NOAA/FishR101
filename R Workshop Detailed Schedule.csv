@@ -1,4 +1,4 @@
-,,R Workshop for RACE-GAP Schedule,,,,,,,
+,,R Workshop for RACE-GAP Schedule,,,,,,,https://emilymarkowitz-noaa.github.io/FishR101
 Date,Start Time (PT),End Time (PT),Course Segment,Topics,Presenter,Host,Chat/Q&A,Notes,Notes to Add Later
 "Tuesday, January 19, 2021",9:00 AM,9:10 AM,Introductions,Introductions,,"
 Caitlin Allen Akselrud & Emily Markowitz",,Welcome! ,
@@ -229,18 +229,24 @@ Pretty PDF of questions (made in R Markdown): https://github.com/EmilyMarkowitz-
 2. Add to Share Insights with one thing you learned! 
 
 Add to the google docs how you will be able to use what you learned today to improve how you work with data: https://emilymarkowitz-noaa.github.io/FishR101/share-help.html
-",Add HW!
+",
 "Thursday, February 4, 2021",8:30 AM,8:55 AM,Download Classwork Help,Download Classwork Help,,Emily Markowitz,,"I'll help you go through the steps in this guide and get you set up class!
 
 
 
-Join me by adding this google calendar event to your calendar.: https://calendar.google.com/event?action=TEMPLATE&tmeid=MDlhNGZubnY1NmswaW0zZzhrc3VsOWk5ODcgZW1pbHkubWFya293aXR6QG5vYWEuZ292&tmsrc=emily.markowitz%40noaa.gov
+Join me by adding this google calendar event to your calendar.: https://calendar.google.com/event?action=TEMPLATE&tmeid=MDlhNGZubnY1NmswaW0zZzhrc3VsOWk5ODdfMjAyMTAyMDRUMTYzMDAwWiBlbWlseS5tYXJrb3dpdHpAbm9hYS5nb3Y&tmsrc=emily.markowitz%40noaa.gov
 
 
 Review of how to create R Projects and download content from GitHub: https://docs.google.com/document/d/17vqfBYUxyasruIdkjhp2YA3Afcr1BXvcSoQ5lvl3Wcs/edit?usp=sharing 
 
 ",
-"Thursday, February 4, 2021",9:00 AM,9:10 AM,Review Homework,Review Homework,,Emily Markowitz,,Answers will be added here. ,Add Answers!
+"Thursday, February 4, 2021",9:00 AM,9:10 AM,Review Homework,Review Homework,,Emily Markowitz,,"Welcome! 
+
+Homework answers (.R): https://github.com/EmilyMarkowitz-NOAA/FishR101-TidyPt1/blob/main/code/4_homework3_solutions.R
+
+Homework answers (.pdf): https://github.com/EmilyMarkowitz-NOAA/FishR101-TidyPt1/blob/main/code/4_homework3_solutions.pdf
+
+",Add Answers!
 "Thursday, February 4, 2021",9:10 AM,9:50 AM,Introduce New Materials,Dive into Tidy: data wrangling and manipulation Part II,,,,"Agenda
 
 tags$strong(tags$em('Everybody should learn to program a computer, because it teaches you how to think.'))
@@ -254,8 +260,6 @@ Lesson: https://docs.google.com/presentation/d/1bTfBpQ-_Or5C3wOzs0oEqvoQWXecE9lR
 Repository Webpage: https://github.com/EmilyMarkowitz-NOAA/FishR101-TidyPt2
 
 Download Repository Content: https://github.com/EmilyMarkowitz-NOAA/FishR101-TidyPt2/archive/main.zip
-
-Repro: https://github.com/EmilyMarkowitz-NOAA/FishR101-TidyPt2
 
 1. More wrangling data!
 
