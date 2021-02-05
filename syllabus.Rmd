@@ -26,6 +26,8 @@ editor_options:
 </div>
 </div>
 
+*This page was last updated `r format(Sys.time(), "%A %B %d %Y %X %Z")`*
+
 *All times are in Pacific Time. Please click on the title to see the session description. *
 
 ```{r setup, include=FALSE}

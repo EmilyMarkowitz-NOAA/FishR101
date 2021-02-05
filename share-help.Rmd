@@ -30,7 +30,6 @@ Essentially, we make intellectual progress by using the understanding gained by 
 </div>
 
 
-
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE, warning=FALSE, error = FALSE, message = FALSE)
 library("googledrive")
@@ -52,3 +51,5 @@ library("googledrive")
 </div>
 
 <br>
+
+*This page was last updated `r format(Sys.time(), "%A %B %d %Y %X %Z")`*

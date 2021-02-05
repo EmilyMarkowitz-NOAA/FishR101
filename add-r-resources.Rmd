@@ -17,6 +17,7 @@ editor_options:
 <div class = "col-md-6">
 
 
+
 # Don't forget to Install R!
 
 Submit an [IT request](https://sites.google.com/a/noaa.gov/afsc-home/it-services/service-desk) to have the latest version of these softwares installed: 
@@ -220,4 +221,6 @@ counter<-counter + 1
 ```
 
 <br>
+
+*This page was last updated `r format(Sys.time(), "%A %B %d %Y %X %Z")`*
 

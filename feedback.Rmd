@@ -32,3 +32,5 @@ We want to know how we can make the course better and how we can better serve yo
 
 
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSer4I8QeleDCvHofBd_QJfnfchpby69oe_h6EE5-FA5T-Gbyg/viewform?embedded=true" width="640" height="1433" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+
+*This page was last updated `r format(Sys.time(), "%A %B %d %Y %X %Z")`*

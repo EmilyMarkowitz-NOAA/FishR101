@@ -170,6 +170,7 @@ There is also a copy of the AFSC Code of Conduct in the Resources folder of our 
 All attendees deserve access to the full range of learning experiences, and we are committed to creating inclusive and accessible learning environments consistent with federal laws. Please communicate your accommodation requirements to us at your earliest convenience so we can discuss your needs for this course.
 
 
+*This page was last updated `r format(Sys.time(), "%A %B %d %Y %X %Z")`*
 
 
 
