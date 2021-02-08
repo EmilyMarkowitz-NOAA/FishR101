@@ -313,7 +313,7 @@ tags$strong(tags$em('If you have a difficult task to do, give it to a lazy man, 
 
 Recording of Lesson [TBD]
 
-Lesson [TBD]
+Lesson: https://docs.google.com/presentation/d/1A-n9ZBfTs_VraRhnfrqLesbLspEq2tpNx7bq55Am4iQ/edit?usp=sharing
 
 Repository Webpage: https://github.com/EmilyMarkowitz-NOAA/FishR101-Functions
 
@@ -326,20 +326,43 @@ Download Repository Content: https://github.com/EmilyMarkowitz-NOAA/FishR101-Fun
 
 3. Calling
 
-4. Best practices
+4. Best practices  -roxygen2 documentation
 
 5. Best Practices - Modular coding style
-
-6. {roxygen2}
 ",
 "Tuesday, February 9, 2021",9:50 AM,10:00 AM,Break,Break,,,,tags$img(src = './images/lightbulbfunction.jpg'),
 "Tuesday, February 9, 2021",10:00 AM,10:40 AM,Interactive Learning,,,Emily Markowitz,,"Resources
 
-1. ",
+If-Else Statements
+Fast and Readable 'If Else' in R: https://tysonbarrett.com/jekyll/update/2019/10/16/filter_mutate_keep/
+R if else elseif Statement: https://www.learnbyexample.org/r-if-else-elseif-statement/
+
+For Loops
+Data Camp: https://www.datacamp.com/community/tutorials/tutorial-on-loops-in-r
+
+Functions
+Advanced R - Ch. 6 Functions: https://adv-r.hadley.nz/functions.html
+{roxygen2} guide: Object documentation: https://r-pkgs.org/man.html
+Purrr (tidyverse): https://gavinfay.github.io/roar-with-purrr/purrr-slides#1
+",
 "Tuesday, February 9, 2021",10:50 AM,11:00 AM,Break,Break,,,,,
 "Tuesday, February 9, 2021",11:00 AM,12:00 AM,Office Hours,,,Caitlin Allen Akselrud & Emily Markowitz,,"An informal opprotunity to come by to ask any questions you have about the course, content, or with specific questions about issues you have with the homework or in your own analyses.
- 
-Take these famous equations and make them into functions!",Add HW!
+
+Today's Homework
+
+1. Practice the skills we just learned in R! 
+
+NOTE - As you go through the homework, please refer to the PDF version. There are helpful figures thre to assist you!
+
+R Script of questions: https://github.com/EmilyMarkowitz-NOAA/FishR101-Functions/blob/main/code/6_homework5.R
+
+Pretty PDF of questions (made in R Markdown): https://github.com/EmilyMarkowitz-NOAA/FishR101-Functions/blob/main/code/6_homework5.pdf
+
+
+2. Add to Share Insights with one thing you learned! 
+
+Add to the google docs how you will be able to use what you learned today to improve how you work with data: https://emilymarkowitz-noaa.github.io/FishR101/share-help.html
+",
 "Thursday, February 11, 2021",8:30 AM,8:55 AM,Download Classwork Help,Download Classwork Help,,Emily Markowitz,,"I'll help you go through the steps in this guide and get you set up class!
 
 
