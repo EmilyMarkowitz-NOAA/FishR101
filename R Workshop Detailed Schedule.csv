@@ -16,7 +16,7 @@ Recording of lesson: https://drive.google.com/file/d/1uZkvtsLROntRssNVBC5mptKdd1
 
 Repository: https://github.com/EmilyMarkowitz-NOAA/FishR101-WelcomeR
 
-Download Repository: https://github.com/EmilyMarkowitz-NOAA/FishR101-BestScripting/archive/main.zip
+Download Repository: https://github.com/EmilyMarkowitz-NOAA/FishR101-WelcomeR/archive/main.zip
 
 Open R Studio and check it out: 
 
@@ -317,7 +317,7 @@ tags$strong(tags$em('If you have a difficult task to do, give it to a lazy man, 
 
  ~ Henry Ford, inventor of the production line and someone who probably would have been a programmer if he were alive to see computers.
 
-Recording of Lesson [TBD]
+Recording of Lesson: https://drive.google.com/file/d/1NfpvfN0loMe_GzSZ2iid55NBSfTKU4u7/view?usp=sharing
 
 Lesson: https://docs.google.com/presentation/d/1A-n9ZBfTs_VraRhnfrqLesbLspEq2tpNx7bq55Am4iQ/edit?usp=sharing
 
@@ -325,6 +325,7 @@ Repository Webpage: https://github.com/EmilyMarkowitz-NOAA/FishR101-Functions
 
 Download Repository Content: https://github.com/EmilyMarkowitz-NOAA/FishR101-Functions/archive/main.zip
 
+NOTE ABOUT LECTURE -- We only got through half the lecture, so do not no need to review any of the functions material. Funcitons will be covered next lesson!
 
 1. Writing
 
@@ -378,12 +379,16 @@ Join me by adding this google calendar event to your calendar: https://calendar.
 Review of how to create R Projects and download content from GitHub: https://docs.google.com/document/d/17vqfBYUxyasruIdkjhp2YA3Afcr1BXvcSoQ5lvl3Wcs/edit?usp=sharing 
 
 R for Data Science Chapter 8 - Workflow: projects: https://r4ds.had.co.nz/workflow-projects.html",
-"Thursday, February 11, 2021",9:00 AM,9:10 AM,Review Homework,Review Homework,,Caitlin Allen Akselrud,,,Add Answers!
+"Thursday, February 11, 2021",9:00 AM,9:10 AM,Review Homework,Review Homework,,Caitlin Allen Akselrud,,,"Welcome! 
+
+Homework answers (.R): https://github.com/EmilyMarkowitz-NOAA/FishR101-Functions/blob/main/code/6_homework5_solutions.R
+
+Homework answers (.pdf): https://github.com/EmilyMarkowitz-NOAA/FishR101-Functions/blob/main/code/6_homework5_solutions.pdf
+
+"
 "Thursday, February 11, 2021",9:10 AM,9:50 AM,Introduce New Materials,Best Scripting Practices,,Caitlin Allen Akselrud & Emily Markowitz,,"Agenda
 
-
 tags$em('[Bad file and data management] ...prepetuate inequalities when people have to start from scratch.')
-
 
 tags$em('Future you is your most important collaborator')
 
@@ -391,11 +396,13 @@ tags$em('Future you is your most important collaborator')
 
 Recording of Lesson [TBD]
 
-Lesson [TBD]
+First Lesson on Functions Part 2 (Rollover from Last Lesson): https://docs.google.com/presentation/d/1CIyP-4YJdaAxJoYNzKyq_FSUDXzr9IMkKNaHDHPpYs8/edit?usp=sharing
 
-Repository Webpage: https://github.com/EmilyMarkowitz-NOAA/FishR101-BestScripting
+Repository Webpage: https://github.com/EmilyMarkowitz-NOAA/FishR101-Functions2
 
-Download Repository Content: https://github.com/EmilyMarkowitz-NOAA/FishR101-BestScripting/archive/main.zip
+Download Repository Content: https://github.com/EmilyMarkowitz-NOAA/FishR101-Functions2/archive/main.zip
+
+Best RACE-GAP Coding Practices: https://docs.google.com/document/d/1m3l77iSEpwVcLDp2g8H7yC4JdILduIziBw40xpyXZ9U/edit?usp=sharing 
 
 Learn about how to write and prepare a script by...
 
@@ -424,15 +431,23 @@ Learn about how to write and prepare a script by...
 Homework
 
 1. Watch Julia Stewart Lowdes' Talk @ Groundfish Seminar: https://drive.google.com/file/d/1oSHAP_IsZRJizPqmXGJxG6QewHCp8qSZ/view?usp=sharing",Add HW!
-"Thursday, February 11, 2021",8:30 AM,8:55 AM,Download Classwork Help,Download Classwork Help,,Emily Markowitz,,"I'll help you go through the steps in this guide and get you set up class!
+"Thursday, February 11, 2021",8:30 AM,8:55 AM,Download Classwork Help,Download Classwork Help,,Emily Markowitz,,"An informal opprotunity to come by to ask any questions you have about the course, content, or with specific questions about issues you have with the homework or in your own analyses.
+
+Today's Homework
+
+1. Practice the skills we just learned in R! 
+
+NOTE - As you go through the homework, please refer to the PDF version. There are helpful figures thre to assist you!
+
+R Script of questions: https://github.com/EmilyMarkowitz-NOAA/FishR101-Functions2/blob/main/code/6_homework6.R
+
+Pretty PDF of questions (made in R Markdown): https://github.com/EmilyMarkowitz-NOAA/FishR101-Functions2/blob/main/code/6_homework6.pdf
 
 
+2. Add to Share Insights with one thing you learned! 
 
-Join me by adding this google calendar event to your calendar: https://calendar.google.com/event?action=TEMPLATE&tmeid=MDlhNGZubnY1NmswaW0zZzhrc3VsOWk5ODdfMjAyMTAyMTFUMTYzMDAwWiBlbWlseS5tYXJrb3dpdHpAbm9hYS5nb3Y&tmsrc=emily.markowitz%40noaa.gov
-
-Review of how to create R Projects and download content from GitHub: https://docs.google.com/document/d/17vqfBYUxyasruIdkjhp2YA3Afcr1BXvcSoQ5lvl3Wcs/edit?usp=sharing 
-
-R for Data Science Chapter 8 - Workflow: projects: https://r4ds.had.co.nz/workflow-projects.html",
+Add to the google docs how you will be able to use what you learned today to improve how you work with data: https://emilymarkowitz-noaa.github.io/FishR101/share-help.html
+",
 "Tuesday, February 16, 2021",8:30 AM,8:55 AM,Download Classwork Help,Download Classwork Help,,Emily Markowitz,,"I'll help you go through the steps in this guide and get you set up class!
 
 
