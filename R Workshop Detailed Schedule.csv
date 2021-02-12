@@ -403,9 +403,9 @@ tags$em('Future you is your most important collaborator')
 
  ~ Julia Stewart Lowndes
 
-Recording of Lesson [TBD]
+Recording of Lesson: https://drive.google.com/file/d/1Z-j1JuLpFS6w3x99FxIPw3Jbdc6AJnLy/view?usp=sharing 
 
-First Lesson on Functions Part 2 (Rollover from Last Lesson): https://docs.google.com/presentation/d/1CIyP-4YJdaAxJoYNzKyq_FSUDXzr9IMkKNaHDHPpYs8/edit?usp=sharing
+First Lesson on Functions Part 2 (Rollover from Last Lesson; UPDATED POST-LECTURE): https://docs.google.com/presentation/d/1CIyP-4YJdaAxJoYNzKyq_FSUDXzr9IMkKNaHDHPpYs8/edit?usp=sharing
 
 Repository Webpage: https://github.com/EmilyMarkowitz-NOAA/FishR101-Functions2
 
@@ -433,18 +433,27 @@ Learn about how to write and prepare a script by...
 "Thursday, February 11, 2021",9:50 AM,10:00 AM,Break,Break,,,,tags$img(src = './images/SaveYourWork.jpg'),
 "Thursday, February 11, 2021",10:00 AM,10:40 AM,Interactive Learning,,,Emily Markowitz,,"Resources
 
-1. ",
+Best Practices
+
+Wilson, G., Bryan, J., Cranston, K., Kitzes, J., Nederbragt, L., & Teal, T. K. (2017). Good enough practices in scientific computing. PLoS computational biology, 13(6), e1005510.
+
+Functions
+
+R for Data Science - Chapter 19 covers functions and includes a section on if/else statements.: https://r4ds.had.co.nz/functions.html?q=else#functions
+
+Advanced R - Ch. 6 Functions: https://adv-r.hadley.nz/functions.html
+
+{roxygen2} guide: Object documentation: https://r-pkgs.org/man.html
+
+Purrr (tidyverse): https://gavinfay.github.io/roar-with-purrr/purrr-slides#1
+",
 "Thursday, February 11, 2021",10:50 AM,11:00 AM,Break,Break,,,,,
-"Thursday, February 11, 2021",11:00 AM,12:00 AM,Office Hours,,,Caitlin Allen Akselrud & Emily Markowitz,,"An informal opprotunity to come by to ask any questions you have about the course, content, or with specific questions about issues you have with the homework or in your own analyses. 
-
-Homework
-
-1. Watch Julia Stewart Lowdes' Talk @ Groundfish Seminar: https://drive.google.com/file/d/1oSHAP_IsZRJizPqmXGJxG6QewHCp8qSZ/view?usp=sharing",Add HW!
-"Thursday, February 11, 2021",8:30 AM,8:55 AM,Download Classwork Help,Download Classwork Help,,Emily Markowitz,,"An informal opprotunity to come by to ask any questions you have about the course, content, or with specific questions about issues you have with the homework or in your own analyses.
+"Thursday, February 11, 2021",11:00 AM,12:00 AM,Office Hours,,,Caitlin Allen Akselrud & Emily Markowitz,,"An informal opprotunity to come by to ask any questions you have about the course, content, or with specific questions about issues you have with the homework or in your own analyses.
 
 Today's Homework
+1. Watch Julia Stewart Lowdes' Talk @ Groundfish Seminar: https://drive.google.com/file/d/1oSHAP_IsZRJizPqmXGJxG6QewHCp8qSZ/view?usp=sharing
 
-1. Practice the skills we just learned in R! 
+2. Practice the skills we just learned in R! 
 
 NOTE - As you go through the homework, please refer to the PDF version. There are helpful figures thre to assist you!
 
@@ -453,15 +462,16 @@ R Script of questions: https://github.com/EmilyMarkowitz-NOAA/FishR101-Functions
 Pretty PDF of questions (made in R Markdown): https://github.com/EmilyMarkowitz-NOAA/FishR101-Functions2/blob/main/code/6_homework6.pdf
 
 
-2. Add to Share Insights with one thing you learned! 
+3. Add to Share Insights with one thing you learned! 
 
 Add to the google docs how you will be able to use what you learned today to improve how you work with data: https://emilymarkowitz-noaa.github.io/FishR101/share-help.html
-",
+
+",Add HW!
 "Tuesday, February 16, 2021",8:30 AM,8:55 AM,Download Classwork Help,Download Classwork Help,,Emily Markowitz,,"I'll help you go through the steps in this guide and get you set up class!
 
 
 
-Join me by adding this google calendar event to your calendar: https://calendar.google.com/event?action=TEMPLATE&tmeid=MDlhNGZubnY1NmswaW0zZzhrc3VsOWk5ODdfMjAyMTAyMTFUMTYzMDAwWiBlbWlseS5tYXJrb3dpdHpAbm9hYS5nb3Y&tmsrc=emily.markowitz%40noaa.gov
+Join me by adding this google calendar event to your calendar: https://calendar.google.com/event?action=TEMPLATE&tmeid=MW5hbjg5Y25wbzUxcWMwZWRxaGc0MWZvYmpfMjAyMTAyMTZUMTYzMDAwWiBlbWlseS5tYXJrb3dpdHpAbm9hYS5nb3Y&tmsrc=emily.markowitz%40noaa.gov
 
 Review of how to create R Projects and download content from GitHub: https://docs.google.com/document/d/17vqfBYUxyasruIdkjhp2YA3Afcr1BXvcSoQ5lvl3Wcs/edit?usp=sharing 
 
