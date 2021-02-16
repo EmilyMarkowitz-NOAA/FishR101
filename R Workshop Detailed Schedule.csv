@@ -383,7 +383,7 @@ Add to the google docs how you will be able to use what you learned today to imp
 
 
 
-Join me by adding this google calendar event to your calendar: https://calendar.google.com/event?action=TEMPLATE&tmeid=MW5hbjg5Y25wbzUxcWMwZWRxaGc0MWZvYmpfMjAyMTAyMDlUMTYzMDAwWiBlbWlseS5tYXJrb3dpdHpAbm9hYS5nb3Y&tmsrc=emily.markowitz%40noaa.gov
+Join me by adding this google calendar event to your calendar: https://calendar.google.com/event?action=TEMPLATE&tmeid=MDlhNGZubnY1NmswaW0zZzhrc3VsOWk5ODdfMjAyMTAyMTFUMTYzMDAwWiBlbWlseS5tYXJrb3dpdHpAbm9hYS5nb3Y&tmsrc=emily.markowitz%40noaa.gov
 
 Review of how to create R Projects and download content from GitHub: https://docs.google.com/document/d/17vqfBYUxyasruIdkjhp2YA3Afcr1BXvcSoQ5lvl3Wcs/edit?usp=sharing 
 
@@ -487,7 +487,7 @@ tags$strong(tags$em('Maybe stories are just data with a soul.'))
 
 Recording of Lesson [TBD]
 
-Lesson [TBD]
+Lesson: https://docs.google.com/presentation/d/1LDj7vqso2XMqck0m3_t8XLpZkcmZOazY9tFLOx5OMB8/edit?usp=sharing
 
 Repository Webpage: https://github.com/EmilyMarkowitz-NOAA/FishR101-FigTab
 
@@ -500,9 +500,43 @@ Download Repository Content: https://github.com/EmilyMarkowitz-NOAA/FishR101-Fig
 
 3. formattable
 
-4. gt() ?",
+4. gt()",
 "Tuesday, February 16, 2021",9:50 AM,10:00 AM,Break,Break,,,,tags$img(src = './images/GreatPowerGreatCustomization.jpg'),
 "Tuesday, February 16, 2021",10:00 AM,10:40 AM,Interactive Learning,,,Caitlin Allen Akselrud & Emily Markowitz,,"Resources
+
+Graphics principles: https://graphicsprinciples.github.io/
+
+Comprehensive ggplot2 guide: https://uc-r.github.io/ggplot_intro  
+
+Themes
+
+Themes: https://ggplot2.tidyverse.org/reference/ggtheme.html
+
+Make your own themes (we won’t cover this today, but you can learn how): https://rpubs.com/mclaire19/ggplot2-custom-themes
+
+Tables
+
+gt table: https://gt.rstudio.com/ 
+
+Other table packages: https://rfortherestofus.com/2019/11/how-to-make-beautiful-tables-in-r/
+
+Colors
+
+Cheatsheet: https://www.nceas.ucsb.edu/sites/default/files/2020-04/colorPaletteCheatsheet.pdf
+
+Named colors: http://www.stat.columbia.edu/~tzheng/files/Rcolor.pdf
+
+Hex colors: https://www.color-hex.com/
+
+Color brewer: https://colorbrewer2.org/#type=sequential&scheme=BuGn&n=3
+
+Color schemes: https://observablehq.com/@d3/color-schemes 
+
+Color blindness upload: https://www.color-blindness.com/coblis-color-blindness-simulator/ 
+
+colorblindr package: https://github.com/clauswilke/colorblindr
+
+","Resources
 
 R for Data Science - Chapter 19 covers functions and includes a section on if/else statements.: https://r4ds.had.co.nz/functions.html?q=else#functions
 
@@ -512,7 +546,7 @@ Advanced R - Ch. 6 Functions: https://adv-r.hadley.nz/functions.html
 
 Purrr (tidyverse): https://gavinfay.github.io/roar-with-purrr/purrr-slides#1
 
-",
+"
 "Tuesday, February 16, 2021",10:50 AM,11:00 AM,Break,Break,,,,,
 "Tuesday, February 16, 2021",11:00 AM,12:00 AM,Office Hours,,,Caitlin Allen Akselrud,,"An informal opprotunity to come by to ask any questions you have about the course, content, or with specific questions about issues you have with the homework or in your own analyses.",Add HW!
 "Thursday, February 18, 2021",8:30 AM,8:55 AM,Download Classwork Help,Download Classwork Help,,Emily Markowitz,,"I'll help you go through the steps in this guide and get you set up class!
