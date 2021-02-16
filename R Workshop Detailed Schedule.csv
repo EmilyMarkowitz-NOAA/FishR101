@@ -477,7 +477,13 @@ Review of how to create R Projects and download content from GitHub: https://doc
 
 R for Data Science Chapter 8 - Workflow: projects: https://r4ds.had.co.nz/workflow-projects.html
 ",
-"Tuesday, February 16, 2021",9:00 AM,9:10 AM,Review Homework,Review Homework,,Emily Markowitz,,Answers will be added here. ,Add Answers!
+"Tuesday, February 16, 2021",9:00 AM,9:10 AM,Review Homework,Review Homework,,Emily Markowitz,,"Welcome! 
+
+Homework answers (.R): https://github.com/EmilyMarkowitz-NOAA/FishR101-Functions2/blob/main/code/6_homework6-solutions.R
+
+Homework answers (.pdf): https://github.com/EmilyMarkowitz-NOAA/FishR101-Functions2/blob/main/code/6_homework6-solutions.pdf
+
+",
 "Tuesday, February 16, 2021",9:10 AM,9:50 AM,Introduce New Materials,Making things pretty: Figures and Tables,,Caitlin Allen Akselrud,,"Agenda
 
 tags$strong(tags$em('Maybe stories are just data with a soul.'))
@@ -548,7 +554,19 @@ Purrr (tidyverse): https://gavinfay.github.io/roar-with-purrr/purrr-slides#1
 
 "
 "Tuesday, February 16, 2021",10:50 AM,11:00 AM,Break,Break,,,,,
-"Tuesday, February 16, 2021",11:00 AM,12:00 AM,Office Hours,,,Caitlin Allen Akselrud,,"An informal opprotunity to come by to ask any questions you have about the course, content, or with specific questions about issues you have with the homework or in your own analyses.",Add HW!
+"Tuesday, February 16, 2021",11:00 AM,12:00 AM,Office Hours,,,Caitlin Allen Akselrud,,"An informal opprotunity to come by to ask any questions you have about the course, content, or with specific questions about issues you have with the homework or in your own analyses.
+
+Today's Homework
+
+1. Practice the skills we just learned in R! 
+
+R Script of questions: https://github.com/EmilyMarkowitz-NOAA/FishR101-FigTab/blob/main/code/2_homework_ggplot.R
+
+2. Add to Share Insights with one thing you learned! 
+
+Add to the google docs how you will be able to use what you learned today to improve how you work with data: https://emilymarkowitz-noaa.github.io/FishR101/share-help.html
+
+",
 "Thursday, February 18, 2021",8:30 AM,8:55 AM,Download Classwork Help,Download Classwork Help,,Emily Markowitz,,"I'll help you go through the steps in this guide and get you set up class!
 
 
