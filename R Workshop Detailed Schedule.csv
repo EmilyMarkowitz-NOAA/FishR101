@@ -491,7 +491,7 @@ tags$strong(tags$em('Maybe stories are just data with a soul.'))
  ~ Brené Brown,  American professor, lecturer, author, and podcast host
 
 
-Recording of Lesson [TBD]
+Recording of Lesson: https://drive.google.com/file/d/1TTtzBrWz3mgH6v1rogR_rn1qCJUkF80K/view?usp=sharing
 
 Lesson: https://docs.google.com/presentation/d/1LDj7vqso2XMqck0m3_t8XLpZkcmZOazY9tFLOx5OMB8/edit?usp=sharing
 
@@ -576,7 +576,11 @@ Join me by adding this google calendar event to your calendar: https://calendar.
 Review of how to create R Projects and download content from GitHub: https://docs.google.com/document/d/17vqfBYUxyasruIdkjhp2YA3Afcr1BXvcSoQ5lvl3Wcs/edit?usp=sharing 
 
 R for Data Science Chapter 8 - Workflow: projects: https://r4ds.had.co.nz/workflow-projects.html",
-"Thursday, February 18, 2021",9:00 AM,9:10 AM,Review Homework,Review Homework,,Caitlin Allen Akselrud,,Answers will be added here. ,Add Answers!
+"Thursday, February 18, 2021",9:00 AM,9:10 AM,Review Homework,Review Homework,,Caitlin Allen Akselrud,,"Welcome! 
+
+Homework answers (.R): https://github.com/EmilyMarkowitz-NOAA/FishR101-FigTab/blob/main/code/3_homework_solutions_ggplot.R
+
+",
 "Thursday, February 18, 2021",9:10 AM,9:50 AM,Introduce New Materials,Built-in Models in R,,Emily Markowitz,,"Agenda
 
 tags$strong(tags$em('I never guess. It is a capital mistake to theorize before one has data. Insensibly one begins to twist facts to suit theories, instead of theories to suit facts... The temptation to form premature theories upon insufficient data is the bane of our profession.'))
@@ -587,7 +591,7 @@ tags$strong(tags$em('I never guess. It is a capital mistake to theorize before o
 
 Recording of Lesson [TBD]
 
-Lesson [TBD]
+Lesson: https://docs.google.com/presentation/d/1Jx8OR_M1bt1B-QUOMKaPcUFvBJq-aMsnHORGVzMWWA4/edit?usp=sharing
 
 Repository Webpage: https://github.com/EmilyMarkowitz-NOAA/FishR101-Models
 
