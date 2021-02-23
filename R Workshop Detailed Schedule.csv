@@ -608,7 +608,33 @@ Download Repository Content: https://github.com/EmilyMarkowitz-NOAA/FishR101-Mod
 
 1. ",
 "Thursday, February 18, 2021",10:50 AM,11:00 AM,Break,Break,,,,,
-"Thursday, February 18, 2021",11:00 AM,12:00 AM,Office Hours,,,Caitlin Allen Akselrud & Emily Markowitz,,"An informal opprotunity to come by to ask any questions you have about the course, content, or with specific questions about issues you have with the homework or in your own analyses.",Add HW!
+"Thursday, February 18, 2021",11:00 AM,12:00 AM,Office Hours,,,Caitlin Allen Akselrud & Emily Markowitz,,"An informal opprotunity to come by to ask any questions you have about the course, content, or with specific questions about issues you have with the homework or in your own analyses.
+
+Today's Homework
+
+1. Practice the skills we just learned in R! 
+
+R Script of questions: https://github.com/EmilyMarkowitz-NOAA/FishR101-Models/blob/main/code/4_homework8.R
+
+2. COOKIES
+
+
+Repository Webpage: https://github.com/EmilyMarkowitz-NOAA/FishR101-CookieProject
+
+Download Repository: https://github.com/EmilyMarkowitz-NOAA/FishR101-CookieProject/archive/main.zip
+
+
+
+3. Add to Share Insights with one thing you learned! 
+
+Add to the google docs how you will be able to use what you learned today to improve how you work with data: https://emilymarkowitz-noaa.github.io/FishR101/share-help.html
+
+
+
+
+
+
+",Add HW!
 "Tuesday, February 23, 2021",8:30 AM,8:55 AM,Download Classwork Help,Download Classwork Help,,Emily Markowitz,,"I'll help you go through the steps in this guide and get you set up class!
 
 
@@ -618,8 +644,12 @@ Join me by adding this google calendar event to your calendar: https://calendar.
 Review of how to create R Projects and download content from GitHub: https://docs.google.com/document/d/17vqfBYUxyasruIdkjhp2YA3Afcr1BXvcSoQ5lvl3Wcs/edit?usp=sharing 
 
 R for Data Science Chapter 8 - Workflow: projects: https://r4ds.had.co.nz/workflow-projects.html",
-"Tuesday, February 23, 2021",9:00 AM,9:10 AM,Review Homework,Review Homework,,Emily Markowitz,,Answers will be added here. ,Add Answers!
-"Tuesday, February 23, 2021",9:10 AM,9:20 AM,Introduction,,,Caitlin Allen Akselrud & Emily Markowitz,,,
+"Tuesday, February 23, 2021",9:00 AM,9:10 AM,Review Homework,Review Homework,,Emily Markowitz,,"Welcome! 
+
+Homework answers (.R): https://github.com/EmilyMarkowitz-NOAA/FishR101-Models/blob/main/code/4_homework8_solutions.R
+
+",
+"Tuesday, February 23, 2021",9:10 AM,9:20 AM,Introduction,,,Caitlin Allen Akselrud & Emily Markowitz,,No lesson today! Sit back and enjoy the lesson and get excited to be part of the R community here in RACE! Recordings will be posted after the lecture. ,
 "Tuesday, February 23, 2021",9:20 AM,9:30 AM,Lightning Talks,SCRUGs,Caitlin Allen Akselrud,,,,
 "Tuesday, February 23, 2021",9:30 AM,9:50 AM,Lightning Talks,ROracle,Rebecca Haehn,,,,
 "Tuesday, February 23, 2021",9:50 AM,10:10 AM,Lightning Talks,sumfish,Jason Conner,,,,
@@ -627,5 +657,5 @@ R for Data Science Chapter 8 - Workflow: projects: https://r4ds.had.co.nz/workfl
 ,10:30 AM,10:40 AM,Break,,,,,tags$img(src = './images/StrongerSpongebob.jpg'),
 "Tuesday, February 23, 2021",10:40 AM,11:00 AM,Lightning Talks,General packages and shiny,Megsie Siple,,,,
 "Tuesday, February 23, 2021",9:50 AM,10:00 AM,Lightning Talks,VAST,Cecilia O'Leary,,,,
-"Tuesday, February 23, 2021",10:00 AM,10:40 AM,Lightning Talks,R Markdown,Emily Markowitz,,,Repro: https://github.com/EmilyMarkowitz-NOAA/FishR101-RMarkdown,
+"Tuesday, February 23, 2021",10:00 AM,10:40 AM,Lightning Talks,R Markdown,Emily Markowitz,,,Lesson: https://docs.google.com/presentation/d/1F7YRYjeRWAIc32NSOjyk7-pZmQ4Z35iVYly6p3fzP2s/edit?usp=sharing,
 "Tuesday, February 23, 2021",10:50 AM,12:00 AM,Office Hours,,,Caitlin Allen Akselrud & Emily Markowitz,,"An informal opprotunity to come by to ask any questions you have about the course, content, or with specific questions about issues you have with the homework or in your own analyses.",
