@@ -589,7 +589,9 @@ tags$strong(tags$em('I never guess. It is a capital mistake to theorize before o
 
 
 
-Recording of Lesson [TBD]
+Recording of Lesson Part 1: https://drive.google.com/file/d/1pq3yRAcQQFOqTkFVeiRt_8wARR9T2L-W/view?usp=sharing
+
+Recording of Lesson Part 2 [TBD] 
 
 Lesson: https://docs.google.com/presentation/d/1Jx8OR_M1bt1B-QUOMKaPcUFvBJq-aMsnHORGVzMWWA4/edit?usp=sharing
 
@@ -602,7 +604,8 @@ Download Repository Content: https://github.com/EmilyMarkowitz-NOAA/FishR101-Mod
 
 2. Other models (?)
 
-3. Broom package",
+3. Broom package
+",
 "Thursday, February 18, 2021",9:50 AM,10:00 AM,Break,Break,,,,tags$img(src = './images/RealWorldData.jpg'),
 "Thursday, February 18, 2021",10:00 AM,10:40 AM,Interactive Learning,,,Emily Markowitz,,"Resources
 
@@ -645,17 +648,22 @@ Review of how to create R Projects and download content from GitHub: https://doc
 
 R for Data Science Chapter 8 - Workflow: projects: https://r4ds.had.co.nz/workflow-projects.html",
 "Tuesday, February 23, 2021",9:00 AM,9:10 AM,Review Homework,Review Homework,,Emily Markowitz,,"Welcome! 
+",
+"Tuesday, February 23, 2021",9:10 AM,9:20 AM,Introduction,,,Caitlin Allen Akselrud & Emily Markowitz,,"No lesson powerpoint today! 
+
+Sit back and enjoy the lesson and get excited to be part of the R community here in RACE! Recordings will be posted after the lecture. 
+
+Recording of Lesson: https://drive.google.com/file/d/1hKYuRinVXKse5kkcanJ_0fNa2buLRlXL/view?usp=sharing
+",
+"Tuesday, February 23, 2021",9:20 AM,9:30 AM,Lightning Talks,SCRUGs,Caitlin Allen Akselrud,,,,
+,9:30 AM,9:50 AM,Lightning Talks,General packages,Megsie Siple,,,Presentation: https://github.com/MargaretSiple-NOAA/packagesinfive,
+,9:50 AM,10:10 AM,Lightning Talks,Mapping in R,Cecilia O'Leary,,,Presentation: https://docs.google.com/presentation/d/1PLAxmUXCJ7reaePZR_B2LYTeNLAky8JQW8nd5EDSGMs/edit?usp=sharing,
+"Tuesday, February 23, 2021",10:10 AM,10:30 AM,Lightning Talks,ROracle,Rebecca Haehn,,,,
+"Tuesday, February 23, 2021",10:30 AM,10:40 AM,Lightning Talks,sumfish,Jason Conner,,,Presentation: https://docs.google.com/presentation/d/1MndEMJxGKwRcrGfM5sOYPsdqRnJfEacbFcbmYn3w0ho/edit?usp=sharing,
+"Tuesday, February 23, 2021",10:40 AM,11:00 AM,Lightning Talks,akgfmaps,Sean Rohan,,,Presentation: https://docs.google.com/presentation/d/1_2smJcBUgaKfh0oMMC-YxYZXW2_TnRPxCAhhdsRKb-s/edit?usp=sharing,
+,10:30 AM,10:40 AM,Break,,,,,tags$img(src = './images/StrongerSpongebob.jpg'),
+"Tuesday, February 23, 2021",10:00 AM,10:40 AM,Lightning Talks,R Markdown,Emily Markowitz,,,Lesson: https://docs.google.com/presentation/d/1F7YRYjeRWAIc32NSOjyk7-pZmQ4Z35iVYly6p3fzP2s/edit?usp=sharing,
+"Tuesday, February 23, 2021",10:50 AM,12:00 AM,Office Hours,,,Caitlin Allen Akselrud & Emily Markowitz,,"An informal opprotunity to come by to ask any questions you have about the course, content, or with specific questions about issues you have with the homework or in your own analyses.
 
 Homework answers (.R): https://github.com/EmilyMarkowitz-NOAA/FishR101-Models/blob/main/code/4_homework8_solutions.R
-
 ",
-"Tuesday, February 23, 2021",9:10 AM,9:20 AM,Introduction,,,Caitlin Allen Akselrud & Emily Markowitz,,No lesson today! Sit back and enjoy the lesson and get excited to be part of the R community here in RACE! Recordings will be posted after the lecture. ,
-"Tuesday, February 23, 2021",9:20 AM,9:30 AM,Lightning Talks,SCRUGs,Caitlin Allen Akselrud,,,,
-"Tuesday, February 23, 2021",9:30 AM,9:50 AM,Lightning Talks,ROracle,Rebecca Haehn,,,,
-"Tuesday, February 23, 2021",9:50 AM,10:10 AM,Lightning Talks,sumfish,Jason Conner,,,,
-"Tuesday, February 23, 2021",10:10 AM,10:30 AM,Lightning Talks,akgfmaps,Sean Rohan,,,,
-,10:30 AM,10:40 AM,Break,,,,,tags$img(src = './images/StrongerSpongebob.jpg'),
-"Tuesday, February 23, 2021",10:40 AM,11:00 AM,Lightning Talks,General packages and shiny,Megsie Siple,,,,
-"Tuesday, February 23, 2021",9:50 AM,10:00 AM,Lightning Talks,VAST,Cecilia O'Leary,,,,
-"Tuesday, February 23, 2021",10:00 AM,10:40 AM,Lightning Talks,R Markdown,Emily Markowitz,,,Lesson: https://docs.google.com/presentation/d/1F7YRYjeRWAIc32NSOjyk7-pZmQ4Z35iVYly6p3fzP2s/edit?usp=sharing,
-"Tuesday, February 23, 2021",10:50 AM,12:00 AM,Office Hours,,,Caitlin Allen Akselrud & Emily Markowitz,,"An informal opprotunity to come by to ask any questions you have about the course, content, or with specific questions about issues you have with the homework or in your own analyses.",
